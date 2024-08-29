@@ -5,7 +5,7 @@ CREATE TABLE ressource(
     image VARCHAR(255) ,
 
     qty INTEGER ,
-    type VARCHAR(255) NOT NULL ,
+    type ENUM('MATERIEL','HUMAINE','AUTRE') NOT NULL ,
     fournisseur VARCHAR(255) NOT NULL ,
     tacheId BIGINT
 
