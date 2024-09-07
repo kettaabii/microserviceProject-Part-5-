@@ -17,9 +17,10 @@
     <module>eureka-server</module>
     <module>TacheService</module>
     <module>project-service</module>
+    <module>APiGateway</module>
 
   </modules>
-  <groupId>np.roshanadh</groupId>
+  <groupId>com.constructionExpert</groupId>
   <artifactId>XpertMicroservice</artifactId>
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>

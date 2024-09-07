@@ -9,11 +9,11 @@
 		<version>1.0-SNAPSHOT</version>
 
 	</parent>
-
-	<artifactId>TacheService</artifactId>
+	<groupId>Gateway-service</groupId>
+	<artifactId>APiGateway</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>TacheService</name>
-	<description>tache-service</description>
+	<name>APiGateway</name>
+	<description>la gateway </description>
 	<url/>
 	<licenses>
 		<license/>
@@ -34,25 +34,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.mysql</groupId>
-			<artifactId>mysql-connector-j</artifactId>
-			<scope>runtime</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.flywaydb</groupId>
-			<artifactId>flyway-core</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.flywaydb</groupId>
-			<artifactId>flyway-mysql</artifactId>
+			<artifactId>spring-cloud-starter-gateway-mvc</artifactId>
 		</dependency>
 
 
