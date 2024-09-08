@@ -20,6 +20,8 @@ public class Project {
     private LocalDate startDate;
     private LocalDate endDate;
     private BigDecimal budget;
+    @Transient
+    private List<Tache> taches ;
 
 
 }

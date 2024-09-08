@@ -1,19 +1,42 @@
 package com.project.service;
 
+import com.project.FeignClient.TacheFeignClient;
 import com.project.exception.ProjectNotFoundException;
+import com.project.exceptions.ResourceNotFoundException;
 import com.project.model.Project;
+import com.project.model.Tache;
 import com.project.repository.ProjectRepository;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service
+@Service @RequiredArgsConstructor
 public class ProjectService {
 
     @Autowired
     private ProjectRepository projectRepository;
+    @Autowired
+    private TacheFeignClient tacheFeignClient;
+
+
+
+    public Project getProjectWithTaches(Long projectId) {
+
+        Project project = projectRepository.findById(projectId)
+                .orElseThrow(() -> new ResourceNotFoundException("Project not found"));
+
+
+        ResponseEntity<List<Tache>> responseEntity = tacheFeignClient.getAllTaches(projectId.intValue());
+        List<Tache> taches = responseEntity.getBody();
+
+
+        project.setTaches(taches);
+
+        return project;
+    }
 
     public Project createProject(Project project) {
         return projectRepository.save(project);

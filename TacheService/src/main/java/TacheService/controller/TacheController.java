@@ -52,7 +52,7 @@ public class TacheController {
     }
 
     @GetMapping("/{id}/exists")
-    public ResponseEntity<Boolean> projectExists(@PathVariable("id") Long id) {
+    public ResponseEntity<Boolean> TacheExists(@PathVariable("id") Long id) {
        return tacheService.tacheExist(id);
     }
 

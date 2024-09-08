@@ -4,11 +4,11 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-@FeignClient(name = "TacheService")
+@FeignClient(name = "TACHESERVICE")
 public interface TacheFeignClient {
 
 
-    @GetMapping("/taches/{id}/exist")
+    @GetMapping("/taches/{id}/exists")
     Boolean exists(@PathVariable Long id);
 
 

@@ -41,4 +41,11 @@ public class ProjectController {
         boolean exist = projectService.existProject(id);
         return ResponseEntity.ok(exist);
     }
+
+    @GetMapping("/{projectId}")
+
+    public ResponseEntity<Project> getProjectById(@PathVariable Long projectId) {
+        Project project = projectService.getProjectWithTaches(projectId);
+        return ResponseEntity.ok(project);
+    }
 }
