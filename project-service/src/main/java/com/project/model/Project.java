@@ -5,6 +5,7 @@ import lombok.*;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.util.List;
 
 @Data
 @AllArgsConstructor
@@ -19,4 +20,6 @@ public class Project {
     private LocalDate startDate;
     private LocalDate endDate;
     private BigDecimal budget;
+
+
 }

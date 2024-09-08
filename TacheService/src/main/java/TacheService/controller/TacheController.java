@@ -12,7 +12,7 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/tache")
+@RequestMapping("/taches")
 public class TacheController {
     @Autowired
     private TacheService tacheService;
@@ -26,7 +26,7 @@ public class TacheController {
 
 
     @GetMapping("All/{projectId}")
-    public ResponseEntity<List<Tache>> getTachesByProjectId(@PathVariable("projectId") Long projectId) {
+    public ResponseEntity<List<Tache>> getTachesByProjectId(@PathVariable Long projectId) {
         return tacheService.getTasksForProject(projectId);
     }
 

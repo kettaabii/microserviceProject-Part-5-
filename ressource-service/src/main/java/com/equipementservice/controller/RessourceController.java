@@ -12,7 +12,7 @@ import com.equipementservice.service.RessourceService;
 import java.util.List;
 @CrossOrigin ("*")
 @RestController
-@RequestMapping("/api/ressources")
+@RequestMapping("/ressources")
 @Tag(name = "ressources")
 public class RessourceController {
     @Autowired

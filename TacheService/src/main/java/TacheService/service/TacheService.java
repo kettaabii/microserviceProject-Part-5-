@@ -1,21 +1,25 @@
 package TacheService.service;
 
 
+import TacheService.FeignClient.ProjectClient;
 import TacheService.model.Tache;
+
+import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import TacheService.repository.TacheRepository;
 
 import java.util.List;
 
-@Service
+@Service @RequiredArgsConstructor
 public class TacheService {
 
-    public TacheService(TacheRepository tacheRepository) {
-        this.tacheRepository = tacheRepository;
-    }
 
     private final TacheRepository tacheRepository;
+    private final ProjectClient projectClient;
+
+
+
 
     public ResponseEntity<List<Tache>> getAllTasks() {
          List<Tache> tasks =tacheRepository.findAll();
@@ -26,16 +30,29 @@ public class TacheService {
     }
 
     public ResponseEntity<List<Tache>> getTasksForProject(Long projectId) {
-        List<Tache> Tasks = tacheRepository.findAllByProjectId(projectId);
-        if (Tasks.isEmpty()) {
+        Boolean existProject = projectClient.exists(projectId);
+        if (existProject) {
+            List<Tache> tasks = tacheRepository.findAllByProjectId(projectId);
+            if (tasks.isEmpty()) {
+                return ResponseEntity.notFound().build();
+            }
+            return ResponseEntity.ok(tasks);
+        }
+        else {
             return ResponseEntity.notFound().build();
         }
-        return ResponseEntity.ok(Tasks);
+
+
     }
 
     public ResponseEntity<Tache> AddNewTask(Tache tache) {
-        tacheRepository.save(tache);
-        return ResponseEntity.ok(tache);
+        Boolean existProject = projectClient.exists(tache.getProjectId());
+        if (existProject) {
+            tacheRepository.save(tache);
+            return ResponseEntity.ok(tache);
+        }else {
+            return ResponseEntity.notFound().build();
+        }
     }
 
     public ResponseEntity<Tache> getTask(Long id) {

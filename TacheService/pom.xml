@@ -10,9 +10,9 @@
 
 	</parent>
 
-	<artifactId>tache-server</artifactId>
+	<artifactId>tache-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>TacheService</name>
+	<name>tache-service</name>
 	<description>tache-service</description>
 	<url/>
 	<licenses>
