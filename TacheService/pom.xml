@@ -10,7 +10,7 @@
 
 	</parent>
 
-	<artifactId>TacheService</artifactId>
+	<artifactId>tache-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>TacheService</name>
 	<description>tache-service</description>
@@ -54,6 +54,7 @@
 			<groupId>org.flywaydb</groupId>
 			<artifactId>flyway-mysql</artifactId>
 		</dependency>
+
 
 
 	</dependencies>

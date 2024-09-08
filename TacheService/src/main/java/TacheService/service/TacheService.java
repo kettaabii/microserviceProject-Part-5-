@@ -1,10 +1,10 @@
-package service;
+package TacheService.service;
 
 
-import model.Tache;
+import TacheService.model.Tache;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import repository.TacheRepository;
+import TacheService.repository.TacheRepository;
 
 import java.util.List;
 
@@ -25,7 +25,7 @@ public class TacheService {
          return ResponseEntity.ok(tasks);
     }
 
-    public ResponseEntity<List<Tache>> getTasksForProject(int projectId) {
+    public ResponseEntity<List<Tache>> getTasksForProject(Long projectId) {
         List<Tache> Tasks = tacheRepository.findAllByProjectId(projectId);
         if (Tasks.isEmpty()) {
             return ResponseEntity.notFound().build();

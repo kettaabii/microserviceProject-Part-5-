@@ -1,7 +1,7 @@
-package model;
+package TacheService.model;
 
 
-import enums.StatusTache;
+import TacheService.enums.StatusTache;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.sql.Date;
+import java.time.LocalDate;
 
 @Entity @Getter
 @Setter @AllArgsConstructor @NoArgsConstructor
@@ -16,20 +17,21 @@ import java.sql.Date;
 public class Tache {
 
     @Id
-    @GeneratedValue
-    private long id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
     private String title;
 
     private String description;
 
-    private Date dateDebutTache;
+    private LocalDate dateDebutTache;
 
-    private Date dateFinTache;
+    private LocalDate dateFinTache;
 
     @Column(name = "project_Id", nullable = false)
-    private Long ProjectId ;
+    private Long projectId ;
 
+    @Enumerated(EnumType.STRING)
     private StatusTache status;
 
     @Column(name = "employee_Id", nullable = false)
