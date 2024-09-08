@@ -3,6 +3,7 @@ package com.equipementservice.controller;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import com.equipementservice.model.Ressource;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,6 +15,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/ressources")
 @Tag(name = "ressources")
+@RequiredArgsConstructor
 public class RessourceController {
     @Autowired
     private RessourceService ressourceService;
@@ -45,7 +47,11 @@ public class RessourceController {
       return   ressourceService.deleteRessource(id);
     }
 
-
+    @GetMapping("/tache/{tacheId}")
+    @Operation(summary = "Find Ressources For Tache")
+    public ResponseEntity<List<Ressource>> getTasksByProjectId(@PathVariable Long tacheId)  {
+        return ressourceService.getResourcesByTaskId(tacheId);
+    }
 
 
 
