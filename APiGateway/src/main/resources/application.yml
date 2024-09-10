@@ -13,3 +13,5 @@ eureka:
 
 server:
   port: 8888
+
+
