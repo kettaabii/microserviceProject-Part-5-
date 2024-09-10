@@ -24,5 +24,9 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 
-
+openapi:
+  service:
+    title: ressource-service
+    version: 1.0.0
+    url: http://localhost:8888
 

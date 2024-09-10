@@ -32,10 +32,10 @@ public class APiGatewayApplication {
 	public RouteLocator routeLocator(RouteLocatorBuilder builder) {
 		return builder
 				.routes()
-				.route(r -> r.path("/v3/api-docs").and().method(HttpMethod.GET).uri("lb://PROJECT-SERVICE"))
-				.route(r -> r.path("/v3/api-docs").and().method(HttpMethod.GET).uri("lb://TACHESERVICE"))
-				.route(r -> r.path("/v3/api-docs").and().method(HttpMethod.GET).uri("lb://RESSOURCE-SERVICE"))
-//				.route(r -> r.path("/v3/api-docs").and().method(HttpMethod.GET).uri("lb://USER-SERVICE"))
+				.route(r -> r.path("/v3/api-docs").and().method(HttpMethod.GET).uri("lb://project-service"))
+				.route(r -> r.path("/v3/api-docs").and().method(HttpMethod.GET).uri("lb://TacheService"))
+				.route(r -> r.path("/v3/api-docs").and().method(HttpMethod.GET).uri("lb://ressource-service"))
+//.route(r -> r.path("/v3/api-docs").and().method(HttpMethod.GET).uri("lb://USER-SERVICE"))
 				.build();
 	}
 }

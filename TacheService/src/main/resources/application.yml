@@ -21,3 +21,15 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
+
+openapi:
+  service:
+    title: TacheService doc
+    version: 1.0.0
+    url: http://localhost:8888
+
+springdoc:
+  api-docs:
+    path: /TacheService/v3/api-docs
+  swagger-ui:
+    path: /TacheService/swagger-ui.html
