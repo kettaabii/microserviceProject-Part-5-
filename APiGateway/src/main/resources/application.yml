@@ -25,10 +25,10 @@ spring:
       client:
         registration:
           google:
-            client-id: 409734901312-314navrcqs74isaa9fg25873h46dkk7o.apps.googleusercontent.com
-            client-secret: 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
-            scope: profile, email
-            redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
+#            client-id: 409734901312-314navrcqs74isaa9fg25873h46dkk7o.apps.googleusercontent.com
+#            client-secret: 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
+#            scope: profile, email
+#            redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
         provider:
           google:
             authorization-uri: https://accounts.google.com/o/oauth2/v2/auth
