@@ -7,6 +7,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 import com.equipementservice.service.RessourceService;
 
@@ -20,6 +21,8 @@ public class RessourceController {
     @Autowired
     private RessourceService ressourceService;
 
+
+    @PreAuthorize("hasRole('ADMIN')")
     @PostMapping
     @Operation(summary = "new ressource")
     public ResponseEntity<Ressource> create(@RequestBody Ressource ressource) {
@@ -27,6 +30,7 @@ public class RessourceController {
       return new ResponseEntity<>(ressource, HttpStatus.CREATED);
     }
 
+    @PreAuthorize("hasAnyRole('ADMIN', 'EMPLOYEE')")
     @GetMapping
     @Operation(summary = "get All Ressources")
     public ResponseEntity<List<Ressource>> getAll() {
@@ -34,6 +38,7 @@ public class RessourceController {
     }
 
 
+    @PreAuthorize("hasRole('ADMIN')")
     @PutMapping("/ressource/{id}")
     @Operation(summary = "Updte ressource")
     public ResponseEntity<Ressource> update(@RequestBody Ressource ressource, @PathVariable Long id) {
@@ -41,12 +46,14 @@ public class RessourceController {
     }
 
 
+    @PreAuthorize("hasRole('ADMIN')")
     @DeleteMapping("/{id}")
     @Operation(summary = "DELETE ressource")
     public ResponseEntity<Ressource> delete(@PathVariable Long id) {
       return   ressourceService.deleteRessource(id);
     }
 
+    @PreAuthorize("hasAnyRole('ADMIN', 'EMPLOYEE')")
     @GetMapping("/tache/{tacheId}")
     @Operation(summary = "Find Ressources For Tache")
     public ResponseEntity<List<Ressource>> getTasksByProjectId(@PathVariable Long tacheId)  {

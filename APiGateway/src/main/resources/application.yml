@@ -4,13 +4,13 @@
 #  main:
 #    web-application-type: reactive
 #
-#eureka:
-#  instance:
-#    prefer-ip-address: true
-#  client:
-#    service-url:
-#      defaultZone: http://localhost:8761/eureka
-#
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://admin:admin@localhost:8761/eureka
+
 #server:
 #  port: 8888
 
@@ -20,21 +20,22 @@ spring:
     name: gateway-service
   main:
     web-application-type: reactive
-  security:
-    oauth2:
-      client:
-        registration:
-          google:
-#            client-id: 409734901312-314navrcqs74isaa9fg25873h46dkk7o.apps.googleusercontent.com
-#            client-secret: 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
-#            scope: profile, email
-#            redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
-        provider:
-          google:
-            authorization-uri: https://accounts.google.com/o/oauth2/v2/auth
-            token-uri: https://oauth2.googleapis.com/token
-            user-info-uri: https://www.googleapis.com/oauth2/v3/userinfo
-            jwk-set-uri: https://www.googleapis.com/oauth2/v3/certs
+
+#  security:
+#    oauth2:
+#      client:
+#        registration:
+#          google:
+##            client-id: 409734901312-314navrcqs74isaa9fg25873h46dkk7o.apps.googleusercontent.com
+##            client-secret: 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
+##            scope: profile, email
+##            redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
+#        provider:
+#          google:
+#            authorization-uri: https://accounts.google.com/o/oauth2/v2/auth
+#            token-uri: https://oauth2.googleapis.com/token
+#            user-info-uri: https://www.googleapis.com/oauth2/v3/userinfo
+#            jwk-set-uri: https://www.googleapis.com/oauth2/v3/certs
 
   cloud:
     gateway:
