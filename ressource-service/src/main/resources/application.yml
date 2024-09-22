@@ -1,32 +1,24 @@
-server:
-  port: 8081
 spring:
   application:
     name: ressource-service
   datasource:
-    url: jdbc:mysql://localhost:3306/ressource-service?createDatabaseIfNotExist=true
+    url: jdbc:mysql://ressourcedb:3306/ressourceConstruction?createDatabaseIfNotExist=True
     username: root
     password:
-
   jpa:
-    database-platform: org.hibernate.dialect.MySQL8Dialect
     hibernate:
       ddl-auto: validate
-
   flyway:
-    baseline-on-migrate: true
-
-
     locations: classpath:db/migration
+    validate-on-migrate: true
+
+server:
+  port: 8082
 
 eureka:
+  instance:
+    prefer-ip-address: true
   client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
-
-openapi:
-  service:
-    title: ressource-service
-    version: 1.0.0
-    url: http://localhost:8888
+    service-url:
+      defaultZone: http://admin:admin@localhost:8761/eureka/
 
