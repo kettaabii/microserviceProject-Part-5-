@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS user (
                                         password VARCHAR(255) NOT NULL,
                                         email VARCHAR(255) UNIQUE NOT NULL,
                                         role ENUM('CUSTOMER', 'ADMIN') NOT NULL
-    );
+    )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 
 -- Création de la table customer

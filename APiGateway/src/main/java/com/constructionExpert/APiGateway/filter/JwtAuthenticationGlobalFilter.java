@@ -16,11 +16,11 @@ public class JwtAuthenticationGlobalFilter implements GlobalFilter {
     private final JwtUtil jwtUtil;
     private final RouteValidator validator;
 
-    @Autowired
     public JwtAuthenticationGlobalFilter(JwtUtil jwtUtil, RouteValidator validator) {
         this.jwtUtil = jwtUtil;
         this.validator = validator;
     }
+
 
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
