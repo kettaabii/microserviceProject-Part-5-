@@ -29,9 +29,10 @@
 		<lombok.version>1.18.32</lombok.version>
 		<junit.jupiter.version>5.9.3</junit.jupiter.version>
 		<mysql.connector.version>8.0.30</mysql.connector.version>
-		<sonar.projectKey>expert microservice</sonar.projectKey>
+		<sonar.projectKey>kettaabii_MicroservicesProject</sonar.projectKey>
 		<sonar.organization>kettaabii</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+
 	</properties>
 
 	<dependencyManagement>
