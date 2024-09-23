@@ -22,8 +22,10 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<start-class>com.user_service.UserServiceApplication</start-class>
 		<sonar.projectKey>expert-microservice</sonar.projectKey>
-		<sonar.projectName>expert-microservice</sonar.projectName>
+<!--		<sonar.projectName>expert-microservice</sonar.projectName>-->
 		<sonar.host.url>http://localhost:9000</sonar.host.url>
+		<sonar.login>sqp_cf540c809fd7777621583465e39deae8bd1cdf6e</sonar.login>
+		<!--		<sonar.password>016002Cilatec</sonar.password>-->
 	</properties>
 
 	<dependencies>

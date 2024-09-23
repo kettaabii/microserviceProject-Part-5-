@@ -29,9 +29,11 @@
 		<lombok.version>1.18.32</lombok.version>
 		<junit.jupiter.version>5.9.3</junit.jupiter.version>
 		<mysql.connector.version>8.0.30</mysql.connector.version>
-		<sonar.projectKey>kettaabii_MicroservicesProject</sonar.projectKey>
-		<sonar.organization>kettaabii</sonar.organization>
-		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.projectKey>expert-microservice</sonar.projectKey>
+		<sonar.projectName>expert-microservice</sonar.projectName>
+		<sonar.host.url>http://localhost:9000</sonar.host.url>
+		<sonar.login>sqp_cf540c809fd7777621583465e39deae8bd1cdf6e</sonar.login>
+
 
 	</properties>
 
@@ -272,6 +274,25 @@
 	<build>
 		<pluginManagement>
 			<plugins>
+				<!-- Spring Boot Maven Plugin -->
+				<plugin>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-maven-plugin</artifactId>
+					<configuration>
+						<mainClass>com.resource_service.ResourceServiceApplication</mainClass>
+						<layout>JAR</layout>
+						<jvmArguments>
+							<jvmArgument>--enable-preview</jvmArgument>
+						</jvmArguments>
+					</configuration>
+					<executions>
+						<execution>
+							<goals>
+								<goal>repackage</goal>
+							</goals>
+						</execution>
+					</executions>
+				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
@@ -299,6 +320,7 @@
 							<compilerArg>
 								-Amapstruct.defaultComponentModel=spring
 							</compilerArg>
+
 						</compilerArgs>
 					</configuration>
 				</plugin>
