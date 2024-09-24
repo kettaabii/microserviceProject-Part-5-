@@ -20,7 +20,7 @@ pipeline {
         stage('Build & Test Microservices') {
             parallel {
                 stage('Build & Test user-service') {
-                    agent { label 'windows' } // Ensure it runs on a Windows node
+                    agent any // Ensure it runs on a Windows node
                     steps {
                         dir('user-service') {
                             bat 'mvn clean package'
@@ -29,7 +29,7 @@ pipeline {
                 }
 
                 stage('Build & Test project-service') {
-                    agent { label 'windows' }
+                    agent any
                     steps {
                         dir('project-service') {
                             bat 'mvn clean package'
@@ -38,7 +38,7 @@ pipeline {
                 }
 
                 stage('Build & Test task-service') {
-                    agent { label 'windows' }
+                    agent any
                     steps {
                         dir('task-service') {
                             bat 'mvn clean package'
@@ -47,7 +47,7 @@ pipeline {
                 }
 
                 stage('Build & Test resource-service') {
-                    agent { label 'windows' }
+                    agent any
                     steps {
                         dir('resource-service') {
                             bat 'mvn clean package'
@@ -56,7 +56,7 @@ pipeline {
                 }
 
                 stage('Build & Package api-gateway-service') {
-                    agent { label 'windows' }
+                    agent any
                     steps {
                         dir('api-gateway-service') {
                             bat 'mvn clean package'
@@ -65,7 +65,7 @@ pipeline {
                 }
 
                 stage('Build & Test eureka-server') {
-                    agent { label 'windows' }
+                    agent any
                     steps {
                         dir('eureka-server') {
                             bat 'mvn clean package'
@@ -76,7 +76,7 @@ pipeline {
         }
 
         stage('SonarQube Analysis') {
-            agent { label 'windows' }
+            agent any
             steps {
                 script {
                     def scannerHome = tool 'sonarqube'
@@ -106,7 +106,7 @@ pipeline {
         stage('Build Docker Images & Push') {
             parallel {
                 stage('Build Docker & Push for user-service') {
-                    agent { label 'windows' }
+                    agent any
                     steps {
                         dir('user-service') {
                             script {
@@ -120,7 +120,7 @@ pipeline {
                 }
 
                 stage('Build Docker & Push for project-service') {
-                    agent { label 'windows' }
+                    agent any
                     steps {
                         dir('project-service') {
                             script {
@@ -133,4 +133,69 @@ pipeline {
                     }
                 }
 
-                sta
+                stage('Build Docker & Push for task-service') {
+                    agent any
+                    steps {
+                        dir('task-service') {
+                            script {
+                                def dockerImage = docker.build("meleke/task-service:${env.TAG_VERSION ?: 'latest'}")
+                                docker.withRegistry('https://index.docker.io/v1/', 'DOCKERHUB_CREDENTIALS') {
+                                    dockerImage.push()
+                                }
+                            }
+                        }
+                    }
+                }
+
+                stage('Build Docker & Push for resource-service') {
+                    agent any
+                    steps {
+                        dir('resource-service') {
+                            script {
+                                def dockerImage = docker.build("meleke/resource-service:${env.TAG_VERSION ?: 'latest'}")
+                                docker.withRegistry('https://index.docker.io/v1/', 'DOCKERHUB_CREDENTIALS') {
+                                    dockerImage.push()
+                                }
+                            }
+                        }
+                    }
+                }
+
+                stage('Build Docker & Push for api-gateway-service') {
+                    agent any
+                    steps {
+                        dir('api-gateway-service') {
+                            script {
+                                def dockerImage = docker.build("meleke/api-gateway-service:${env.TAG_VERSION ?: 'latest'}")
+                                docker.withRegistry('https://index.docker.io/v1/', 'DOCKERHUB_CREDENTIALS') {
+                                    dockerImage.push()
+                                }
+                            }
+                        }
+                    }
+                }
+
+                stage('Build Docker & Push for eureka-server') {
+                    agent any
+                    steps {
+                        dir('eureka-server') {
+                            script {
+                                def dockerImage = docker.build("meleke/eureka-server:${env.TAG_VERSION ?: 'latest'}")
+                                docker.withRegistry('https://index.docker.io/v1/', 'DOCKERHUB_CREDENTIALS') {
+                                    dockerImage.push()
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            // Clean up steps
+            cleanWs()
+        }
+    }
+}
