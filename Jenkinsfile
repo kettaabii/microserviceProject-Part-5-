@@ -1,15 +1,5 @@
 pipeline {
     agent any
-    stages {
-            stage('Windows Only Stage') {
-                agent { label 'windows' } // Ensure this label corresponds to a Windows node
-                steps {
-                    bat 'mvn clean package'
-                }
-
-          }
-
-
 
     tools {
         maven 'mvn'
@@ -17,9 +7,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = credentials('docker-hub')
-
-        SONARQUBE_CREDENTIALS =credentials('sonar-qube')
-
+        SONARQUBE_CREDENTIALS = credentials('sonar-qube')
     }
 
     stages {
@@ -98,34 +86,28 @@ pipeline {
                 script {
                     def scannerHome = tool 'sonarqube'
 
-
                     dir('user-service') {
-                        bat "${scannerHome}/bin/sonar-scanner  -Dsonar.sources=. -Dsonar.login=${sonar-qube}  -Dsonar.java.binaries=target/classes"
+                        bat "${scannerHome}/bin/sonar-scanner  -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes"
                     }
-
 
                     dir('project-service') {
-                        bat "${scannerHome}/bin/sonar-scanner  -Dsonar.sources=. -Dsonar.login=${sonar-qube} -Dsonar.java.binaries=target/classes"
+                        bat "${scannerHome}/bin/sonar-scanner  -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes"
                     }
-
 
                     dir('task-service') {
-                        bat "${scannerHome}/bin/sonar-scanner  -Dsonar.sources=. -Dsonar.login=${sonar-qube} -Dsonar.java.binaries=target/classes"
+                        bat "${scannerHome}/bin/sonar-scanner  -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes"
                     }
-
 
                     dir('resource-service') {
-                        bat "${scannerHome}/bin/sonar-scanner  -Dsonar.sources=. -Dsonar.login=${sonar-qube} -Dsonar.java.binaries=target/classes"
+                        bat "${scannerHome}/bin/sonar-scanner  -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes"
                     }
-
 
                     dir('api-gateway-service') {
-                        bat "${scannerHome}/bin/sonar-scanner  -Dsonar.sources=. -Dsonar.login=${sonar-qube} -Dsonar.java.binaries=target/classes"
+                        bat "${scannerHome}/bin/sonar-scanner  -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes"
                     }
 
-
                     dir('eureka-server') {
-                        bat "${scannerHome}/bin/sonar-scanner -Dsonar.sources=. -Dsonar.login=${sonar-qube} -Dsonar.java.binaries=target/classes"
+                        bat "${scannerHome}/bin/sonar-scanner -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes"
                     }
                 }
             }
