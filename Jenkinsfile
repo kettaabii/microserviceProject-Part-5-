@@ -1,5 +1,8 @@
 pipeline {
-    agent any
+     agent any
+      stages {
+             stage('Windows Only Stage') {
+                 agent { label 'windows' }
 
     tools {
         maven 'mvn'
