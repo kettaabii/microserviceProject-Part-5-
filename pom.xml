@@ -32,7 +32,7 @@
 		<sonar.projectKey>expert-microservice</sonar.projectKey>
 		<sonar.projectName>expert-microservice</sonar.projectName>
 		<sonar.host.url>http://localhost:9000</sonar.host.url>
-		<sonar.login>sqp_cf540c809fd7777621583465e39deae8bd1cdf6e</sonar.login>
+
 
 
 	</properties>
