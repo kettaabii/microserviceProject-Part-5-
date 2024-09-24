@@ -23,8 +23,6 @@
 		<start-class>com.resource_service.ResourceServiceApplication</start-class>
 		<sonar.projectKey>kettaabii_MicroservicesProject</sonar.projectKey>
 
-		<sonar.host.url>http://localhost:9000</sonar.host.url>
-
 	</properties>
 
 	<dependencies>
