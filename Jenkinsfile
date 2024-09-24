@@ -20,55 +20,55 @@ pipeline {
         stage('Build & Test Microservices') {
             parallel {
                 stage('Build & Test user-service') {
-                    agent { label 'windows' } // Ensure it runs on a Windows node
+                    agent { label 'linux' }
                     steps {
                         dir('user-service') {
-                            bat 'mvn clean package'
+                            sh 'mvn clean package'
                         }
                     }
                 }
 
                 stage('Build & Test project-service') {
-                    agent { label 'windows' }
+                    agent { label 'linux' }
                     steps {
                         dir('project-service') {
-                            bat 'mvn clean package'
+                            sh 'mvn clean package'
                         }
                     }
                 }
 
                 stage('Build & Test task-service') {
-                    agent { label 'windows' }
+                    agent { label 'linux' }
                     steps {
                         dir('task-service') {
-                            bat 'mvn clean package'
+                            sh 'mvn clean package'
                         }
                     }
                 }
 
                 stage('Build & Test resource-service') {
-                    agent { label 'windows' }
+                    agent { label 'linux' }
                     steps {
                         dir('resource-service') {
-                            bat 'mvn clean package'
+                            sh 'mvn clean package'
                         }
                     }
                 }
 
                 stage('Build & Package api-gateway-service') {
-                    agent { label 'windows' }
+                    agent { label 'linux' }
                     steps {
                         dir('api-gateway-service') {
-                            bat 'mvn clean package'
+                            sh 'mvn clean package'
                         }
                     }
                 }
 
                 stage('Build & Package eureka-server') {
-                    agent { label 'windows' }
+                    agent { label 'linux' }
                     steps {
                         dir('eureka-server') {
-                            bat 'mvn clean package'
+                            sh 'mvn clean package'
                         }
                     }
                 }
@@ -76,28 +76,28 @@ pipeline {
         }
 
         stage('SonarQube Analysis') {
-            agent { label 'windows' }
+            agent { label 'linux' }
             steps {
                 script {
                     def scannerHome = tool 'sonarqube'
 
                     dir('user-service') {
-                        bat "${scannerHome}/bin/sonar-scanner -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes"
+                        sh "${scannerHome}/bin/sonar-scanner -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes"
                     }
                     dir('project-service') {
-                        bat "${scannerHome}/bin/sonar-scanner -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes"
+                        sh "${scannerHome}/bin/sonar-scanner -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes"
                     }
                     dir('task-service') {
-                        bat "${scannerHome}/bin/sonar-scanner -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes"
+                        sh "${scannerHome}/bin/sonar-scanner -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes"
                     }
                     dir('resource-service') {
-                        bat "${scannerHome}/bin/sonar-scanner -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes"
+                        sh "${scannerHome}/bin/sonar-scanner -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes"
                     }
                     dir('api-gateway-service') {
-                        bat "${scannerHome}/bin/sonar-scanner -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes"
+                        sh "${scannerHome}/bin/sonar-scanner -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes"
                     }
                     dir('eureka-server') {
-                        bat "${scannerHome}/bin/sonar-scanner -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes"
+                        sh "${scannerHome}/bin/sonar-scanner -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes"
                     }
                 }
             }
@@ -106,7 +106,7 @@ pipeline {
         stage('Build Docker Images & Push') {
             parallel {
                 stage('Build Docker & Push for user-service') {
-                    agent { label 'windows' }
+                    agent { label 'linux' }
                     steps {
                         dir('user-service') {
                             script {
@@ -120,7 +120,7 @@ pipeline {
                 }
 
                 stage('Build Docker & Push for project-service') {
-                    agent { label 'windows' }
+                    agent { label 'linux' }
                     steps {
                         dir('project-service') {
                             script {
@@ -134,7 +134,7 @@ pipeline {
                 }
 
                 stage('Build Docker & Push for task-service') {
-                    agent { label 'windows' }
+                    agent { label 'linux' }
                     steps {
                         dir('task-service') {
                             script {
@@ -148,7 +148,7 @@ pipeline {
                 }
 
                 stage('Build Docker & Push for resource-service') {
-                    agent { label 'windows' }
+                    agent { label 'linux' }
                     steps {
                         dir('resource-service') {
                             script {
@@ -162,7 +162,7 @@ pipeline {
                 }
 
                 stage('Build Docker & Push for api-gateway-service') {
-                    agent { label 'windows' }
+                    agent { label 'linux' }
                     steps {
                         dir('api-gateway-service') {
                             script {
@@ -176,7 +176,7 @@ pipeline {
                 }
 
                 stage('Build Docker & Push for eureka-server') {
-                    agent { label 'windows' }
+                    agent { label 'linux' }
                     steps {
                         dir('eureka-server') {
                             script {
