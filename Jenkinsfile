@@ -20,7 +20,7 @@ pipeline {
         stage('Build & Test Microservices') {
             parallel {
                 stage('Build & Test user-service') {
-                    agent { label 'linux' }
+                    agent any
                     steps {
                         dir('user-service') {
                             sh 'mvn clean package'
@@ -29,7 +29,7 @@ pipeline {
                 }
 
                 stage('Build & Test project-service') {
-                    agent { label 'linux' }
+                    agent any
                     steps {
                         dir('project-service') {
                             sh 'mvn clean package'
@@ -38,7 +38,7 @@ pipeline {
                 }
 
                 stage('Build & Test task-service') {
-                    agent { label 'linux' }
+                    agent any
                     steps {
                         dir('task-service') {
                             sh 'mvn clean package'
@@ -47,7 +47,7 @@ pipeline {
                 }
 
                 stage('Build & Test resource-service') {
-                    agent { label 'linux' }
+                    agent any
                     steps {
                         dir('resource-service') {
                             sh 'mvn clean package'
@@ -56,7 +56,7 @@ pipeline {
                 }
 
                 stage('Build & Package api-gateway-service') {
-                    agent { label 'linux' }
+                    agent any
                     steps {
                         dir('api-gateway-service') {
                             sh 'mvn clean package'
@@ -65,7 +65,7 @@ pipeline {
                 }
 
                 stage('Build & Package eureka-server') {
-                    agent { label 'linux' }
+                    agent any
                     steps {
                         dir('eureka-server') {
                             sh 'mvn clean package'
@@ -76,7 +76,7 @@ pipeline {
         }
 
         stage('SonarQube Analysis') {
-            agent { label 'linux' }
+            agent any
             steps {
                 script {
                     def scannerHome = tool 'sonarqube'
@@ -106,7 +106,7 @@ pipeline {
         stage('Build Docker Images & Push') {
             parallel {
                 stage('Build Docker & Push for user-service') {
-                    agent { label 'linux' }
+                    agent any
                     steps {
                         dir('user-service') {
                             script {
@@ -120,7 +120,7 @@ pipeline {
                 }
 
                 stage('Build Docker & Push for project-service') {
-                    agent { label 'linux' }
+                    agent any
                     steps {
                         dir('project-service') {
                             script {
@@ -134,7 +134,7 @@ pipeline {
                 }
 
                 stage('Build Docker & Push for task-service') {
-                    agent { label 'linux' }
+                    agent any
                     steps {
                         dir('task-service') {
                             script {
@@ -148,7 +148,7 @@ pipeline {
                 }
 
                 stage('Build Docker & Push for resource-service') {
-                    agent { label 'linux' }
+                    agent any
                     steps {
                         dir('resource-service') {
                             script {
@@ -162,7 +162,7 @@ pipeline {
                 }
 
                 stage('Build Docker & Push for api-gateway-service') {
-                    agent { label 'linux' }
+                    agent any
                     steps {
                         dir('api-gateway-service') {
                             script {
@@ -176,7 +176,7 @@ pipeline {
                 }
 
                 stage('Build Docker & Push for eureka-server') {
-                    agent { label 'linux' }
+                    agent any
                     steps {
                         dir('eureka-server') {
                             script {
