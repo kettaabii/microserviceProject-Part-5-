@@ -6,7 +6,11 @@ pipeline {
                 steps {
                     bat 'mvn clean package'
                 }
+
           }
+
+
+
     tools {
         maven 'mvn'
     }
