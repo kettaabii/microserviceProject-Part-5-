@@ -64,7 +64,7 @@ pipeline {
                     }
                 }
 
-                stage('Build & Test eureka-server') {
+                stage('Build & Package eureka-server') {
                     agent any
                     steps {
                         dir('eureka-server') {
