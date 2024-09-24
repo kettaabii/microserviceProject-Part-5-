@@ -18,14 +18,12 @@
 
 	<properties>
 		<java.version>21</java.version>
-		<maven.compiler.source>21</maven.compiler.source>
-		<maven.compiler.target>21</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<start-class>com.project_service.ProjectServiceApplication</start-class>
 		<sonar.projectKey>expert-microservice</sonar.projectKey>
 	<sonar.projectName>expert-microservice</sonar.projectName>
      	<sonar.host.url>http://localhost:9000</sonar.host.url>
-		<sonar.login>sqp_cf540c809fd7777621583465e39deae8bd1cdf6e</sonar.login>
+
 
 	</properties>
 
@@ -35,7 +33,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
-        <!-- teeeesssttt -->
+
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-test</artifactId>
