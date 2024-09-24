@@ -1,9 +1,12 @@
 pipeline {
-     agent any
-      stages {
-             stage('Windows Only Stage') {
-                 agent { label 'windows' }
-
+    agent any
+    stages {
+            stage('Windows Only Stage') {
+                agent { label 'windows' } // Ensure this label corresponds to a Windows node
+                steps {
+                    bat 'mvn clean package'
+                }
+          }
     tools {
         maven 'mvn'
     }
