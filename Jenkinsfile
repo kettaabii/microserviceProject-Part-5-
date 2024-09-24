@@ -133,4 +133,69 @@ pipeline {
                     }
                 }
 
-                sta
+                stage('Build Docker & Push for task-service') {
+                    agent { label 'windows' }
+                    steps {
+                        dir('task-service') {
+                            script {
+                                def dockerImage = docker.build("meleke/task-service:${env.TAG_VERSION ?: 'latest'}")
+                                docker.withRegistry('https://index.docker.io/v1/', 'DOCKERHUB_CREDENTIALS') {
+                                    dockerImage.push()
+                                }
+                            }
+                        }
+                    }
+                }
+
+                stage('Build Docker & Push for resource-service') {
+                    agent { label 'windows' }
+                    steps {
+                        dir('resource-service') {
+                            script {
+                                def dockerImage = docker.build("meleke/resource-service:${env.TAG_VERSION ?: 'latest'}")
+                                docker.withRegistry('https://index.docker.io/v1/', 'DOCKERHUB_CREDENTIALS') {
+                                    dockerImage.push()
+                                }
+                            }
+                        }
+                    }
+                }
+
+                stage('Build Docker & Push for api-gateway-service') {
+                    agent { label 'windows' }
+                    steps {
+                        dir('api-gateway-service') {
+                            script {
+                                def dockerImage = docker.build("meleke/api-gateway-service:${env.TAG_VERSION ?: 'latest'}")
+                                docker.withRegistry('https://index.docker.io/v1/', 'DOCKERHUB_CREDENTIALS') {
+                                    dockerImage.push()
+                                }
+                            }
+                        }
+                    }
+                }
+
+                stage('Build Docker & Push for eureka-server') {
+                    agent { label 'windows' }
+                    steps {
+                        dir('eureka-server') {
+                            script {
+                                def dockerImage = docker.build("meleke/eureka-server:${env.TAG_VERSION ?: 'latest'}")
+                                docker.withRegistry('https://index.docker.io/v1/', 'DOCKERHUB_CREDENTIALS') {
+                                    dockerImage.push()
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            // Clean up steps
+            cleanWs()
+        }
+    }
+}
