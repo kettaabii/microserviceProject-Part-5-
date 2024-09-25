@@ -82,22 +82,22 @@ pipeline {
                     def scannerHome = tool 'sonar-qube'
 
                     dir('user-service') {
-                        sh "${scannerHome}/bin/sonar-scanner -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes"
+                        sh "${scannerHome}/bin/sonar-sonar -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes"
                     }
                     dir('project-service') {
-                        sh "${scannerHome}/bin/sonar-scanner -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes"
+                        sh "${scannerHome}/bin/sonar-sonar -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes"
                     }
                     dir('task-service') {
-                        sh "${scannerHome}/bin/sonar-scanner -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes"
+                        sh "${scannerHome}/bin/sonar-sonar -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes"
                     }
                     dir('resource-service') {
-                        sh "${scannerHome}/bin/sonar-scanner -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes"
+                        sh "${scannerHome}/bin/sonar-sonar -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes"
                     }
                     dir('api-gateway-service') {
-                        sh "${scannerHome}/bin/sonar-scanner -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes"
+                        sh "${scannerHome}/bin/sonar-sonar -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes"
                     }
                     dir('eureka-server') {
-                        sh "${scannerHome}/bin/sonar-scanner -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes"
+                        sh "${scannerHome}/bin/sonar-sonar -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes"
                     }
                 }
             }
