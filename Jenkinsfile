@@ -79,7 +79,7 @@ pipeline {
             agent any
             steps {
                 script {
-                    def scannerHome = tool 'sonarqube'
+                    def scannerHome = tool 'sonar-qube'
 
                     dir('user-service') {
                         sh "${scannerHome}/bin/sonar-scanner -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes"
