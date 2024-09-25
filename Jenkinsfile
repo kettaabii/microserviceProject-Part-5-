@@ -7,7 +7,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = credentials('docker-hub')
-        SONARQUBE_CREDENTIALS = 'squ_97697f6cdc917158f885fdb0b6ff6c06966f81e5'
+        SONARQUBE_CREDENTIALS = 'squ_f0e0afefe50213563d2b534261e3bc2fc096c975'
     }
 
     stages {
