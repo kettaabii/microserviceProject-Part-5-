@@ -23,7 +23,7 @@
 	</modules>
 
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 		<org.mapstruct.version>1.5.5.Final</org.mapstruct.version>
 		<springdoc.version>2.5.0</springdoc.version>
 		<lombok.version>1.18.32</lombok.version>
@@ -296,8 +296,9 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
-					<version>3.8.0</version>
 					<configuration>
+						<source>${java.version}</source>
+						<target>${java.version}</target>
 						<annotationProcessorPaths>
 							<path>
 								<groupId>org.mapstruct</groupId>
@@ -329,6 +330,7 @@
 					<artifactId>spring-boot-maven-plugin</artifactId>
 					<version>3.3.2</version>
 					<configuration>
+
 						<excludes>
 							<exclude>
 								<groupId>org.projectlombok</groupId>

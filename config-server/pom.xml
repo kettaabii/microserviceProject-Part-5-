@@ -17,7 +17,7 @@
 	<description>Config Server module for ConstructionXpert</description>
 
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<start-class>com.config_server.ConfigServerApplication</start-class>
 	</properties>
