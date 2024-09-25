@@ -19,9 +19,8 @@
 		<java.version>17</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<start-class>com.user_service.UserServiceApplication</start-class>
-		<sonar.projectKey>expert-microservice</sonar.projectKey>
 
-		<sonar.host.url>http://localhost:9000</sonar.host.url>
+
 
 	</properties>
 

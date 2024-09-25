@@ -21,8 +21,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<start-class>com.project_service.ProjectServiceApplication</start-class>
 		<sonar.projectKey>expert-microservice</sonar.projectKey>
-	<sonar.projectName>expert-microservice</sonar.projectName>
-     	<sonar.host.url>http://localhost:9000</sonar.host.url>
+
 
 
 	</properties>
