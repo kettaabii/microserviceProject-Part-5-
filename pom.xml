@@ -29,10 +29,6 @@
 		<lombok.version>1.18.32</lombok.version>
 		<junit.jupiter.version>5.9.3</junit.jupiter.version>
 		<mysql.connector.version>8.0.30</mysql.connector.version>
-		<sonar.projectKey>expert-microservice</sonar.projectKey>
-		<sonar.projectName>expert-microservice</sonar.projectName>
-		<sonar.host.url>http://localhost:9000</sonar.host.url>
-
 
 
 	</properties>

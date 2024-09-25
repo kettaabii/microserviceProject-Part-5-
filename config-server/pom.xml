@@ -21,7 +21,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<start-class>com.config_server.ConfigServerApplication</start-class>
 	</properties>
-
+<!--sdf-->
 	<dependencies>
 
 	</dependencies>

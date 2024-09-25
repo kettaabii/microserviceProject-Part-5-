@@ -21,7 +21,6 @@
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<start-class>com.resource_service.ResourceServiceApplication</start-class>
-		<sonar.projectKey>kettaabii_MicroservicesProject</sonar.projectKey>
 
 	</properties>
 
