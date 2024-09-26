@@ -144,9 +144,8 @@ mvn spring-boot:run -pl resource-service
 
 Pour toute question ou information supplémentaire, vous pouvez me contacter à l'adresse suivante :
 
-- **Email :** [yassineoularbi4@gmail.com](mailto:yassineoularbi4@gmail.com)
-- **LinkedIn :** [@YassineOularbi](www.linkedin.com/in/yassine-oularbi-79730424b)
-
+- **Email :** elkettabi.mohammedamin@gmail.com](mailto:elkettabi.mohammedamin@gmail.com)
+- **LinkedIn :** [@Mohammed Amin EL KETTABI]
 
 
 

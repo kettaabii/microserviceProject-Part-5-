@@ -17,7 +17,6 @@ pipeline {
             }
         }
         //this is
-        //this 
 
         stage('Build & Test Microservices') {
             parallel {
