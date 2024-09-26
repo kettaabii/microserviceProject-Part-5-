@@ -100,7 +100,7 @@ Cela simplifie la communication entre les microservices en évitant de hardcoder
 Chaque microservice dispose de sa propre base de données, assurant ainsi une isolation complète des données et facilitant les migrations et évolutions indépendantes.
 
 ## Gestion des Migrations
-Le projet utilise Flyway pour gérer les migrations de schéma de la base de données. Chaque changement de schéma est versionné et appliqué de manière ordonnée lors des déploiements.
+Le projet utilise Flyway pour gérer les migrations des schémas de la base de données. Chaque changement de schéma est versionné et appliqué de manière ordonnée lors des déploiements.
 
 ## Démarrage
 ### Prérequis
