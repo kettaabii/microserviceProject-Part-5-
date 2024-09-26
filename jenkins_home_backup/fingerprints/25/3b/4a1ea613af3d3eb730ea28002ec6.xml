@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-09-24 17:20:35.579 UTC</timestamp>
+  <md5sum>253b4a1ea613af3d3eb730ea28002ec6</md5sum>
+  <fileName>Credential id=docker-hub name=meleke/******</fileName>
+  <usages>
+    <entry>
+      <string>xpert-microservice-pipeline</string>
+      <ranges>4-6</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

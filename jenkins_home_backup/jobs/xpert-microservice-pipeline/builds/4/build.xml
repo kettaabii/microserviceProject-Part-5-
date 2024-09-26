@@ -1,0 +1,1142 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1436.vfa_244484591f">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>melke</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.21-451.vd51df8df52ec">
+      <queuingDurationMillis>4</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>0</buildableDurationMillis>
+      <waitingDurationMillis>1</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@730.ve57b_34648c63">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@2.2214.vb_b_34b_2ea_9b_83">
+      <stagesUUID>8d5d34b5-64d8-4be8-a4b7-43f37e38c5e0</stagesUUID>
+      <pipelineDefs>
+        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef plugin="pipeline-model-api@2.2214.vb_b_34b_2ea_9b_83">
+          <stages>
+            <stages>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Checkout</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>git</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>branch</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">main</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>url</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">https://github.com/kettaabii/MicroservicesProject.git</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Build &amp; Test Microservices</name>
+                <branches/>
+                <parallel>
+                  <stages>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                      <agent>
+                        <agentType>
+                          <key>any</key>
+                        </agentType>
+                      </agent>
+                      <name>Build &amp; Test user-service</name>
+                      <branches>
+                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                          <name>default</name>
+                          <steps>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                              <name>dir</name>
+                              <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTSingleArgument">
+                                <value class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$ConstantValue">
+                                  <value class="string">user-service</value>
+                                </value>
+                              </args>
+                              <children>
+                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                                  <name>sh</name>
+                                  <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                                    <arguments class="linked-hash-map">
+                                      <entry>
+                                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                          <key>script</key>
+                                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                          <value class="string">mvn clean package</value>
+                                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                      </entry>
+                                    </arguments>
+                                  </args>
+                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                              </children>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                          </steps>
+                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                      </branches>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                      <agent>
+                        <agentType>
+                          <key>any</key>
+                        </agentType>
+                      </agent>
+                      <name>Build &amp; Test project-service</name>
+                      <branches>
+                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                          <name>default</name>
+                          <steps>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                              <name>dir</name>
+                              <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTSingleArgument">
+                                <value class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$ConstantValue">
+                                  <value class="string">project-service</value>
+                                </value>
+                              </args>
+                              <children>
+                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                                  <name>sh</name>
+                                  <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                                    <arguments class="linked-hash-map">
+                                      <entry>
+                                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                          <key>script</key>
+                                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                          <value class="string">mvn clean package</value>
+                                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                      </entry>
+                                    </arguments>
+                                  </args>
+                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                              </children>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                          </steps>
+                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                      </branches>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                      <agent>
+                        <agentType>
+                          <key>any</key>
+                        </agentType>
+                      </agent>
+                      <name>Build &amp; Test task-service</name>
+                      <branches>
+                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                          <name>default</name>
+                          <steps>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                              <name>dir</name>
+                              <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTSingleArgument">
+                                <value class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$ConstantValue">
+                                  <value class="string">task-service</value>
+                                </value>
+                              </args>
+                              <children>
+                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                                  <name>sh</name>
+                                  <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                                    <arguments class="linked-hash-map">
+                                      <entry>
+                                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                          <key>script</key>
+                                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                          <value class="string">mvn clean package</value>
+                                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                      </entry>
+                                    </arguments>
+                                  </args>
+                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                              </children>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                          </steps>
+                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                      </branches>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                      <agent>
+                        <agentType>
+                          <key>any</key>
+                        </agentType>
+                      </agent>
+                      <name>Build &amp; Test resource-service</name>
+                      <branches>
+                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                          <name>default</name>
+                          <steps>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                              <name>dir</name>
+                              <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTSingleArgument">
+                                <value class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$ConstantValue">
+                                  <value class="string">resource-service</value>
+                                </value>
+                              </args>
+                              <children>
+                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                                  <name>sh</name>
+                                  <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                                    <arguments class="linked-hash-map">
+                                      <entry>
+                                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                          <key>script</key>
+                                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                          <value class="string">mvn clean package</value>
+                                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                      </entry>
+                                    </arguments>
+                                  </args>
+                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                              </children>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                          </steps>
+                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                      </branches>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                      <agent>
+                        <agentType>
+                          <key>any</key>
+                        </agentType>
+                      </agent>
+                      <name>Build &amp; Package api-gateway-service</name>
+                      <branches>
+                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                          <name>default</name>
+                          <steps>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                              <name>dir</name>
+                              <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTSingleArgument">
+                                <value class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$ConstantValue">
+                                  <value class="string">api-gateway-service</value>
+                                </value>
+                              </args>
+                              <children>
+                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                                  <name>sh</name>
+                                  <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                                    <arguments class="linked-hash-map">
+                                      <entry>
+                                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                          <key>script</key>
+                                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                          <value class="string">mvn clean package</value>
+                                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                      </entry>
+                                    </arguments>
+                                  </args>
+                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                              </children>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                          </steps>
+                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                      </branches>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                      <agent>
+                        <agentType>
+                          <key>any</key>
+                        </agentType>
+                      </agent>
+                      <name>Build &amp; Package eureka-server</name>
+                      <branches>
+                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                          <name>default</name>
+                          <steps>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                              <name>dir</name>
+                              <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTSingleArgument">
+                                <value class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$ConstantValue">
+                                  <value class="string">eureka-server</value>
+                                </value>
+                              </args>
+                              <children>
+                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                                  <name>sh</name>
+                                  <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                                    <arguments class="linked-hash-map">
+                                      <entry>
+                                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                          <key>script</key>
+                                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                          <value class="string">mvn clean package</value>
+                                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                      </entry>
+                                    </arguments>
+                                  </args>
+                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                              </children>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                          </steps>
+                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                      </branches>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                  </stages>
+                  <uuid>3d515f51-12bc-4862-ab99-a08f5f4a4982</uuid>
+                </parallel>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <agent>
+                  <agentType>
+                    <key>any</key>
+                  </agentType>
+                </agent>
+                <name>SonarQube Analysis</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                        <name>script</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>scriptBlock</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">def scannerHome = tool &apos;SonarQubeScanner&apos;
+
+                    dir(&apos;user-service&apos;) {
+                        sh &quot;${scannerHome}/bin/sonar-scanner -Dsonar.url=http://sonarqube:9000 -Dsonar.projectKey=user-service -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes&quot;
+                    }
+                    dir(&apos;project-service&apos;) {
+                        sh &quot;${scannerHome}/bin/sonar-scanner  -Dsonar.url=http://sonarqube:9000 -Dsonar.projectKey=project-service -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes&quot;
+                    }
+                    dir(&apos;task-service&apos;) {
+                        sh &quot;${scannerHome}/bin/sonar-scanner -Dsonar.url=http://sonarqube:9000 -Dsonar.projectKey=task-service -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes&quot;
+                    }
+                    dir(&apos;resource-service&apos;) {
+                        sh &quot;${scannerHome}/bin/sonar-scanner -Dsonar.url=http://sonarqube:9000 -Dsonar.projectKey=resource-service -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes&quot;
+                    }
+                    dir(&apos;api-gateway-service&apos;) {
+                        sh &quot;${scannerHome}/bin/sonar-scanner -Dsonar.url=http://sonarqube:9000 -Dsonar.projectKey=api-gateway-service -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes&quot;
+                    }
+                    dir(&apos;eureka-server&apos;) {
+                        sh &quot;${scannerHome}/bin/sonar-scanner -Dsonar.url=http://sonarqube:9000 -Dsonar.projectKey=eureka-server -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes&quot;
+                    }</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Build Docker Images &amp; Push</name>
+                <branches/>
+                <parallel>
+                  <stages>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                      <agent>
+                        <agentType>
+                          <key>any</key>
+                        </agentType>
+                      </agent>
+                      <name>Build Docker &amp; Push for user-service</name>
+                      <branches>
+                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                          <name>default</name>
+                          <steps>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                              <name>dir</name>
+                              <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTSingleArgument">
+                                <value class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$ConstantValue">
+                                  <value class="string">user-service</value>
+                                </value>
+                              </args>
+                              <children>
+                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                                  <name>script</name>
+                                  <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                                    <arguments class="linked-hash-map">
+                                      <entry>
+                                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                          <key>scriptBlock</key>
+                                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                          <value class="string">def dockerImage = docker.build(&quot;meleke/user-service:${env.TAG_VERSION ?: &apos;latest&apos;}&quot;)
+                                docker.withRegistry(&apos;https://index.docker.io/v1/&apos;, &apos;DOCKERHUB_CREDENTIALS&apos;) {
+                                    dockerImage.push()
+                                }</value>
+                                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                      </entry>
+                                    </arguments>
+                                  </args>
+                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                              </children>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                          </steps>
+                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                      </branches>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                      <agent>
+                        <agentType>
+                          <key>any</key>
+                        </agentType>
+                      </agent>
+                      <name>Build Docker &amp; Push for project-service</name>
+                      <branches>
+                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                          <name>default</name>
+                          <steps>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                              <name>dir</name>
+                              <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTSingleArgument">
+                                <value class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$ConstantValue">
+                                  <value class="string">project-service</value>
+                                </value>
+                              </args>
+                              <children>
+                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                                  <name>script</name>
+                                  <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                                    <arguments class="linked-hash-map">
+                                      <entry>
+                                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                          <key>scriptBlock</key>
+                                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                          <value class="string">def dockerImage = docker.build(&quot;meleke/project-service:${env.TAG_VERSION ?: &apos;latest&apos;}&quot;)
+                                docker.withRegistry(&apos;https://index.docker.io/v1/&apos;, &apos;DOCKERHUB_CREDENTIALS&apos;) {
+                                    dockerImage.push()
+                                }</value>
+                                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                      </entry>
+                                    </arguments>
+                                  </args>
+                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                              </children>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                          </steps>
+                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                      </branches>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                      <agent>
+                        <agentType>
+                          <key>any</key>
+                        </agentType>
+                      </agent>
+                      <name>Build Docker &amp; Push for task-service</name>
+                      <branches>
+                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                          <name>default</name>
+                          <steps>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                              <name>dir</name>
+                              <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTSingleArgument">
+                                <value class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$ConstantValue">
+                                  <value class="string">task-service</value>
+                                </value>
+                              </args>
+                              <children>
+                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                                  <name>script</name>
+                                  <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                                    <arguments class="linked-hash-map">
+                                      <entry>
+                                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                          <key>scriptBlock</key>
+                                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                          <value class="string">def dockerImage = docker.build(&quot;meleke/task-service:${env.TAG_VERSION ?: &apos;latest&apos;}&quot;)
+                                docker.withRegistry(&apos;https://index.docker.io/v1/&apos;, &apos;DOCKERHUB_CREDENTIALS&apos;) {
+                                    dockerImage.push()
+                                }</value>
+                                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                      </entry>
+                                    </arguments>
+                                  </args>
+                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                              </children>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                          </steps>
+                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                      </branches>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                      <agent>
+                        <agentType>
+                          <key>any</key>
+                        </agentType>
+                      </agent>
+                      <name>Build Docker &amp; Push for resource-service</name>
+                      <branches>
+                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                          <name>default</name>
+                          <steps>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                              <name>dir</name>
+                              <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTSingleArgument">
+                                <value class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$ConstantValue">
+                                  <value class="string">resource-service</value>
+                                </value>
+                              </args>
+                              <children>
+                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                                  <name>script</name>
+                                  <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                                    <arguments class="linked-hash-map">
+                                      <entry>
+                                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                          <key>scriptBlock</key>
+                                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                          <value class="string">def dockerImage = docker.build(&quot;meleke/resource-service:${env.TAG_VERSION ?: &apos;latest&apos;}&quot;)
+                                docker.withRegistry(&apos;https://index.docker.io/v1/&apos;, &apos;DOCKERHUB_CREDENTIALS&apos;) {
+                                    dockerImage.push()
+                                }</value>
+                                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                      </entry>
+                                    </arguments>
+                                  </args>
+                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                              </children>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                          </steps>
+                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                      </branches>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                      <agent>
+                        <agentType>
+                          <key>any</key>
+                        </agentType>
+                      </agent>
+                      <name>Build Docker &amp; Push for api-gateway-service</name>
+                      <branches>
+                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                          <name>default</name>
+                          <steps>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                              <name>dir</name>
+                              <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTSingleArgument">
+                                <value class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$ConstantValue">
+                                  <value class="string">api-gateway-service</value>
+                                </value>
+                              </args>
+                              <children>
+                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                                  <name>script</name>
+                                  <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                                    <arguments class="linked-hash-map">
+                                      <entry>
+                                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                          <key>scriptBlock</key>
+                                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                          <value class="string">def dockerImage = docker.build(&quot;meleke/api-gateway-service:${env.TAG_VERSION ?: &apos;latest&apos;}&quot;)
+                                docker.withRegistry(&apos;https://index.docker.io/v1/&apos;, &apos;DOCKERHUB_CREDENTIALS&apos;) {
+                                    dockerImage.push()
+                                }</value>
+                                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                      </entry>
+                                    </arguments>
+                                  </args>
+                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                              </children>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                          </steps>
+                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                      </branches>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                      <agent>
+                        <agentType>
+                          <key>any</key>
+                        </agentType>
+                      </agent>
+                      <name>Build Docker &amp; Push for eureka-server</name>
+                      <branches>
+                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                          <name>default</name>
+                          <steps>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                              <name>dir</name>
+                              <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTSingleArgument">
+                                <value class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$ConstantValue">
+                                  <value class="string">eureka-server</value>
+                                </value>
+                              </args>
+                              <children>
+                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                                  <name>script</name>
+                                  <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                                    <arguments class="linked-hash-map">
+                                      <entry>
+                                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                          <key>scriptBlock</key>
+                                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                          <value class="string">def dockerImage = docker.build(&quot;meleke/eureka-server:${env.TAG_VERSION ?: &apos;latest&apos;}&quot;)
+                                docker.withRegistry(&apos;https://index.docker.io/v1/&apos;, &apos;DOCKERHUB_CREDENTIALS&apos;) {
+                                    dockerImage.push()
+                                }</value>
+                                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                      </entry>
+                                    </arguments>
+                                  </args>
+                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                              </children>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                          </steps>
+                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                      </branches>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                  </stages>
+                  <uuid>1d339de0-4fee-41a6-a275-bb66cf7b39b3</uuid>
+                </parallel>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+            </stages>
+            <uuid>8d5d34b5-64d8-4be8-a4b7-43f37e38c5e0</uuid>
+          </stages>
+          <postBuild>
+            <conditions>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBuildCondition>
+                <condition>always</condition>
+                <branch>
+                  <name>default</name>
+                  <steps>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                      <name>cleanWs</name>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                        <arguments class="linked-hash-map"/>
+                      </args>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                  </steps>
+                </branch>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBuildCondition>
+            </conditions>
+          </postBuild>
+          <environment>
+            <variables class="linked-hash-map">
+              <entry>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                  <key>DOCKERHUB_CREDENTIALS</key>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTInternalFunctionCall>
+                  <name>credentials</name>
+                  <args>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                      <value class="string">docker-hub</value>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                  </args>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTInternalFunctionCall>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                  <key>SONARQUBE_CREDENTIALS</key>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                  <value class="string">squ_f0e0afefe50213563d2b534261e3bc2fc096c975</value>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+              </entry>
+            </variables>
+          </environment>
+          <agent>
+            <variables class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$ConstantValue">
+              <value class="string">linux</value>
+            </variables>
+            <agentType>
+              <key>label</key>
+            </agentType>
+          </agent>
+          <tools>
+            <tools class="linked-hash-map">
+              <entry>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                  <key>maven</key>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                  <value class="string">mvn</value>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+              </entry>
+            </tools>
+          </tools>
+        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef>
+      </pipelineDefs>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
+    <hudson.plugins.git.util.BuildData plugin="git@5.5.1">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/main</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@6.0.0">
+              <sha1>92addb77bcb09deacc869abbc8efafa5cbb3c0a0</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/main</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>4</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <scmName></scmName>
+      <remoteUrls>
+        <string>https://github.com/kettaabii/MicroservicesProject.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@427.v4ca_6512e7df1">
+      <revisionStates>
+        <entry>
+          <string>git https://github.com/kettaabii/MicroservicesProject.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder plugin="credentials@1378.v81ef4269d764">
+      <boundCredentials class="concurrent-hash-map"/>
+    </com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder>
+    <jenkins.metrics.impl.SubTaskTimeInQueueAction plugin="metrics@4.2.21-451.vd51df8df52ec">
+      <queuingDurationMillis>4</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>3</buildableDurationMillis>
+      <waitingDurationMillis>0</waitingDurationMillis>
+      <executingDurationMillis>7787</executingDurationMillis>
+      <workUnitCount>1</workUnitCount>
+    </jenkins.metrics.impl.SubTaskTimeInQueueAction>
+    <jenkins.metrics.impl.SubTaskTimeInQueueAction plugin="metrics@4.2.21-451.vd51df8df52ec">
+      <queuingDurationMillis>7778</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>7780</buildableDurationMillis>
+      <waitingDurationMillis>0</waitingDurationMillis>
+      <executingDurationMillis>9701</executingDurationMillis>
+      <workUnitCount>1</workUnitCount>
+    </jenkins.metrics.impl.SubTaskTimeInQueueAction>
+    <jenkins.metrics.impl.SubTaskTimeInQueueAction plugin="metrics@4.2.21-451.vd51df8df52ec">
+      <queuingDurationMillis>17470</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>17470</buildableDurationMillis>
+      <waitingDurationMillis>1</waitingDurationMillis>
+      <executingDurationMillis>10054</executingDurationMillis>
+      <workUnitCount>1</workUnitCount>
+    </jenkins.metrics.impl.SubTaskTimeInQueueAction>
+    <jenkins.metrics.impl.SubTaskTimeInQueueAction plugin="metrics@4.2.21-451.vd51df8df52ec">
+      <queuingDurationMillis>27511</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>27512</buildableDurationMillis>
+      <waitingDurationMillis>0</waitingDurationMillis>
+      <executingDurationMillis>9669</executingDurationMillis>
+      <workUnitCount>1</workUnitCount>
+    </jenkins.metrics.impl.SubTaskTimeInQueueAction>
+    <jenkins.metrics.impl.SubTaskTimeInQueueAction plugin="metrics@4.2.21-451.vd51df8df52ec">
+      <queuingDurationMillis>37170</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>37173</buildableDurationMillis>
+      <waitingDurationMillis>0</waitingDurationMillis>
+      <executingDurationMillis>6633</executingDurationMillis>
+      <workUnitCount>1</workUnitCount>
+    </jenkins.metrics.impl.SubTaskTimeInQueueAction>
+    <jenkins.metrics.impl.SubTaskTimeInQueueAction plugin="metrics@4.2.21-451.vd51df8df52ec">
+      <queuingDurationMillis>43795</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>43798</buildableDurationMillis>
+      <waitingDurationMillis>0</waitingDurationMillis>
+      <executingDurationMillis>6632</executingDurationMillis>
+      <workUnitCount>1</workUnitCount>
+    </jenkins.metrics.impl.SubTaskTimeInQueueAction>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@3964.v0767b_4b_a_0b_fa_">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <jenkins.metrics.impl.SubTaskTimeInQueueAction plugin="metrics@4.2.21-451.vd51df8df52ec">
+      <queuingDurationMillis>6</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>3</buildableDurationMillis>
+      <waitingDurationMillis>0</waitingDurationMillis>
+      <executingDurationMillis>3241</executingDurationMillis>
+      <workUnitCount>1</workUnitCount>
+    </jenkins.metrics.impl.SubTaskTimeInQueueAction>
+    <jenkins.metrics.impl.SubTaskTimeInQueueAction plugin="metrics@4.2.21-451.vd51df8df52ec">
+      <queuingDurationMillis>6</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>5</buildableDurationMillis>
+      <waitingDurationMillis>0</waitingDurationMillis>
+      <executingDurationMillis>57950</executingDurationMillis>
+      <workUnitCount>1</workUnitCount>
+    </jenkins.metrics.impl.SubTaskTimeInQueueAction>
+  </actions>
+  <queueId>313</queueId>
+  <timestamp>1727304279613</timestamp>
+  <startTime>1727304279619</startTime>
+  <result>FAILURE</result>
+  <duration>58961</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>pipeline {
+    agent { label &apos;linux&apos; }
+
+    tools {
+        maven &apos;mvn&apos;
+    }
+
+    environment {
+        DOCKERHUB_CREDENTIALS = credentials(&apos;docker-hub&apos;)
+        SONARQUBE_CREDENTIALS = &apos;squ_f0e0afefe50213563d2b534261e3bc2fc096c975&apos;
+    }
+
+    stages {
+        stage(&apos;Checkout&apos;) {
+            steps {
+                git branch: &apos;main&apos;, url: &apos;https://github.com/kettaabii/MicroservicesProject.git&apos;
+            }
+        }
+
+        stage(&apos;Build &amp; Test Microservices&apos;) {
+            parallel {
+                stage(&apos;Build &amp; Test user-service&apos;) {
+                    agent any
+                    steps {
+                        dir(&apos;user-service&apos;) {
+                            sh &apos;mvn clean package&apos;
+                        }
+                    }
+                }
+
+                stage(&apos;Build &amp; Test project-service&apos;) {
+                    agent any
+                    steps {
+                        dir(&apos;project-service&apos;) {
+                            sh &apos;mvn clean package&apos;
+                        }
+                    }
+                }
+
+                stage(&apos;Build &amp; Test task-service&apos;) {
+                    agent any
+                    steps {
+                        dir(&apos;task-service&apos;) {
+                            sh &apos;mvn clean package&apos;
+                        }
+                    }
+                }
+
+                stage(&apos;Build &amp; Test resource-service&apos;) {
+                    agent any
+                    steps {
+                        dir(&apos;resource-service&apos;) {
+                            sh &apos;mvn clean package&apos;
+                        }
+                    }
+                }
+
+                stage(&apos;Build &amp; Package api-gateway-service&apos;) {
+                    agent any
+                    steps {
+                        dir(&apos;api-gateway-service&apos;) {
+                            sh &apos;mvn clean package&apos;
+                        }
+                    }
+                }
+
+                stage(&apos;Build &amp; Package eureka-server&apos;) {
+                    agent any
+                    steps {
+                        dir(&apos;eureka-server&apos;) {
+                            sh &apos;mvn clean package&apos;
+                        }
+                    }
+                }
+            }
+        }
+
+        stage(&apos;SonarQube Analysis&apos;) {
+            agent any
+            steps {
+                script {
+                    def scannerHome = tool &apos;SonarQubeScanner&apos;
+
+                    dir(&apos;user-service&apos;) {
+                        sh &quot;${scannerHome}/bin/sonar-scanner -Dsonar.url=http://sonarqube:9000 -Dsonar.projectKey=user-service -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes&quot;
+                    }
+                    dir(&apos;project-service&apos;) {
+                        sh &quot;${scannerHome}/bin/sonar-scanner  -Dsonar.url=http://sonarqube:9000 -Dsonar.projectKey=project-service -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes&quot;
+                    }
+                    dir(&apos;task-service&apos;) {
+                        sh &quot;${scannerHome}/bin/sonar-scanner -Dsonar.url=http://sonarqube:9000 -Dsonar.projectKey=task-service -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes&quot;
+                    }
+                    dir(&apos;resource-service&apos;) {
+                        sh &quot;${scannerHome}/bin/sonar-scanner -Dsonar.url=http://sonarqube:9000 -Dsonar.projectKey=resource-service -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes&quot;
+                    }
+                    dir(&apos;api-gateway-service&apos;) {
+                        sh &quot;${scannerHome}/bin/sonar-scanner -Dsonar.url=http://sonarqube:9000 -Dsonar.projectKey=api-gateway-service -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes&quot;
+                    }
+                    dir(&apos;eureka-server&apos;) {
+                        sh &quot;${scannerHome}/bin/sonar-scanner -Dsonar.url=http://sonarqube:9000 -Dsonar.projectKey=eureka-server -Dsonar.sources=. -Dsonar.login=${SONARQUBE_CREDENTIALS} -Dsonar.java.binaries=target/classes&quot;
+                    }
+                }
+            }
+        }
+
+        stage(&apos;Build Docker Images &amp; Push&apos;) {
+            parallel {
+                stage(&apos;Build Docker &amp; Push for user-service&apos;) {
+                    agent any
+                    steps {
+                        dir(&apos;user-service&apos;) {
+                            script {
+                                def dockerImage = docker.build(&quot;meleke/user-service:${env.TAG_VERSION ?: &apos;latest&apos;}&quot;)
+                                docker.withRegistry(&apos;https://index.docker.io/v1/&apos;, &apos;DOCKERHUB_CREDENTIALS&apos;) {
+                                    dockerImage.push()
+                                }
+                            }
+                        }
+                    }
+                }
+
+                stage(&apos;Build Docker &amp; Push for project-service&apos;) {
+                    agent any
+                    steps {
+                        dir(&apos;project-service&apos;) {
+                            script {
+                                def dockerImage = docker.build(&quot;meleke/project-service:${env.TAG_VERSION ?: &apos;latest&apos;}&quot;)
+                                docker.withRegistry(&apos;https://index.docker.io/v1/&apos;, &apos;DOCKERHUB_CREDENTIALS&apos;) {
+                                    dockerImage.push()
+                                }
+                            }
+                        }
+                    }
+                }
+
+                stage(&apos;Build Docker &amp; Push for task-service&apos;) {
+                    agent any
+                    steps {
+                        dir(&apos;task-service&apos;) {
+                            script {
+                                def dockerImage = docker.build(&quot;meleke/task-service:${env.TAG_VERSION ?: &apos;latest&apos;}&quot;)
+                                docker.withRegistry(&apos;https://index.docker.io/v1/&apos;, &apos;DOCKERHUB_CREDENTIALS&apos;) {
+                                    dockerImage.push()
+                                }
+                            }
+                        }
+                    }
+                }
+
+                stage(&apos;Build Docker &amp; Push for resource-service&apos;) {
+                    agent any
+                    steps {
+                        dir(&apos;resource-service&apos;) {
+                            script {
+                                def dockerImage = docker.build(&quot;meleke/resource-service:${env.TAG_VERSION ?: &apos;latest&apos;}&quot;)
+                                docker.withRegistry(&apos;https://index.docker.io/v1/&apos;, &apos;DOCKERHUB_CREDENTIALS&apos;) {
+                                    dockerImage.push()
+                                }
+                            }
+                        }
+                    }
+                }
+
+                stage(&apos;Build Docker &amp; Push for api-gateway-service&apos;) {
+                    agent any
+                    steps {
+                        dir(&apos;api-gateway-service&apos;) {
+                            script {
+                                def dockerImage = docker.build(&quot;meleke/api-gateway-service:${env.TAG_VERSION ?: &apos;latest&apos;}&quot;)
+                                docker.withRegistry(&apos;https://index.docker.io/v1/&apos;, &apos;DOCKERHUB_CREDENTIALS&apos;) {
+                                    dockerImage.push()
+                                }
+                            }
+                        }
+                    }
+                }
+
+                stage(&apos;Build Docker &amp; Push for eureka-server&apos;) {
+                    agent any
+                    steps {
+                        dir(&apos;eureka-server&apos;) {
+                            script {
+                                def dockerImage = docker.build(&quot;meleke/eureka-server:${env.TAG_VERSION ?: &apos;latest&apos;}&quot;)
+                                docker.withRegistry(&apos;https://index.docker.io/v1/&apos;, &apos;DOCKERHUB_CREDENTIALS&apos;) {
+                                    dockerImage.push()
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            // Clean up steps
+            cleanWs()
+        }
+    }
+}</script>
+    <loadedScripts class="linked-hash-map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>2027773746</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>109412618</long>
+      </entry>
+      <entry>
+        <string>runQueue</string>
+        <long>19487548593</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>5779379512</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>61142438</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>2361761646</long>
+      </entry>
+    </timings>
+    <internalCalls class="sorted-set">
+      <string>hudson.model.Result.fromString</string>
+      <string>org.jenkinsci.plugins.pipeline.StageStatus.TAG_NAME</string>
+      <string>org.jenkinsci.plugins.workflow.job.WorkflowRun.result</string>
+    </internalCalls>
+    <sandbox>true</sandbox>
+    <iota>300</iota>
+    <head>1:300</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+    <storageDir>workflow-completed</storageDir>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@5.5.1">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <url>https://github.com/kettaabii/MicroservicesProject.git</url>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches>
+          <hudson.plugins.git.BranchSpec>
+            <name>*/main</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="empty-list"/>
+        <extensions/>
+      </scm>
+      <node></node>
+      <workspace>/var/jenkins_home/workspace/xpert-microservice-pipeline</workspace>
+      <changelogFile>/var/jenkins_home/jobs/xpert-microservice-pipeline/builds/4/changelog18164101002974417142.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@5.5.1">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <url>https://github.com/kettaabii/MicroservicesProject.git</url>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>*/main</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <hudson.plugins.git.extensions.impl.LocalBranch>
+            <localBranch>main</localBranch>
+          </hudson.plugins.git.extensions.impl.LocalBranch>
+        </extensions>
+      </scm>
+      <node></node>
+      <workspace>/var/jenkins_home/workspace/xpert-microservice-pipeline</workspace>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" reference="../../org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout/scm"/>
+      <node></node>
+      <workspace>/var/jenkins_home/workspace/xpert-microservice-pipeline@2</workspace>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" reference="../../org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout/scm"/>
+      <node></node>
+      <workspace>/var/jenkins_home/workspace/xpert-microservice-pipeline@2</workspace>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" reference="../../org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout/scm"/>
+      <node></node>
+      <workspace>/var/jenkins_home/workspace/xpert-microservice-pipeline@2</workspace>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" reference="../../org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout/scm"/>
+      <node></node>
+      <workspace>/var/jenkins_home/workspace/xpert-microservice-pipeline@2</workspace>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" reference="../../org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout/scm"/>
+      <node></node>
+      <workspace>/var/jenkins_home/workspace/xpert-microservice-pipeline@2</workspace>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" reference="../../org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout/scm"/>
+      <node></node>
+      <workspace>/var/jenkins_home/workspace/xpert-microservice-pipeline@2</workspace>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" reference="../../org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout/scm"/>
+      <node></node>
+      <workspace>/var/jenkins_home/workspace/xpert-microservice-pipeline@2</workspace>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

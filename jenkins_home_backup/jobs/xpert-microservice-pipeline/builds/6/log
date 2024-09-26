@@ -1,0 +1,882 @@
+Started by user [8mha:////4CA76e86Fr3no3xTfuA3JkpYNJO1son3FjkNnjZdm9C2AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL93NSc7FQA1vr29MAAAAA=[0mmelke
+Obtained Jenkinsfile from git https://github.com/kettaabii/MicroservicesProject.git
+[8mha:////4JSM6gPWAi7bmy16LMSk4pFdj5eJdJ6VkcKRdEarjc80AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4CTCvp9fKjuMQK+WdJ7prVVW1jpcWk3qRtSOOxMaZrz7AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4OJ3KcU0sPTkYzz7EFjtIevFY7K8Lm5MwMpaNbw4j65dAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/xpert-microservice-pipeline
+[8mha:////4F4RTpJrQFRHey3elZ2NojjOAMRACOzjLxX4JTcJ9V0dAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4Gm/SITOHOHGBiNwwwCNZKWKqNsRxlO2Chn/WTjPYEdlAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4JeKnm5gECvc9hQKSJtf+P7kma6W+VwNzpkVlhg6wWXtAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4CK9FeYBSIUzEzz2Dw7zZ2OXO4WNo97oY4KGBMV3tCNxAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/kettaabii/MicroservicesProject.git
+ > git init /var/jenkins_home/workspace/xpert-microservice-pipeline # timeout=10
+Fetching upstream changes from https://github.com/kettaabii/MicroservicesProject.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+ > git fetch --tags --force --progress -- https://github.com/kettaabii/MicroservicesProject.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/kettaabii/MicroservicesProject.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 92addb77bcb09deacc869abbc8efafa5cbb3c0a0 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 92addb77bcb09deacc869abbc8efafa5cbb3c0a0 # timeout=10
+Commit message: "changer le lien sonar"
+ > git rev-list --no-walk 92addb77bcb09deacc869abbc8efafa5cbb3c0a0 # timeout=10
+[8mha:////4HS0B7vc8bP0I5MlQ3SrKl0LaqXS+/8W5xlNFJ4+A62IAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4NpdTuN5BnNEeAiyCV/2jF7fPdFyFtH42Fg7/HmXm4D8AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4F8c195wLUn9+5XtXwxMgWb6GRjzc5XmaEiQQpHMGQVQAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4GN/suJkov2HB3s+JcXHmj2b8+xrCEHIMz1fXC8YI/6eAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4IcSigjgLcczfUQN04tKuwjJyPkKBsA74ODAE4fuLlzyAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] withCredentials
+Masking supported pattern matches of $DOCKERHUB_CREDENTIALS or $DOCKERHUB_CREDENTIALS_PSW
+[8mha:////4GQn426IiKH2f4Ejg1JIaN0KFNlr3dacJ+6vu+XR8OiRAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] {
+[8mha:////4DdSwT4GMrT7T0tzZEXiZfkVhyIonfXtOteLEi3isroeAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] withEnv
+[8mha:////4MdW+N3+QNdNvCHdBmpfwK+EWCh2TyEpn0VokyhiFagcAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[8mha:////4HPSrqxAuyBYgpjg4eIn5/U9JX4RK/9ByV3d+zUqOQUkAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] stage
+[8mha:////4HgXDd7cLokmZtATwd0TZW9Q8DBVGt3aDZqJnrNrl14dAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4Dvj0d60Q46G+R6fPWilvnu0PFzDN6k0wA6jTgeP5sjbAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxXfVKy+AAAA[0m[Pipeline] tool
+[8mha:////4PaYlzyXKU10dNBx+S02kJTlpwrz5dRln6ONX9TW4Rz9AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKoQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN1TuT7W+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4Bk4lipyd4vb2/Kmsc64xSn/AyD9SMJkCtLx7Q7KNxKeAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICNBQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AGHKGa5vgAAAA==[0m[Pipeline] }
+[8mha:////4PwviItyktvLN9/JXUbxhAOx5Wc8Fjr7egy409Gcwkq8AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiUNAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AG0yz0FvgAAAA==[0m[Pipeline] // stage
+[8mha:////4E5VfizpC1u0kepF48lInJWOaItCyhn9eTzYdmQISVILAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUVGJCTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDc7bM1zedZvQFwZZsawgAAAA==[0m[Pipeline] withEnv
+[8mha:////4LwlEL0+ovLadUK/cIq0peNyiABkUesb1SB3cbbOgmokAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] {
+[8mha:////4MvADkIatQmIl/UI/csDL4+CPhRvxgqmGrdlbfyDVp/QAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAd6e6VPCAAAA[0m[Pipeline] stage
+[8mha:////4ACqRtj5jJpR4Vo/vLMHhVWB98fQmTccDcGAqf6ylWWWAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] { (Checkout)
+[8mha:////4K8pXdvXJVcQgvm6HugAq2W5ZaLvKemlApFhbbF9mGNBAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEIWoEpvgAAAA==[0m[Pipeline] tool
+[8mha:////4F6Bf8EKJZSGznbL+7Q3tVTArgZalp8ZWzcqNMrAUEd1AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q1Ja5owvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4OghjHGgjx1lyCPpqhUiawZhW/FNBG5pxKP60kL+5KbjAAAAqB+LCAAAAAAAAP9tjUEKwjAURH8rXbh16SFSEARBXHUbsvEEsYkxbfi//qS2K0/k1byDrQVXzmKYGRje6w1FZDgRO9FYbD3G2osu9G5KYiBur4EG0dBF1ISRghXKDoqMrZaqKFlYlOWwkrC2WAeKHl2CjWz0Q5dBoyvPiaftKCH35g5PyORETprTt4wM21tvIuGP8xcAY5cg3+1nO8zP4gPmlJ7MwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4IUlkCr86OlF3Zxdjp2xcbrQ4VuOdkx6VwyI4QW9L4UuAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] {
+[8mha:////4Epm9Af0FrmIUQVePg+CFa7M8vvGp2qGmhATRkV9DInZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AHN/bm5vgAAAA==[0m[Pipeline] git
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/xpert-microservice-pipeline/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/kettaabii/MicroservicesProject.git # timeout=10
+Fetching upstream changes from https://github.com/kettaabii/MicroservicesProject.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+ > git fetch --tags --force --progress -- https://github.com/kettaabii/MicroservicesProject.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 92addb77bcb09deacc869abbc8efafa5cbb3c0a0 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 92addb77bcb09deacc869abbc8efafa5cbb3c0a0 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b main 92addb77bcb09deacc869abbc8efafa5cbb3c0a0 # timeout=10
+Commit message: "changer le lien sonar"
+[8mha:////4IbIcK1pOwf0ZBx6XyWXe+NXkywwDtedXKYoJ2Udw5fxAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AFSjtgYvgAAAA==[0m[Pipeline] }
+[8mha:////4NWKaVn+ekE6fVJHeDzuXwg9WfHAbDdtMtI6I3/ODmXWAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihQYJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw9qzEvpvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4J2BRvnx2eYtT+HCsWYqw57hR5grSzI1JHzskhWYoTUnAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRiKgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AFyY6ZcvgAAAA==[0m[Pipeline] }
+[8mha:////4F8nCgvqCHyIXKkvhehZ1o6+rjRVgy3nuoLP7aRQPlLgAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQTpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP1xjpDa+AAAA[0m[Pipeline] // stage
+[8mha:////4GIPWcgoWn17QUPns5iY2b3BNeLkdj1AhLcR8kvfKE5BAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUomJCTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDcNdma/edZvQHPRsI+wgAAAA==[0m[Pipeline] stage
+[8mha:////4Cg3mNwAmL3LfucSmOSu/8kOqYSJeKvKEHuvWnyO/QEJAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] { (Build & Test Microservices)
+[8mha:////4NR2RcL24k+ApfuPiFuWtSUlTC4sPpp9pImgChutoTQKAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] parallel
+[8mha:////4FGIfDqhw8UUn/+LbcjTYMIid3R2LrQ0t5wxFvtLeSNtAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KBIDYuoadeEEoQkhafR/SVLSiRNxNe5AoBITHizbkvWeL6iChyN5zazCwWDoDRvdpHNiifxwcZSYpTPrCQM5xTqVOpKqXWpHUcGiooQVh7XC3lEwqCNsuBV3UTuBuj5Fn7cDh9LIGzyg4JkchY/fMnvYXicZCH+cvwCYxwhls8+2az7P6g2xpEAGwgAAAA==[0m[Pipeline] { (Branch: Build & Test user-service)
+[8mha:////4JOIljPNdd52hWKQMs7eWwO2eSUU2cTIkn9SfFdoJk+vAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0oBIDYuoaZeEEIQkhbfR/SVLaiRNxNe5AoBITHizbkvWeL6higCMFyzqDvcOoHBv8aHNiE4X+4mliHZ2ZIozkDRNmEqRNu1RBycCiooQVh7VB5Sk6tAk2vJN3WXuJtj6lkLcDh9LpGzyg4JmcZEjfMgfYXkcdCX+cvwCYhwTlbp+taT7P6g0JlEUbwgAAAA==[0m[Pipeline] { (Branch: Build & Test project-service)
+[8mha:////4GVQhPIcOsrE97yjygZiKtOq0BDqpsYA5KZAnAeV4+F7AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AMSAOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52Wfb7j7P6g2sRxnQwgAAAA==[0m[Pipeline] { (Branch: Build & Test task-service)
+[8mha:////4NRvCxWN/L7x8yO1YTZ/IihriVJZx8PDzpp3yP8wKGKsAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AMGAOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52Wfb7j7P6g0CNY1WwgAAAA==[0m[Pipeline] { (Branch: Build & Test resource-service)
+[8mha:////4C3pJD7pRYquV0/Ki7ZjSdaGPkncIZrIbrbPUGD9YlbyAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AKkDYuoaZeEEIQkhbfR/SVLaiRNxNe5AoBITHizbkvWeL6higCMFyzqDvcOoHBv8aHNiE4X+4mliHZ2ZIozkDRNmEqRNu1RBycCiooQVh7VB5Sk6tAk2vJN3WXuJtj6lkLcDh9LpGzyg4JmcZEjfMgfYXkcdCX+cvwCYhwTlrsm2bz7P6g2n5tGdwgAAAA==[0m[Pipeline] { (Branch: Build & Package api-gateway-service)
+[8mha:////4HMDq+rBKcA0aXmcieurUT4XsAZWZwRnPN7CdzS078RzAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AAkk1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzS7bdv95Vm9yVIdswgAAAA==[0m[Pipeline] { (Branch: Build & Package eureka-server)
+[8mha:////4FTAuDBB42lQjz/W/gjYVRUb3FRJeXVAvbpQHb+oP0ooAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0gAUhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8v5vtMD+LD9odmmPCAAAA[0m[Pipeline] stage
+[8mha:////4JeTBUYjLpVfMRLWkQEmIyKqlWtMpwofCokSeNC0S/GUAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUAQaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0iH00AwgAAAA==[0m[Pipeline] { (Build & Test user-service)
+[8mha:////4Ix1z0rEusSn/awDbXVgOGYjjuNPEkV6xZK/iYKrTwy+AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSGVCTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKBsmmz73edZvQGAgYUAwgAAAA==[0m[Pipeline] stage
+[8mha:////4PNbWMdG88hb0D7hg9Om37eClg5my8pkGVtBzxPVaOcdAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDwMT42zCAAAA[0m[Pipeline] { (Build & Test project-service)
+[8mha:////4NjemdtbMdkSlomdUiHms/LuTwUsWiOIFby4r082anGSAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0gE6IqWuUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oIoBjhQs6wz2DqNybPCjzYlNFPqLp4l1dGaKMJI3TJhJkDbtUgUlA4uKElYc1gaVp+jQJtjwTt5l7SXa+pRC3g4cSqdv8ICCZ3KSIX3LHGB7HXUk/HH+AmAeEpT7Jluz+zyrN0v/w4zCAAAA[0m[Pipeline] stage
+[8mha:////4GaprUvPswXQsrnD8RA7z78WNcLBTDRKHBzZisejaTX6AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAd9J1uLCAAAA[0m[Pipeline] { (Build & Test task-service)
+[8mha:////4F4L14OV47q2QuPE9OqG54yDyv6Ac6rlfFXm+XOMrEjPAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0oSyIqWuUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oIoBjhQs6wz2DqNybPCjzYlNFPqLp4l1dGaKMJI3TJhJkDbtUgUlA4uKElYc1gaVp+jQJtjwTt5l7SXa+pRC3g4cSqdv8ICCZ3KSIX3LHGB7HXUk/HH+AmAeEpS7fbam+TyrN1d6eMPCAAAA[0m[Pipeline] stage
+[8mha:////4PV8xsn/dDGRvi7W5vgfH8BE8aqAgl0Hm9XB7GOMK9xlAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KgtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPlyKrR8IAAAA=[0m[Pipeline] { (Build & Test resource-service)
+[8mha:////4D4Sp7nye7r2qDrPO2HDpZZZ00v9IjOzmY1znmH3O3/TAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AXVATF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDcNdn2zedZvQGcBD5PwgAAAA==[0m[Pipeline] stage
+[8mha:////4EjGcW/rLcFHdeGkYzOXyYbFaMCW5JxVXA62MLscPcS8AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QiAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LDyb6zSXCAAAA[0m[Pipeline] { (Build & Package api-gateway-service)
+[8mha:////4NZkvBxouoF653nbLdWN8k1Fxgp/zjVYTOzNagEx65tqAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AQmEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52WXb7j/P6g0qkczmwgAAAA==[0m[Pipeline] stage
+[8mha:////4DtzCSrIhzZa8lhSPGhBp8NwMv5nY/eMfvKvILNB+fUZAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUBSSEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g3QSQCqwgAAAA==[0m[Pipeline] { (Build & Package eureka-server)
+[8mha:////4FaFJJ5eYUaacg7FsmwLlp1uyjLX2lewWV14Ez84vn8VAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUBlhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCh3m2z77edZvQHwpBEawgAAAA==[0m[Pipeline] node
+Running on [8mha:////4OJ3KcU0sPTkYzz7EFjtIevFY7K8Lm5MwMpaNbw4j65dAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/xpert-microservice-pipeline@2
+[8mha:////4H1R5GfG3QlHvYOA8+ebwWMJLK71itK3JJFmqGnM/Ym3AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUqgQLYuoadeEEoQkhafR/SVLSiRNxNe5AoBITHizbkvWeL6iChyN5zazCwWDoDRvdpHNiifxwcZSYpTPrCQM5xTqVOpKqXWpHUcGiooQVh7XC3lEwqCNsuBV3UTuBuj5Fn7cDh9LIGzyg4JkchY/fMnvYXicZCH+cvwCYxwjlrsm2bz7P6g2fb+nEwgAAAA==[0m[Pipeline] node
+[8mha:////4JsYYUfKgRPHJUAATDhAJ76h11tWH1iPkswCUaYGbQT2AAAAqB+LCAAAAAAAAP9tjT0OwjAUg1+LOrAycoh04GdBnVijLpwgNCEkjd4rSUo6cSKuxh0IVGLCg2Vbsr7nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK522bbbz7P6g15dgDnwgAAAA==[0m[Pipeline] node
+[8mha:////4PUQle9Wi66Vrdwa7EuJuBwcyyTSlTzpOqo/8KoKIxnGAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0gS6IqWuUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oIoBjhQs6wz2DqNybPCjzYlNFPqLp4l1dGaKMJI3TJhJkDbtUgUlA4uKElYc1gaVp+jQJtjwTt5l7SXa+pRC3g4cSqdv8ICCZ3KSIX3LHGB7HXUk/HH+AmAeEpT7Jluz+zyrNwD/aaLCAAAA[0m[Pipeline] node
+[8mha:////4IbLRqZGdwXeNaOGEwojkspeXCT2cUPd7/aVX0Zi2W2LAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KkJCTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFs9tl2zedZvQGjB0M7wgAAAA==[0m[Pipeline] node
+[8mha:////4Lqnk5kp8WUaevpF4Eu5uCk2LWsRoXY6FF+yW6vbZmufAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUqQtiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPuEaKcMIAAAA=[0m[Pipeline] node
+[8mha:////4JZHYLu4M9gCOz3mONzXmNA+OqOheWAG3mduPbo0OYxUAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8v5vtMD+LD91KWHrCAAAA[0m[Pipeline] {
+[8mha:////4O65V5l67VjkDey0vykASe+e7DMV33MSROdot23cruQgAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSARKiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBonA3qO+AAAA[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/xpert-microservice-pipeline@2/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/kettaabii/MicroservicesProject.git # timeout=10
+Fetching upstream changes from https://github.com/kettaabii/MicroservicesProject.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+ > git fetch --tags --force --progress -- https://github.com/kettaabii/MicroservicesProject.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 92addb77bcb09deacc869abbc8efafa5cbb3c0a0 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 92addb77bcb09deacc869abbc8efafa5cbb3c0a0 # timeout=10
+Commit message: "changer le lien sonar"
+[8mha:////4NNu87+Ta6yg6T0h9lL8kxKqbEOR3lsGCXgg+fwZwnopAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AyHE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAe7h56jCAAAA[0m[Pipeline] withEnv
+[8mha:////4ImeyKr7I/3CL2rmuWooDyBtd5RmrrrlCCfHCTe1GMmqAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUCYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQGUkOl7wgAAAA==[0m[Pipeline] {
+[8mha:////4CIcATcD50cotWUoMRylbcZjZnd8AnfpsOe/CsAkqC5ZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFQWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBucv03q+AAAA[0m[Pipeline] tool
+[8mha:////4LeJotjs4R+lsl7Z3JD13wGNZIs/9szLRih/M1Do2r3hAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFNyR8/lG+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4L1hS8ym6aaieXcVFIJnbL7ej17cqOtr6NJOpWM0ih0AAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUiYEBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADQkJUdwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4PMsj22BT4nwJP7m9WDj61SPberok9M0Ixss9zyZUu6WAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AIkBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfABpxnKZwgAAAA==[0m[Pipeline] {
+[8mha:////4OV7WwYf/Pzhvk9SEy7x9NUFovAV0CJKATedzf7YwKS8AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ATEgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD08AFXvCAAAA[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/xpert-microservice-pipeline@2/user-service
+[8mha:////4Esg8D8PAwEed2W/cRogZpXBlhPmYodyOCCk7qxp9LSHAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxASGtDzzCAAAA[0m[Pipeline] {
+[8mha:////4Ff/mYYvRmz/p2pFQDmw18qs6ceG7ffjzzI+krwvibd/AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSkQJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3fW71ZT74AAAA=[0m[Pipeline] sh
++ mvn clean package
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com:user-service:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.springframework.boot:spring-boot-maven-plugin @ com:constructxpert-services:0.0.1-SNAPSHOT, /var/jenkins_home/workspace/xpert-microservice-pipeline@2/pom.xml, line 324, column 13
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 76, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< com:user-service >--------------------------
+[INFO] Building user-service 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ user-service ---
+[INFO] Deleting /var/jenkins_home/workspace/xpert-microservice-pipeline@2/user-service/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ user-service ---
+[INFO] Copying 2 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ user-service ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 39 source files with javac [debug target 17] to target/classes
+[WARNING] /var/jenkins_home/workspace/xpert-microservice-pipeline@2/user-service/src/main/java/com/user_service/mapper/UserMapper.java:[13,10] Unmapped target properties: "id, authorities".
+[WARNING] /var/jenkins_home/workspace/xpert-microservice-pipeline@2/user-service/src/main/java/com/user_service/mapper/UserMapper.java:[13,10] Unmapped target properties: "id, authorities". Mapping from SubclassMapping for com.user_service.dto.AdminDto "AdminDto adminDto" to "Admin admin".
+[WARNING] /var/jenkins_home/workspace/xpert-microservice-pipeline@2/user-service/src/main/java/com/user_service/mapper/UserMapper.java:[13,10] Unmapped target properties: "id, authorities". Mapping from SubclassMapping for com.user_service.dto.ClientDto "ClientDto clientDto" to "Client client".
+[WARNING] /var/jenkins_home/workspace/xpert-microservice-pipeline@2/user-service/src/main/java/com/user_service/mapper/UserMapper.java:[13,10] Unmapped target properties: "id, authorities". Mapping from SubclassMapping for com.user_service.dto.SupervisorDto "SupervisorDto supervisorDto" to "Supervisor supervisor".
+[WARNING] /var/jenkins_home/workspace/xpert-microservice-pipeline@2/user-service/src/main/java/com/user_service/mapper/UserMapper.java:[19,10] Unmapped target properties: "id, authorities".
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ user-service ---
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/xpert-microservice-pipeline@2/user-service/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ user-service ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ user-service ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ user-service ---
+[INFO] Building jar: /var/jenkins_home/workspace/xpert-microservice-pipeline@2/user-service/target/user-service-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:3.3.2:repackage (default) @ user-service ---
+[INFO] Layout: JAR
+[INFO] Replacing main artifact /var/jenkins_home/workspace/xpert-microservice-pipeline@2/user-service/target/user-service-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to /var/jenkins_home/workspace/xpert-microservice-pipeline@2/user-service/target/user-service-0.0.1-SNAPSHOT.jar.original
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.698 s
+[INFO] Finished at: 2024-09-25T22:51:53Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4Pw+3vdcHr/BFXAN04k7VuBLt5WpOimL22bihCrut35dAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSARKiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bl0SUCa+AAAA[0m[Pipeline] }
+[8mha:////4BNDwVi8uPRLbu72SAslIG2fuJ3GLxf0EiJPhOIbQU27AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIYQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN0KQBXS+AAAA[0m[Pipeline] // dir
+[8mha:////4C4pBJCylQe9Yq/cA45tMehjWMovTyqyyR5rBZAKMufNAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCgQQSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysM21330A9YFF0r4AAAA=[0m[Pipeline] }
+[8mha:////4L6qbG/JSQkHgV3JmRn4VisPZDKJ2eUer0zfNd1GPwh0AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRAESSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysM21330A88d9h74AAAA=[0m[Pipeline] // withEnv
+[8mha:////4Pt6NmLCDRI2jxdiNYP/78vAglN0QN2zI5SHDV4o24S6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCaEBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAedrn22w/n5OCYvgAAAA==[0m[Pipeline] }
+[8mha:////4KZ1GDdeJC0acOMXxPmhUo9WvBlqkpZprh3rcmUosHBXAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAp757M74AAAA=[0m[Pipeline] // withEnv
+[8mha:////4KpSutRU25+ZVURPrR6RJUB9IEFXFyzbEZG/nAmiCy8xAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIEBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrl2+w8Yo8bJvgAAAA==[0m[Pipeline] }
+Running on [8mha:////4OJ3KcU0sPTkYzz7EFjtIevFY7K8Lm5MwMpaNbw4j65dAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/xpert-microservice-pipeline@2
+[8mha:////4DIdU8dJRzxNDsrk478XRilo3vrQMN8u2a8s6XbEBrmvAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiChASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysMu1334AiNX5674AAAA=[0m[Pipeline] // node
+[8mha:////4GQPci3Y2jWBu8SH5njcMvQ9H5lk/L+WnkNF/w0qu6lZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCA0JCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAe9rl22w9zxEcxvgAAAA==[0m[Pipeline] }
+[8mha:////4Eng0k872BoUv+MZL7xDKGsMS4RlW9MeH20u5pjPtX76AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgAk1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHK7Sbbfvd5Vm+BV4WzwgAAAA==[0m[Pipeline] {
+[8mha:////4E3J1M+1EorgwkggzRqSWz+Xo+afVtWqymkuwP26/5GiAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJpKIIQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AHmLIprvgAAAA==[0m[Pipeline] // stage
+[8mha:////4Ad7Gl0BafeaNNaGRl2AWJgDimfhnG/YaGxZ4a39D3fYAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQAFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7l22w9dFgNAvgAAAA==[0m[Pipeline] }
+[8mha:////4H4GmVelB6Dtv+RzWydPlUvrzGrv16Mj4WZqtTFQIBJqAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCBwilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5X6X67AdPo4f0XW+AAAA[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/xpert-microservice-pipeline@2/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/kettaabii/MicroservicesProject.git # timeout=10
+Fetching upstream changes from https://github.com/kettaabii/MicroservicesProject.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+ > git fetch --tags --force --progress -- https://github.com/kettaabii/MicroservicesProject.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 92addb77bcb09deacc869abbc8efafa5cbb3c0a0 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 92addb77bcb09deacc869abbc8efafa5cbb3c0a0 # timeout=10
+Commit message: "changer le lien sonar"
+[8mha:////4ENf36UaSzGkW8PE4eObhz0xyaLxypI3SNWr9/8pDc/MAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTIBQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCh322z7zedZvQF0wM1bwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4HymRbfAg946E6S4iGsmV4wDwW9QPcyOXbyH0gXryllpAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUsCHE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAfY0Sa7CAAAA[0m[Pipeline] {
+[8mha:////4JqYg35VUkoQnM+qOuuqlpWWRKzvm8uzkXTrxtRTjQpkAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQYUQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN3RjbsC+AAAA[0m[Pipeline] tool
+[8mha:////4JE2uy4SGRayVcwgXBfSnLZBiTVjgefZWcWkQDKZOj/BAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIRqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAGz9S+PvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4FvPC3HMjmvYwHqSmyENf5wjGb7F6QsRyv55pG8He6wrAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQmJAiKlrlIUThCaEtNH/5SelnTgRV+MOtFRiwoNlW7Le6w1FZDgRO9FYbD3G2osu9G5KYiBur4EG0dBF1ISRghXKDoqMrZaqKFlYlOWwkrC2WAeKHl2CjWz0Q5dBoyvPiaftKCH35g5PyORETprTt4wM21tvIuGP8xcAY5cgP+xm28/P4gNPYq4qwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4KbE3jDiMUCthNSWJS1i6CyxbzL7sTiEHfoWSqVlpcpBAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0Agkhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD2IFAYXCAAAA[0m[Pipeline] {
+[8mha:////4DxwaXpKpefraSz+rxox5+wvbiJUuLJ4d4dDu1efq86VAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AyHE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAcawv9fCAAAA[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/xpert-microservice-pipeline@2/project-service
+[8mha:////4AKKPrzsJf24287wKYeq8V2dXhlEX2aGFQk1g0phKFfzAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0BISYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+091n58IAAAA=[0m[Pipeline] {
+[8mha:////4KZO2sxRbUDrYXNVJPwuuDqZS4SvnUgxTIbAKffJZevXAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSEiEqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJp+grPefqv0bsNTxnr4AAAA=[0m[Pipeline] sh
++ mvn clean package
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com:project-service:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.springframework.boot:spring-boot-maven-plugin @ com:constructxpert-services:0.0.1-SNAPSHOT, /var/jenkins_home/workspace/xpert-microservice-pipeline@2/pom.xml, line 324, column 13
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 80, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------< com:project-service >-------------------------
+[INFO] Building project-service 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ project-service ---
+[INFO] Deleting /var/jenkins_home/workspace/xpert-microservice-pipeline@2/project-service/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ project-service ---
+[INFO] Copying 2 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ project-service ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 24 source files with javac [debug target 17] to target/classes
+[WARNING] /var/jenkins_home/workspace/xpert-microservice-pipeline@2/project-service/src/main/java/com/project_service/mapper/ProjectMapper.java:[10,13] Unmapped target property: "id".
+[WARNING] /var/jenkins_home/workspace/xpert-microservice-pipeline@2/project-service/src/main/java/com/project_service/mapper/ProjectMapper.java:[12,13] Unmapped target property: "id".
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ project-service ---
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/xpert-microservice-pipeline@2/project-service/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ project-service ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 2 source files with javac [debug target 17] to target/test-classes
+[WARNING] The following options were not recognized by any processor: '[mapstruct.defaultComponentModel]'
+[INFO] 
+[INFO] --- surefire:3.3.1:test (default-test) @ project-service ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+Still waiting to schedule task
+Waiting for next available executor
+Still waiting to schedule task
+Waiting for next available executor
+Still waiting to schedule task
+Waiting for next available executor
+Still waiting to schedule task
+Waiting for next available executor
+[INFO] Running com.project_service.ProjectControllerTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.089 s -- in com.project_service.ProjectControllerTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ project-service ---
+[INFO] Building jar: /var/jenkins_home/workspace/xpert-microservice-pipeline@2/project-service/target/project-service-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:3.3.2:repackage (default) @ project-service ---
+[INFO] Layout: JAR
+[INFO] Replacing main artifact /var/jenkins_home/workspace/xpert-microservice-pipeline@2/project-service/target/project-service-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to /var/jenkins_home/workspace/xpert-microservice-pipeline@2/project-service/target/project-service-0.0.1-SNAPSHOT.jar.original
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.772 s
+[INFO] Finished at: 2024-09-25T22:52:04Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4G6Ng7torb2oP/ZY1Kp6FwAsO0w0cNjA6tFZdBgYG7i3AAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGw03GobDM0niCGGAOZXUwWofJEXs07mJEZK3/132ve6w2rGKCmYEVnsHcYtRODH216YqLQXz1NoqOL0ISRvBGNmRpqzWnBhtjAsiyHQsLaoPYUHVqGjezUQ5VeoS3PHJI7Sshde4cnZDKVWQX+whxgexvbSPjr/A3APAwMxa6qGPLD/gOhhK2avwAAAA==[0m[Pipeline] }
+[8mha:////4AGRm4Rkfu9UnXwVA1LtvEHvO+cn8PN6q4eprx+S5FoGAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGkchyHyjZD4wkiiTGQ2cVkESpP5NW8gxmZsfJX/73mvd6wigFqClZ0BnuHsXVi8KNNT0wU+qunSXR0ES1hJG9EY6aGtDkt2BAbWJblUEhYG2w9RYeWYSM79VClV2jLM4fkjhJyp+/whEymMqvAX5gDbG+jjoS/zt8AzMPAUFS7iiE/7D+VSk7BvwAAAA==[0m[Pipeline] // dir
+[8mha:////4NfqlmkKA3eCjUtu5dPuo4nzsXFCk/3ArTqZNertXCzSAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDFEgooqK10vACExvjxLoL9oWk4kV8jT9gEYmKrXammdcbFjHAkYIVrcHOYWyc6P1g0xMjhe7qaRQtXURDGMkbUZuxJm1OM9bEBuZlORQSlgYbT9GhZVjJVj1U6RXa8swhuUpC7vQdnpDJVGYV+AtTgPVt0JHw1/kbgKnvGYrtZseQH/YfrQjdML8AAAA=[0m[Pipeline] }
+[8mha:////4Ptv4oIhwt9EG2S5UmxHHoxwfJcGILHRSXCjQcrY9+NPAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDQhQooqK10vACExvjxLoL9oWk4kV8jT9gEYmKrXammdcbFjHAkYIVrcHOYWyc6P1g0xMjhe7qaRQtXURDGMkbUZuxJm1OM9bEBuZlORQSlgYbT9GhZVjJVj1U6RXa8swhuUpC7vQdnpDJVGYV+AtTgPVt0JHw1/kbgKnvGYrtZseQH/YfsoqIYr8AAAA=[0m[Pipeline] // withEnv
+[8mha:////4K/cgnNbr1vdNRmkZBW+LJqyuGEw0DCGO2vqiRPkNm7aAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDiAZFVLRWGl5gYmOcWHfBvpBUvIiv8QcsIlGx1c4083rDIgY4UrCiNdg5jI0TvR9semKk0F09jaKli2gII3kjajPWpM1pxprYwLwsh0LC0mDjKTq0DCvZqocqvUJbnjkkV0nInb7DEzKZyqwCf2EKsL4NOhL+On8DMPU9Q7Hd7Bnyw+4DqS/p4b8AAAA=[0m[Pipeline] }
+[8mha:////4MkR+i57ICZMmfY6OXiAzdhYcgKIG11AJQVZyjLWKrZYAAAAph+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGksHAcKtsMjSeIJMZAZheTRag8kVfzDmZkxspf/fea93rDKgaoKVjRGewdxtaJwY82PTFR6K+eJtHRRbSEkbwRjZka0ua0YENsYFmWQyFhbbD1FB1aho3s1EOVXqEtzxySO0rInb7DEzKZyqwCf2EOsL2NOhL+On8DMA8DQ1Ht9gz5ofoAtq28s78AAAA=[0m[Pipeline] // withEnv
+[8mha:////4BgmnG8zPZeFxePiZIz9CVfA9gGLw7cmQpdEoWzXM+VQAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDDSBFVLRWGl5gYmOcWHfBvpBUvIiv8QcsIlGx1c4083rDIgY4UrCiNdg5jI0TvR9semKk0F09jaKli2gII3kjajPWpM1pxprYwLwsh0LC0mDjKTq0DCvZqocqvUJbnjkkV0nInb7DEzKZyqwCf2EKsL4NOhL+On8DMPU9Q7Hd7Bjyw/4DbEtQxb8AAAA=[0m[Pipeline] }
+Running on [8mha:////4OJ3KcU0sPTkYzz7EFjtIevFY7K8Lm5MwMpaNbw4j65dAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/xpert-microservice-pipeline@2
+[8mha:////4EKIPBC5k8gzq2oc3iKLBXvKfjomR0Un4MFs8Zeeb3B3AAAAph+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxHUQgvGyjZD4wkiiTGQ2cVkESpP5NW8gxmZsfJX/73mvd6wiAGOFKxoDXYOY+NE7webnhgpdFdPo2jpIhrCSN6I2ow1aXOasSY2MC/LoZCwNNh4ig4tw0q26qFKr9CWZw7JVRJyp+/whEymMqvAX5gCrG+DjoS/zt8ATH3PUGw3B4Z8v/sAyEHl4L8AAAA=[0m[Pipeline] // node
+[8mha:////4B3uWhYqYmL1mrTFl7mx/ju26fGTUYmilwNsNRqhRTVgAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDSEhIERWtlYYXmNgYJ9ZdsC8kFS/ia/wBi0hUbLUzzbzesIgBjhSsaA12DmPjRO8Hm54YKXRXT6No6SIawkjeiNqMNWlzmrEmNjAvy6GQsDTYeIoOLcNKtuqhSq/QlmcOyVUScqfv8IRMpjKrwF+YAqxvg46Ev87fAEx9z1BsNweGfL/7AN6gnjq/AAAA[0m[Pipeline] }
+[8mha:////4IIiHiNrGmbgZZ/QlMZx87095SR3eNdlGJoF4ymB/xuzAAAAqh+LCAAAAAAAAP9tjUEOgjAQRQcIC7cuPUTRmJgY4sptw8YTVKi10MxgO1hWnsireQdRElf+1X8/+XnPF+TBw4G8Ea3GzmKorejdYKYmIvnu4iiKls6iJgzktKh0rKjRxxkrYg1zkhQyCQuNtaNg0TAsZavuqnAKTXFiP22lhNQ2N3hAIiczK89fGD2srkMTCH+evwIYe4Z0t2XINuv955q/AaR3E+HDAAAA[0m[Pipeline] {
+[8mha:////4KQ9c6g3KNJWB4wM8w6sd2GeqPlbhMY3KkXTd3rl0LSXAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGksHKsbDM0niCSGAOZ3ZgshsoTeTXvICMzVv7qv9e81xtWKcKRohW9wcFh6pwIfrTzE5nicPWURU8X0REm8ka0JrekzWnBltjAsqKESsLaYOcpObQMG9mrh6q9QlufOc7uIKF0+g5PKORcZhX5C1OE7W3UifDX+RuAKQSGqml2DOW++QC9eLPpvwAAAA==[0m[Pipeline] // stage
+[8mha:////4EJAYaiHw5BdV7A2rjAb5otMGmPxn2/37a6PbHIyUFqGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjSOkQFa3lhheYxBgn1p2xLyQVL+Jr/AGLSFRstTPNvN6wSRGOFK0YDI4OU+dE8JPNT8wUx6unWQx0ER1hIm+EMrOi3pxWVMQG1hUlVBK2BjtPyaFl2MlBP3TtNdr6zDG7g4TS9Xd4QiFzmXXkLywR9repT4S/zt8ALCEwVE3TMJRt+wHWbp5LvwAAAA==[0m[Pipeline] }
+[8mha:////4NZaCyMMAqFv7bL4HmxrcZ6Q+clzvl6AyM6a+5Iu8+7fAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRD6BCiorXS8AKTGGPHujP2haTiRXyNPxCIRMUWq51t5vmCRYpwoGiE09hZTI0VwfdmWmKg2F08DcLRWTSEibwWtR5qavVxxppYw5wsh0LCUmPjKVk0DCvp1F2VXqEpTxynby8ht+0NHpDJycwq8hfGCOtr3ybCn+evAMbAUFSb3aerbXgDKsFcSMAAAAA=[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/xpert-microservice-pipeline@2/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/kettaabii/MicroservicesProject.git # timeout=10
+Fetching upstream changes from https://github.com/kettaabii/MicroservicesProject.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+ > git fetch --tags --force --progress -- https://github.com/kettaabii/MicroservicesProject.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 92addb77bcb09deacc869abbc8efafa5cbb3c0a0 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 92addb77bcb09deacc869abbc8efafa5cbb3c0a0 # timeout=10
+Commit message: "changer le lien sonar"
+[8mha:////4AGtJEoNmf+a6qvhjafRb8FcbXU5AI4fGCL1MiUXl5WFAAAAqR+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApFRNCTKxRF04Q2hCSRv+XJCWdOBFX4w6kVGLCg2Vbst7rDaV3cCSnmJHYa/StZoMdVUoskuuvliIzdGEtoScrWSNjQ508LbWhIGFRlkPBYSWxteQ1qgBrbsRDVFagqs7Bpe3AIdfdHZ6Q8UQOwoVvmRxsbmPnCX+cvwCYhgBFvd3PXu/mb/kBC/yWyMQAAAA=[0m[Pipeline] withEnv
+[8mha:////4CSL4Yxw4d+hcs9SCwTS3uzGNijr82EXdhzUCseODOHhAAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQJ0c04sTYsPkEttRaa/8e2WCafyFfzHayQOHnD5e6Sy/d6Q+kdnMhp1iscDHpp2GgnnRKL5Iarpch6ujBJ6Mkq1qrYUqeatbYUFKzKcig4bBRKS96gDrDlvXiIygrU1Tm4tB055Ka7wxMynshBuLCU2cHuNnWe8Mf5C4B5DFDU9X7xw/dbfgBX/TLixAAAAA==[0m[Pipeline] {
+[8mha:////4Ffp1asW6tXsYJ6FBK5/FDEoa33g+4qCQQrwVZuiKSxnAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjSFAhqrRWGl5gYmPsWHfGdkgqXsTX+ANWIlGxxWpnm3l/YBMDnCloZhUOBmNvmHejzotNFIabo4lZurKeMJJTrFNTR1K1K3aUFKwpSqg4bBX2jqJBnWDHrXiK2gnU9SWF/J04lEY+4AUFz+YkQlpgDrC/jzIS/jx/BTD7BFXTHJY++i9/VmOLwAAAAA==[0m[Pipeline] tool
+[8mha:////4FqB+ldI9LjCtmYewkptz98242MGzRQs0G2u2/oDsBuwAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjSIgGUaW10vACExtjx7oztkNS8SK+xh+wEomKLVY728z7A5sY4ExBM6twMBh7w7wbdV5sojDcHE3M0pX1hJGcYp2aOpKqXbGjpGBNUULFYauwdxQN6gQ7bsVT1E6gri8p5O/EoTTyAS8oeDYnEdICc4D9fZSR8Of5K4DZJ6ia5rD00X8BvAVOoMAAAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4B5HpdouYqDAnYeQMNbbXpgM35w0yHSBND9K/P40NqJdAAAAqR+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQJiYmDcWJtWHyCWmotNP+PbbFMPpGv5jtYIXHyhsvdJZfv9YbSOziR06xXOBj00rDRTjolFskNV0uR9XRhktCTVaxVsaVONWttKShYleVQcNgolJa8QR1gy3vxEJUVqKtzcGk7cshNd4cnZDyRg3BhKbOD3W3qPOGP8xcA8xigqOv94ofvt/wAdmY+EMQAAAA=[0m[Pipeline] withEnv
+[8mha:////4D+bcEnJZx1Y7fqjoZHehL7oMv6SdaSJ5k5YtoJwFGqgAAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQJkybGibVh8QlqqbXQ/D+2xTL5RL6a72CFxMkbLneXXL7XG0rv4EROs17hYNBLw0Y76ZRYJDdcLUXW04VJQk9WsVbFljrVrLWloGBVlkPBYaNQWvIGdYAt78VDVFagrs7Bpe3IITfdHZ6Q8UQOwoWlzA52t6nzhD/OXwDMY4CirveLH77f8gNTBvaWxAAAAA==[0m[Pipeline] {
+[8mha:////4A8/7dRtcTkGkcd+t6LW5h32lXq5uzJnA3ft8bqonu96AAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQJm8Y4sTYsPkEttRaa/8e2WCafyFfzHayQOHnD5e6Sy/d6Q+kdnMhp1iscDHpp2GgnnRKL5Iarpch6ujBJ6Mkq1qrYUqeatbYUFKzKcig4bBRKS96gDrDlvXiIygrU1Tm4tB055Ka7wxMynshBuLCU2cHuNnWe8Mf5C4B5DFDU9X7xw/dbfgCHSj4vxAAAAA==[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/xpert-microservice-pipeline@2/task-service
+[8mha:////4OuOlzfcw7RNcVgjYTDL8BKqvlDv/+1KTy/fONUC37d5AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApZUOIiTXqwglCG0LS6P+SpKQTJ+Jq3IGUSkx4sGxL1nu9ofQOjuQUMxJ7jb7VbLCjSolFcv3VUmSGLqwl9GQla2RsqJOnpTYUJCzKcig4rCS2lrxGFWDNjXiIygpU1Tm4tB045Lq7wxMynshBuPAtk4PNbew84Y/zFwDTEKCo6/3su+38LT+9TXyixAAAAA==[0m[Pipeline] {
+[8mha:////4HbROcyUjSjh8pwwGs0YrvFYItg+uInSeVHkbQXFbSFVAAAApB+LCAAAAAAAAP9tjTESgjAQRRcYC1tLD7GIrWNFm0njCWKIMZDZxSQIlSfyat5BBmas/MWf/37z3h/YxABnDhZbQ52jqB32frDzwpFDd/M8YstX1EyRvUFpRsmNqVeUnAysyXIoBGwNac/RkU2wE616qtIrsuUlhfk7Cchd84AXZGI2JxXSAlOA/X1oItPP81cAU5+gqI6Hpav+Cx0fjlDAAAAA[0m[Pipeline] sh
++ mvn clean package
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com:task-service:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.springframework.boot:spring-boot-maven-plugin @ com:constructxpert-services:0.0.1-SNAPSHOT, /var/jenkins_home/workspace/xpert-microservice-pipeline@2/pom.xml, line 324, column 13
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 79, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< com:task-service >--------------------------
+[INFO] Building task-service 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ task-service ---
+[INFO] Deleting /var/jenkins_home/workspace/xpert-microservice-pipeline@2/task-service/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ task-service ---
+[INFO] Copying 3 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ task-service ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 26 source files with javac [debug target 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ task-service ---
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/xpert-microservice-pipeline@2/task-service/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ task-service ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 2 source files with javac [debug target 17] to target/test-classes
+[WARNING] The following options were not recognized by any processor: '[mapstruct.defaultComponentModel]'
+[INFO] 
+[INFO] --- surefire:3.3.1:test (default-test) @ task-service ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.task_service.TaskControllerTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.188 s -- in com.task_service.TaskControllerTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ task-service ---
+[INFO] Building jar: /var/jenkins_home/workspace/xpert-microservice-pipeline@2/task-service/target/task-service-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:3.3.2:repackage (default) @ task-service ---
+[INFO] Layout: JAR
+[INFO] Replacing main artifact /var/jenkins_home/workspace/xpert-microservice-pipeline@2/task-service/target/task-service-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to /var/jenkins_home/workspace/xpert-microservice-pipeline@2/task-service/target/task-service-0.0.1-SNAPSHOT.jar.original
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.316 s
+[INFO] Finished at: 2024-09-25T22:52:16Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4PLFz5Pq6v+dHImFTPfOE+rsSx5AktlSEfysH8URBp4wAAAApB+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGU1rGizaTxBDHEGMjs4iYIlSfyat5BBmas/MWf/37z3h/YRIYzsROtxc5jNF70YXDzEiNxdws0ipauwhBGClYoOypqbL2iomRhTZZDIWFr0QSKHl2CnWz1U5dBoysviefvJCH3zQNekMnZnDSnBSaG/X1oIuHP81cAU98nKI5VtfThC9gpaszAAAAA[0m[Pipeline] }
+[8mha:////4MZjK1dsjjuMlav7D40Ye+itkP14I6rBFr60o9ikWgxTAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjQIUQFa3lhhcY2xgn1l2wHZyKF/E1/kAgEhVbrHa2mecLFjHAgYJlrcHOYVSO9X6w02KZQnfxlFlLZ6YII3nDhMmCtDnOKCgZmFOUUHFYGlSeokObYMVbeZe1l2jrUwrTt+dQOn2DBxR8MicZ0hfGAOvroCPhz/NXAGPfJ6iazfbTze4NC8nsOMAAAAA=[0m[Pipeline] // dir
+[8mha:////4OYGH/ayvg68l5DcNWBvgiIVzafRQOtm2IbmUmUD3u+zAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjIAokREVrueEFxjbGiXUXbAen4kV8jT8QiETFFqudbeb5gkUMcKBgWWuwcxiVY70f7LRYptBdPGXW0pkpwkjeMGGyIG2OMwpKBuYUJVQclgaVp+jQJljxVt5l7SXa+pTC9O05lE7f4AEFn8xJhvSFMcD6OuhI+PP8FcDY9wmqZrP9dLN7AxPHTIrAAAAA[0m[Pipeline] }
+[8mha:////4HTbkmqpAi3mrGdAywMOZKo295GXNm6//2wbl7BtUuDVAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjICEKREVrueEFxjbGiXUXbAen4kV8jT8QiETFFqudbeb5gkUMcKBgWWuwcxiVY70f7LRYptBdPGXW0pkpwkjeMGGyIG2OMwpKBuYUJVQclgaVp+jQJljxVt5l7SXa+pTC9O05lE7f4AEFn8xJhvSFMcD6OuhI+PP8FcDY9wmqZrP9dLN7AzbRhLzAAAAA[0m[Pipeline] // withEnv
+[8mha:////4LhMqG51aLbqwOjT9JbLlKuFN1ugrbrJa+9rveCfq0RDAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjIESDqGgtN7zA2MY4se6C7eBUvIiv8QcCkajYYrWzzTxfsIgBDhQsaw12DqNyrPeDnRbLFLqLp8xaOjNFGMkbJkwWpM1xRkHJwJyihIrD0qDyFB3aBCveyrusvURbn1KYvj2H0ukbPKDgkznJkL4wBlhfBx0Jf56/Ahj7PkHVbHafbrZvEZplFMAAAAA=[0m[Pipeline] }
+[8mha:////4NYvvG0Zkm7huvGGdKUgccaTBAokGxscs3mUbTwVH+SNAAAAph+LCAAAAAAAAP9tjTESwiAURH+SsbC19BBkooWFY2XL0HgCBEQS5v8IRFJ5Iq/mHYxmxsotdvZt854vWMQABwqWtQY7h1E51vvBTotlCt3FU2YtnZkijOQNEyYL0uY4o6BkYE5RQsVhaVB5ig5tghVv5V3WXqKtTylM355D6fQNHlDwyZxkSF8YA6yvg46EP89fAYx9n6BqNrtPN9s3BgR2LMAAAAA=[0m[Pipeline] // withEnv
+[8mha:////4DINbxXcK3lBJyRyftPCUJFcJm4qySwslxkMMnUn7NICAAAAph+LCAAAAAAAAP9tjTESwiAURH+SsbC19BBErXQcK1uGxhMgIJIw/0cgJpUn8mreQTQzVm6xs2+b93zBLAY4ULCsMdg6jMqxzvc2LzZQaC+eBtbQmSnCSN4wYQZB2hwnFJQMTClKqDjMDSpP0aFNsOCNvMvaS7T1KYX87TmUTt/gAQXP5iRD+sIYYHntdST8ef4KYOy6BNV6s/30avcGsKzwI8AAAAA=[0m[Pipeline] }
+Running on [8mha:////4OJ3KcU0sPTkYzz7EFjtIevFY7K8Lm5MwMpaNbw4j65dAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/xpert-microservice-pipeline@2
+[8mha:////4Nq7mGeLe5rZ/XT/mulWq4vA7GEDr3bq6fHQ7n5PtDR9AAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjQEJCERWtlYYXmNgYJ9ZdsC8kFS/ia/wBi0hUbLUzzbzesIgBjhSsaA12DmPjRO8Hm54YKXRXT6No6SIawkjeiNqMNWlzmrEmNjAvy6GQsDTYeIoOLcNKtuqhSq/QlmcOyVUScqfv8IRMpjKrwF+YAqxvg46Ev87fAEx9z1BstgeGfL/7AAcBdzq/AAAA[0m[Pipeline] // node
+[8mha:////4KMQLoTVROaztXFbNI7zAdOhJ/YvOuz2AuGbyg42uPecAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxF01Iqxss3QeIJIYgxkdjFZhMoTeTXvYEZmrPzVf695rzcsYoAjBStag53D2DjR+8GmJ0YK3dXTKFq6iIYwkjeiNmNN2pxmrIkNzMtyKCQsDTaeokPLsJKteqjSK7TlmUNylYTc6Ts8IZOpzCrwF6YA69ugI+Gv8zcAU98zFNvdhiE/7D8bnUYOvwAAAA==[0m[Pipeline] }
+[8mha:////4NSUrPEcVl4KRKji8V5dPDeeTPdaSb0u7OqVcfKLiM23AAAAqR+LCAAAAAAAAP9tjbEOgjAURR8QBldHP6KEaFwMk2vTxS+oUGuheQ/bhzD5Rf6a/yBK4uSd7rnJzXm+II8BKgpWtAY7h7F2oveDnZsYKXQXT6No6SxqwkjeCGVGRY05LqiIDSxJUsgkrAzWnqJDy7CWrb7rwmu0xYnDvB0kpK65wQMSOZtZB/7CFGBzHZpI+PP8FcDUM6T7HUNWbsvPNX8D2wYwSMMAAAA=[0m[Pipeline] {
+[8mha:////4KdaliHUlwHOu6kiKL+vLPDAyKsDGlDnmu7rwIFYuGcOAAAApR+LCAAAAAAAAP9tjTESgjAQRZcwFraWHiKMMlYOlW2GxhPEEGMgs4vJIlSeyKt5BxmZsfJX/73mvd6wShEqik62FjuPyXjZh8HNT44Uu2ugUbZ0kYYwUbCytmNNjT0tWBNbWJYJyBWsLZpAyaNj2KhWP3QRNLrizHF2RwXCN3d4QqbmMuvIX5gibG9Dkwh/nb8BmPqeId+VewZxKD+zqerdvwAAAA==[0m[Pipeline] // stage
+[8mha:////4HfyaC6bcK09UoMMSfp/+IRWKM10rpJqeEenQ57i3EygAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxHGQSuHyjZD4wkiiTGQ2cVkESpP5NW8gxmZsfJX/73mvd6wigFqClZ0BnuHsXVi8KNNT0wU+qunSXR0ES1hJG9EY6aGtDkt2BAbWJblUEhYG2w9RYeWYSM79VClV2jLM4fkjhJyp+/whEymMqvAX5gDbG+jjoS/zt8AzMPAUOyqiiHfHz5i7s7mvwAAAA==[0m[Pipeline] }
+[8mha:////4DXAV4bpTwfLthf5mqNF9C0I5qaOKnL1kv2uw5qvsT60AAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjCDpEldZKwwtMbIwd687YDknFi/gaf8BKJCq2WO1sM+8PbGKAMwXNrMLBYOwN827UebGJwnBzNDFLV9YTRnKKdWrqSKp2xY6SgjVFCRWHrcLeUTSoE+y4FU9RO4G6vqSQvxOH0sgHvKDg2ZxESAvMAfb3UUbCn+evAGafoGoOzdJH/wWyler3wAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/xpert-microservice-pipeline@2/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/kettaabii/MicroservicesProject.git # timeout=10
+Fetching upstream changes from https://github.com/kettaabii/MicroservicesProject.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+ > git fetch --tags --force --progress -- https://github.com/kettaabii/MicroservicesProject.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 92addb77bcb09deacc869abbc8efafa5cbb3c0a0 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 92addb77bcb09deacc869abbc8efafa5cbb3c0a0 # timeout=10
+Commit message: "changer le lien sonar"
+[8mha:////4JN1X99rJhjhf12an6LgjXX1+PLufvX9fzXYGVCF5y2pAAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQJMU7GibVh8QlqqbXQ/D+2xTL5RL6a72CFxMkbLneXXL7XG0rv4EROs17hYNBLw0Y76ZRYJDdcLUXW04VJQk9WsVbFljrVrLWloGBVlkPBYaNQWvIGdYAt78VDVFagrs7Bpe3IITfdHZ6Q8UQOwoWlzA52t6nzhD/OXwDMY4Ci3teLH77f8gMPFJYyxAAAAA==[0m[Pipeline] withEnv
+[8mha:////4NB4TagJcEQvoIMRRbJVlqClyqhxtvcOtwe1ppDdvkqgAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpEIIFdWKNunCCkISQNPq/JCntxIm4GnegtBITHizbkvVebyhjgJqCYU5jazFKyzrfmymxgUJ79TQwRxcmCSN5zRo9NKT0aakNJQ2LshwKDiuN0lO0aBKsuRMPUXmBpjqnMG1HDrlVd3hCxidyEiHNZQywufUqEv44fwEwdgmK7W4/++H7LT/eXQS3xAAAAA==[0m[Pipeline] {
+[8mha:////4JdTxZMGE3FQEe9Ny+4MPaJoFocW3vPBFRXyDvC6CVIHAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjhAQFSkVrpeEFxjbGjnUXbAen4kV8jT8QJRIVW6x2tpn3B1YxQEPBMKexsxilZb0fzLRYptDdPGXm6MokYSSvWatzS0qfF2wpaVhSlFBxWGuUnqJFk2DDnXiK2gs09SWF6TtxKK16wAsKPpmTCGmGMcD2PqhI+PP8FcDYJ6h2+8Pcx/4LaM8C1sAAAAA=[0m[Pipeline] tool
+[8mha:////4BXtFrMsm9JiBNKLjTzZJmfg9+Sl0GjKn59OHiMps45LAAAAph+LCAAAAAAAAP9tjbEKwjAURV9bHFwd/YgUEUSQTq6hi18QkxiThvdqkppOfpG/5j9YWnDyDpd77nLeH1jFAA0Fw5zGzmKUlvV+MNNimUJ385SZoyuThJG8Zq3OLSl9XrClpGFJUULFYa1ReooWTYINd+Ipai/Q1JcUpu/EobTqAS8o+GROIqQZxgDb+6Ai4c/zVwBjn6Da7Q9zH/svp9OaUcAAAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4A6fPvW9P8wHV8ZHPViElNRJpTeUTSPHV8Xcl5PUY4qVAAAAqR+LCAAAAAAAAP9tjUEKwjAURH9bunDr0kOkiCCIdOU2dOMJYhJj0vB/TVLblSfyat7B2oIrZzHMDAzv9YYyBqgpGOY0thajtKzzvZkSGyi0V08Dc3RhkjCS16zRQ0NKn5baUNKwKMuh4LDSKD1FiybBmjvxEJUXaKpzCtN25JBbdYcnZHwiJxHSXMYAm1uvIuGP8xcAY5eg2O72sx++3/ID+z3MMcQAAAA=[0m[Pipeline] withEnv
+[8mha:////4NvohnvMwxrGoyL92zoW+g6n9yBuWtzWkUGYrMLYc7UyAAAAqR+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApCBaEmFijLJwgpCGkjf4vSUo6cSKuxh1oqcSEB8u2ZL3XG8rg4UjesEZjazEoyzrXmzGxRL69OkqsoQtThIGcZkInQbU+zVVQ1DAry6HgsNCoHAWLJsKSN/IhKyfRVOfox+3AIbf1HZ6Q8ZEcpY/fMnhY3fo6EP44fwEwdBGKzXY/+W49fcsPzM3wocQAAAA=[0m[Pipeline] {
+[8mha:////4DjzLRKWaeZkEX6G6HON3UldOgjRBw8faIj968Q8h5V6AAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkSRxM04sTYsPkEttRaa/8e2WCafyFfzHayQOHnD5e6Sy/d6Q+kdnMhp1iscDHpp2GgnnRKL5Iarpch6ujBJ6Mkq1qrYUqeatbYUFKzKcig4bBRKS96gDrDlvXiIygrU1Tm4tB055Ka7wxMynshBuLCU2cHuNnWe8Mf5C4B5DFDUh/3i9fdbfgCgInaKxAAAAA==[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/xpert-microservice-pipeline@2/resource-service
+[8mha:////4H6v4xp6YrDOZkyFczmI9Cf1Y2XFZfsCeVlIkNBflES1AAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQJxs04sTYsPkEttRaa/8e2WCafyFfzHayQOHnD5e6Sy/d6Q+kdnMhp1iscDHpp2GgnnRKL5Iarpch6ujBJ6Mkq1qrYUqeatbYUFKzKcig4bBRKS96gDrDlvXiIygrU1Tm4tB055Ka7wxMynshBuLCU2cHuNnWe8Mf5C4B5DFDUh3rx/fdbfgBhHEeXxAAAAA==[0m[Pipeline] {
+[8mha:////4DdM7Xo0kJeSn5IkCOFt4szUETLippjDW7pLljVuM0foAAAApR+LCAAAAAAAAP9tjTsOwjAQRDeJKGgpOYQjPh1KRWul4QTGNsaOtRtsB6fiRFyNOxAlEhVTjOZN894fWMUADQXDnMbOYpSW9X4w02KZQnfzlJmjK5OEkbxmrc4tKX1esKWkYUlRQsVhrVF6ihZNgg134ilqL9DUlxSm78ShtOoBLyj4ZE4ipBnGANv7oCLhz/NXAGOfoNod93Mf+i/afwpXwAAAAA==[0m[Pipeline] sh
++ mvn clean package
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com:resource-service:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.springframework.boot:spring-boot-maven-plugin @ com:constructxpert-services:0.0.1-SNAPSHOT, /var/jenkins_home/workspace/xpert-microservice-pipeline@2/pom.xml, line 324, column 13
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 81, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------< com:resource-service >------------------------
+[INFO] Building resource-service 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ resource-service ---
+[INFO] Deleting /var/jenkins_home/workspace/xpert-microservice-pipeline@2/resource-service/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ resource-service ---
+[INFO] Copying 2 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ resource-service ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 22 source files with javac [debug target 17] to target/classes
+[WARNING] /var/jenkins_home/workspace/xpert-microservice-pipeline@2/resource-service/src/main/java/com/resource_service/mapper/ResourceMapper.java:[10,14] Unmapped target property: "id".
+[WARNING] /var/jenkins_home/workspace/xpert-microservice-pipeline@2/resource-service/src/main/java/com/resource_service/mapper/ResourceMapper.java:[12,14] Unmapped target property: "id".
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ resource-service ---
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/xpert-microservice-pipeline@2/resource-service/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ resource-service ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 2 source files with javac [debug target 17] to target/test-classes
+[WARNING] The following options were not recognized by any processor: '[mapstruct.defaultComponentModel]'
+[INFO] 
+[INFO] --- surefire:3.3.1:test (default-test) @ resource-service ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.resource_service.ResourceControllerTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.189 s -- in com.resource_service.ResourceControllerTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ resource-service ---
+[INFO] Building jar: /var/jenkins_home/workspace/xpert-microservice-pipeline@2/resource-service/target/resource-service-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:3.3.2:repackage (default) @ resource-service ---
+[INFO] Layout: JAR
+[INFO] Replacing main artifact /var/jenkins_home/workspace/xpert-microservice-pipeline@2/resource-service/target/resource-service-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to /var/jenkins_home/workspace/xpert-microservice-pipeline@2/resource-service/target/resource-service-0.0.1-SNAPSHOT.jar.original
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.418 s
+[INFO] Finished at: 2024-09-25T22:52:28Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4HKkNALRMbIKpShoEYqZFhAij0Q6YYzB6lJd+M+VNqBdAAAApR+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6JEw2acWJsufkEttRaa9/C1CJNf5K/5DxJInLzDzT13Oe8PbCLDmdiJ1mLnMRov+jC4eYmRuLsFGkVLV2EIIwUrlB0VNbZeUVGysCbLoZCwtWgCRY8uwU62+qnLoNGVl8Tzd5KQ++YBL8jkbE6a0wITw/4+NJHw5/krgKnvExSHqlr6+AXP04HRwAAAAA==[0m[Pipeline] }
+[8mha:////4PR6+d+rFmCSy4CpZ5VR/PeC7/XbpWYAYBtAMSu0F0D9AAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjSFAhqrRWGl5gYmPsWHfGdkgqXsTX+ANWIlGxxWpnm3l/YBMDnCloZhUOBmNvmHejzotNFIabo4lZurKeMJJTrFNTR1K1K3aUFKwpSqg4bBX2jqJBnWDHrXiK2gnU9SWF/J04lEY+4AUFz+YkQlpgDrC/jzIS/jx/BTB7n6BqDselmy/Bif/uwAAAAA==[0m[Pipeline] // dir
+[8mha:////4JjiO97ei05QLHA80Q23qvXRFq45Ufi+l3MTwRb+iPqSAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDEqJBqWitNLzA2MbYse6C7eBUvIiv8QeiRKJii9XONvP+wCoGaCgY5jR2FqO0rPeDmRbLFLqbp8wcXZkkjOQ1a3VuSenzgi0lDUuKEioOa43SU7RoEmy4E09Re4GmvqQwfScOpVUPeEHBJ3MSIc0wBtjeBxUJf56/Ahj7PkG1Pxzn3n0ByqMQqMAAAAA=[0m[Pipeline] }
+[8mha:////4MiVELc8NeZhgt7FtZ66Gcji0BZm6QAOHplrzP/up2AKAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjBBJCiIrWcsMLjG2ME+su2A5JxYv4Gn/AEImKLVY728zzBbMY4EDBssZg6zAqxzrf27zYQKG9eBpYQ2emCCN5w4QZBGlznFBQMjClKKHiMDeoPEWHNsGCN/Iuay/R1qcU8rfnUDp9gwcUPJuTDOkLY4DltdeR8Of5K4Cx6xJUq8320+vdGx2G+jjAAAAA[0m[Pipeline] // withEnv
+[8mha:////4HhT2464bWONLgsC0Rtd0owhDYyB04ByQa08FsiVL/qIAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjBEJIiIrWcsMLjG2ME+su2A5JxYv4Gn/AEImKLVY728zzBbMY4EDBssZg6zAqxzrf27zYQKG9eBpYQ2emCCN5w4QZBGlznFBQMjClKKHiMDeoPEWHNsGCN/Iuay/R1qcU8rfnUDp9gwcUPJuTDOkLY4DltdeR8Of5K4Cx6xJUq83u0+vtG2XrDV7AAAAA[0m[Pipeline] }
+[8mha:////4NgYsg3LKLOaJt8x7nUGF+rnOjkVCftld7jtewpFJAg8AAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjBBQIUdFabniBsY1xYt0F2yGpeBFf4w8YIlGxxWpnm3m+YBYDHChY1hhsHUblWOd7mxcbKLQXTwNr6MwUYSRvmDCDIG2OEwpKBqYUJVQc5gaVp+jQJljwRt5l7SXa+pRC/vYcSqdv8ICCZ3OSIX1hDLC89joS/jx/BTB2XYJqtdl9er19A2uxc2HAAAAA[0m[Pipeline] // withEnv
+[8mha:////4KhHxZvc4DdVtb38YK+XkliEJ+4O1qhOXj3xCebnp9EuAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDhKgQFa2VhheYxBg71p2xLyQVL+Jr/IFAJCq2WO1sM88XLFKEA0UjnMbOYmqsCL430xIDxe7iaRCOzqIhTOS1qPVQU6uPM9bEGuZkORQSlhobT8miYVhJp+6q9ApNeeI4fXsJuW1v8IBMTmZWkb8wRlhf+zYR/jx/BTCGwFBUu82nt9UbPzAsP8AAAAA=[0m[Pipeline] }
+Running on [8mha:////4OJ3KcU0sPTkYzz7EFjtIevFY7K8Lm5MwMpaNbw4j65dAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/xpert-microservice-pipeline@2
+[8mha:////4BafJs6wpb0u7JiJ+9nknbMw6VLosxEFSKMkarQRhXfDAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6KERF0Mk2vD4hfUUmuheQ/bhzD5Rf6a/2AjiZN3uucs5/WGVQxQU7CiM9g7jNqJwY82PTFR6K+eJtHRRWjCSN6IxkwNtea0YENsYFmWQyFhbVB7ig4tw0Z26qFKr9CWZw7JHSXkrr3DEzKZyqwCf2EOsL2NbST8df4GYB4GhqLaVwz5YfcBRyjnjb8AAAA=[0m[Pipeline] // node
+[8mha:////4D0/Q0jiaH3ib8MV9sCXflBsiMbvpO74tqbm63/tqAl1AAAAph+LCAAAAAAAAP9tjbEOgjAURR8lDq6OfkSJJrgYJteGxS+opdZC8x62D2Hyi/w1/0EiiZN3uucs5/WGVYpQUXSytdh5TMbLPgxufnKk2F0DjbKlizSEiYKVtR1rauxpwZrYwrJMQK5gbdEESh4dw0a1+qGLoNEVZ46zOyoQvrnDEzI1l1lH/sIUYXsbmkT46/wNwNT3DPmu3DOI8vABBmhQzr8AAAA=[0m[Pipeline] }
+[8mha:////4J4mvagYIMsEwhc3B4kI+M4CJHc/5faapTDu1l3AAlbHAAAAqR+LCAAAAAAAAP9tjbEOgjAURR8QBldHP6LEGFwMk2vD4hfUUmuheQ/bhzD5Rf6a/yBK4uSd7rnJzXm+II8BKgpWtAY7h1E70fvBzk2MFLqLp1G0dBaaMJI3ojZjTY05LlgTG1iSpJBJWBnUnqJDy7CWrbqrwiu0xYnDvB0kpK65wQMSOZtZBf7CFGBzHZpI+PP8FcDUM6T7kiHblrvPNX8Dhd6N/cMAAAA=[0m[Pipeline] {
+[8mha:////4CFUdpBs26ig5bpb9tRdm6GEXP2BP8TjVm42gf2UBQEpAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjJFIhKlorDS8wsTFOrDtjX3AqXsTX+AMRkajYameaeb1hlSIcKVrRGxwcps6J4Ec7P5EpDldPWfR0ER1hIm9Ea3JL2pwWbIkNLCtKqCSsDXaekkPLsJG9eqjaK7T1mePsDhJKp+/whELOZVaRvzBF2N5GnQh/nb8BmEJgqHbNnqFsmg+h2gCBvwAAAA==[0m[Pipeline] // stage
+[8mha:////4Ne/LY/4WbGLztPVlFl0+vZLzSi//vP7jH5NaYF36iNZAAAAph+LCAAAAAAAAP9tjbEOgjAURR8lDq6OfkSJibgYJteGxS+opdZC8x62D2Hyi/w1/0EiiZN3uucs5/WGVYpQUXSytdh5TMbLPgxufnKk2F0DjbKlizSEiYKVtR1rauxpwZrYwrJMQK5gbdEESh4dw0a1+qGLoNEVZ46zOyoQvrnDEzI1l1lH/sIUYXsbmkT46/wNwNT3DPmuLBnE/vAB/2lOyr8AAAA=[0m[Pipeline] }
+[8mha:////4Lq5q7aqgneu5C/RGhXRPEL5X0q5rOC15KLhkXPkmLYyAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjhKBBqWitNLzA2MbYse6C7eBUvIiv8QeiRKJii9XONvP+wCoGaCgY5jR2FqO0rPeDmRbLFLqbp8wcXZkkjOQ1a3VuSenzgi0lDUuKEioOa43SU7RoEmy4E09Re4GmvqQwfScOpVUPeEHBJ3MSIc0wBtjeBxUJf56/Ahj7BNXusJ/72H8BdfVu8MAAAAA=[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/xpert-microservice-pipeline@2/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/kettaabii/MicroservicesProject.git # timeout=10
+Fetching upstream changes from https://github.com/kettaabii/MicroservicesProject.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+ > git fetch --tags --force --progress -- https://github.com/kettaabii/MicroservicesProject.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 92addb77bcb09deacc869abbc8efafa5cbb3c0a0 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 92addb77bcb09deacc869abbc8efafa5cbb3c0a0 # timeout=10
+Commit message: "changer le lien sonar"
+[8mha:////4DTxHY3wpaIITLeFse4i27ZTQ7nPtiNNbwRrW9EBxF4bAAAAqR+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpEEIMqBNr1IUThCSEpNH/JUlpJ07E1bgDpZWY8GDZlqz3ekMZA9QUDHMaW4tRWtb53kyJDRTaq6eBObowSRjJa9booSGlT0ttKGlYlOVQcFhplJ6iRZNgzZ14iMoLNNU5hWk7csitusMTMj6RkwhpLmOAza1XkfDH+QuAsUtQbPe72Q/fb/kBfMFQUMQAAAA=[0m[Pipeline] withEnv
+[8mha:////4Ii02f7oaOSWQ9+BjLkaA2xI16aYeVPcuHP4qE2matTTAAAAqR+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpGBBIqBNr1IUThCSEpNH/JUlpJ07E1bgDpZWY8GDZlqz3ekMZA9QUDHMaW4tRWtb53kyJDRTaq6eBObowSRjJa9booSGlT0ttKGlYlOVQcFhplJ6iRZNgzZ14iMoLNNU5hWk7csitusMTMj6RkwhpLmOAza1XkfDH+QuAsUtQbHf72Q/fb/kB1kgAosQAAAA=[0m[Pipeline] {
+[8mha:////4MOEgXDGi2JYzzFXhej9MrN4GCsQGNR4eGibIzL4jRd3AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjCiQQSkVrpeEFxjbGjnUXbAen4kV8jT8QJRIVW6x2tpn3B1YxQEPBMKexsxilZb0fzLRYptDdPGXm6MokYSSvWatzS0qfF2wpaVhSlFBxWGuUnqJFk2DDnXiK2gs09SWF6TtxKK16wAsKPpmTCGmGMcD2PqhI+PP8FcDYJ6h2+8Pcx/4L7PWcKsAAAAA=[0m[Pipeline] tool
+[8mha:////4Ds42OaLAyO1R3LB4x9ajrYSPo8chKDKKFKOrudyDqVqAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDBQgJUdFabniBsY1xYt0F2yGpeBFf4w8YIlGxxWpnm3m+YBYDHChY1hhsHUblWOd7mxcbKLQXTwNr6MwUYSRvmDCDIG2OEwpKBqYUJVQc5gaVp+jQJljwRt5l7SXa+pRC/vYcSqdv8ICCZ3OSIX1hDLC89joS/jx/BTB2Car1Zvfp7ap7A/zwGPnAAAAA[0m[Pipeline] envVarsForTool
+[8mha:////4Fp4QM/ovQF4D03+O48vICo70XhcK8q8opFaZclvNMg6AAAAqh+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpOoCQEBNr1IUThCaEtNH/JUlJJ07E1bgDKZWY8GDZlqz3ekPpHRzJadYp7A361rDBjjolFsn1V0uRdXRhLaEnq1ijYkNSnZbaUFCwKMuh4LBS2FryBnWANe/EQ1RWoK7OwaXtwCE38g5PyHgiB+HCt0wONrdResIf5y8ApiFAUW/3s+/q+Vt+APKcc8bEAAAA[0m[Pipeline] withEnv
+[8mha:////4ApoBPayQWox/fKLcnZGRcxI8U1YNtiv5vjyn75P9LHtAAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQJDi7GibVh8QlqqbXQ/D+2xTL5RL6a72CFxMkbLneXXL7XG0rv4EROs17hYNBLw0Y76ZRYJDdcLUXW04VJQk9WsVbFljrVrLWloGBVlkPBYaNQWvIGdYAt78VDVFagrs7Bpe3IITfdHZ6Q8UQOwoWlzA52t6nzhD/OXwDMY4CiPtSL77/f8gMDuIRgxAAAAA==[0m[Pipeline] {
+[8mha:////4FAjt4PItHVX1nlBQX1TTsiQtiIzX9XsGlnt1qc1rPOQAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpAIkFdWKNunCCkISQNPq/JCntxIm4GnegtBITHizbkvVebyhjgJqCYU5jazFKyzrfmymxgUJ79TQwRxcmCSN5zRo9NKT0aakNJQ2LshwKDiuN0lO0aBKsuRMPUXmBpjqnMG1HDrlVd3hCxidyEiHNZQywufUqEv44fwEwdgmK7WE3+/77LT9WuUbcxAAAAA==[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/xpert-microservice-pipeline@2/api-gateway-service
+[8mha:////4Plt4vYahX8k53Sy/PNlL9QYUnnxh876LLwBCm1EA7roAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpEIgFdWKNunCCkISQNPq/JCntxIm4GnegtBITHizbkvVebyhjgJqCYU5jazFKyzrfmymxgUJ79TQwRxcmCSN5zRo9NKT0aakNJQ2LshwKDiuN0lO0aBKsuRMPUXmBpjqnMG1HDrlVd3hCxidyEiHNZQywufUqEv44fwEwdgmK7WE3+/77LT+BxeZaxAAAAA==[0m[Pipeline] {
+[8mha:////4KMTyVEZs6Awt8ByC0QD2WmOXw85ix9mEXBMUlu0gUegAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjJKBBqWitNLzA2MbYse6C7eBUvIiv8QeiRKJii9XONvP+wCoGaCgY5jR2FqO0rPeDmRbLFLqbp8wcXZkkjOQ1a3VuSenzgi0lDUuKEioOa43SU7RoEmy4E09Re4GmvqQwfScOpVUPeEHBJ3MSIc0wBtjeBxUJf56/Ahj7BNXuuJ/70H8BMy1N6sAAAAA=[0m[Pipeline] sh
++ mvn clean package
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com:api-gateway-service:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.springframework.boot:spring-boot-maven-plugin @ com:constructxpert-services:0.0.1-SNAPSHOT, /var/jenkins_home/workspace/xpert-microservice-pipeline@2/pom.xml, line 324, column 13
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 59, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ----------------------< com:api-gateway-service >-----------------------
+[INFO] Building api-gateway-service 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ api-gateway-service ---
+[INFO] Deleting /var/jenkins_home/workspace/xpert-microservice-pipeline@2/api-gateway-service/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ api-gateway-service ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ api-gateway-service ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 8 source files with javac [debug target 17] to target/classes
+[WARNING] The following options were not recognized by any processor: '[mapstruct.defaultComponentModel]'
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ api-gateway-service ---
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/xpert-microservice-pipeline@2/api-gateway-service/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ api-gateway-service ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ api-gateway-service ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ api-gateway-service ---
+[INFO] Building jar: /var/jenkins_home/workspace/xpert-microservice-pipeline@2/api-gateway-service/target/api-gateway-service-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:3.3.2:repackage (default) @ api-gateway-service ---
+[INFO] Layout: JAR
+[INFO] Replacing main artifact /var/jenkins_home/workspace/xpert-microservice-pipeline@2/api-gateway-service/target/api-gateway-service-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to /var/jenkins_home/workspace/xpert-microservice-pipeline@2/api-gateway-service/target/api-gateway-service-0.0.1-SNAPSHOT.jar.original
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.968 s
+[INFO] Finished at: 2024-09-25T22:52:35Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4AC53UbKyANOZ7vnWrelouosvqjsu6DsI7Igh1Jno6UpAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6LExLAYJ9ami19QS62F5j18LcLkF/lr/oMEEifvcHPPXc77A5vIcCZ2orXYeYzGiz4Mbl5iJO5ugUbR0lUYwkjBCmVHRY2tV1SULKzJcigkbC2aQNGjS7CTrX7qMmh05SXx/J0k5L55wAsyOZuT5rTAxLC/D00k/Hn+CmDq+wTFoaqWPn4BLAJu38AAAAA=[0m[Pipeline] }
+[8mha:////4NlXPIGVRd4O8i7vIBhuVCDlv97IC9jIGf8bMz8T0ICBAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjhAQFSkVrpeEFxjbGjnUXbAen4kV8jT8QJRIVW6x2tpn3B1YxQEPBMKexsxilZb0fzLRYptDdPGXm6MokYSSvWatzS0qfF2wpaVhSlFBxWGuUnqJFk2DDnXiK2gs09SWF6TtxKK16wAsKPpmTCGmGMcD2PqhI+PP8FcDY9wmq3eE49/4LO5x958AAAAA=[0m[Pipeline] // dir
+[8mha:////4HRayCdcwrhPXYEbH3BtclejiHtYayLT9EyznZY7uBPDAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjKBASSkVrpeEFxjbGjnUXbAen4kV8jT8QJRIVW6x2tpn3B1YxQEPBMKexsxilZb0fzLRYptDdPGXm6MokYSSvWatzS0qfF2wpaVhSlFBxWGuUnqJFk2DDnXiK2gs09SWF6TtxKK16wAsKPpmTCGmGMcD2PqhI+PP8FcDY9wmq3eE49/4LRNwyZsAAAAA=[0m[Pipeline] }
+[8mha:////4FFxmq9VtqpfM+TDsKh3NkS74NHrfo7/qDui+ReM/jL4AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjNEgIUaW10vACExtjx7oztkNS8SK+xh+wEomKLVY728z7A5sY4ExBM6twMBh7w7wbdV5sojDcHE3M0pX1hJGcYp2aOpKqXbGjpGBNUULFYauwdxQN6gQ7bsVT1E6gri8p5O/EoTTyAS8oeDYnEdICc4D9fZSR8Of5K4DZ+wRVczgu3XwBSoZMWcAAAAA=[0m[Pipeline] // withEnv
+[8mha:////4K8oZiNOZWvFTYjSkfWLpk+/gWAaI/SFmPn+sMnS67HvAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDBQIJUdFabniBsY1xYt0F2yGpeBFf4w8YIlGxxWpnm3m+YBYDHChY1hhsHUblWOd7mxcbKLQXTwNr6MwUYSRvmDCDIG2OEwpKBqYUJVQc5gaVp+jQJljwRt5l7SXa+pRC/vYcSqdv8ICCZ3OSIX1hDLC89joS/jx/BTB2XYJqvV19erN7A2Aoj1LAAAAA[0m[Pipeline] }
+[8mha:////4HoDY+Y6nGUkiWEI3nxUj5DBt2TovAhnnYIigmBYaBNGAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjFCgFoqK10vACExvjxLoL9oWk4kV8jT9giETFFqudbeb5glUMcKBgRWewdxhbJwY/2rTERKG/eJpER2fREkbyRjRmakib44INsYElWQ6FhLXB1lN0aBk2slN3VXqFtjxxSN9eQu70DR6QyWRmFfgLc4DtddSR8Of5K4B5GBiKqq4+vavfRT5HZMAAAAA=[0m[Pipeline] // withEnv
+[8mha:////4DfAasMEniLFTm0HT0sbv6Y/TdF7ex1Hiv0XbogZFg1CAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjQIgCUdFabniBsY1xYt0F2yGpeBFf4w8YIlGxxWpnm3m+YBYDHChY1hhsHUblWOd7mxcbKLQXTwNr6MwUYSRvmDCDIG2OEwpKBqYUJVQc5gaVp+jQJljwRt5l7SXa+pRC/vYcSqdv8ICCZ3OSIX1hDLC89joS/jx/BTB2XYJqtVt/ert5A8HgwlLAAAAA[0m[Pipeline] }
+Running on [8mha:////4OJ3KcU0sPTkYzz7EFjtIevFY7K8Lm5MwMpaNbw4j65dAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/xpert-microservice-pipeline@2
+[8mha:////4Lnu9zmk3w99kFKB3kC4HxyE09WdYkL7KZXjASebKRXrAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjhIAioqK10vACExvjxLoL9oWk4kV8jT9gEYmKrXammdcbFjHAkYIVrcHOYWyc6P1g0xMjhe7qaRQtXURDGMkbUZuxJm1OM9bEBuZlORQSlgYbT9GhZVjJVj1U6RXa8swhuUpC7vQdnpDJVGYV+AtTgPVt0JHw1/kbgKnvGYrNYcuQ73cf86i3IL8AAAA=[0m[Pipeline] // node
+[8mha:////4Bfxw5DEv97OexpGoeoqaK67IlgmuyEIg24TPQ2X1R23AAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjJBBIERWtlYYXmNgYJ9ZdsC8kFS/ia/wBi0hUbLUzzbzesIgBjhSsaA12DmPjRO8Hm54YKXRXT6No6SIawkjeiNqMNWlzmrEmNjAvy6GQsDTYeIoOLcNKtuqhSq/QlmcOyVUScqfv8IRMpjKrwF+YAqxvg46Ev87fAEx9z1Bs9luGfHf4ADW3Lmi/AAAA[0m[Pipeline] }
+[8mha:////4F1yithHwUM4W29cQOflGWNNfxESPJXePPnZfCQV6LMpAAAAqR+LCAAAAAAAAP9tjbEOgjAURR8QBldHP6LEQRwMk2vD4hfUUmuheQ/bhzD5Rf6a/yBK4uSd7rnJzXm+II8BKgpWtAY7h1E70fvBzk2MFLqLp1G0dBaaMJI3ojZjTY05LlgTG1iSpJBJWBnUnqJDy7CWrbqrwiu0xYnDvB0kpK65wQMSOZtZBf7CFGBzHZpI+PP8FcDUM6RlyZBt97vPNX8DQf7Vy8MAAAA=[0m[Pipeline] {
+[8mha:////4ER3wuYzfj5+Pjh8tWS6fJJpCIfFnJZj/SiweLMpybCGAAAAph+LCAAAAAAAAP9tjTESgjAQRZcwFraWHiKMhVI4VLYZGk8QQ4yBzC4mi1B5Iq/mHWRkxspf/fea93rDKkWoKDrZWuw8JuNlHwY3PzlS7K6BRtnSRRrCRMHK2o41Nfa0YE1sYVkmIFewtmgCJY+OYaNa/dBF0OiKM8fZHRUI39zhCZmay6wjf2GKsL0NTSL8df4GYOp7hnxXHhjEvvwArwtZtb8AAAA=[0m[Pipeline] // stage
+[8mha:////4Mp72n9E1bMMbcNPpReowmwOXGWnWIIWi7G0ZC77NELOAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjJKQUiIrWSsMLTGyME+vO2BecihfxNf5ARCQqttqZZl5vWKUIR4pW9AYHh6lzIvjRzk9kisPVUxY9XURHmMgb0ZrckjanBVtiA8uKEioJa4Odp+TQMmxkrx6q9gptfeY4u4OE0uk7PKGQc5lV5C9MEba3USfCX+dvAKYQGKpd0zCU++YDS+keZ78AAAA=[0m[Pipeline] }
+[8mha:////4NiysT5zfDSCTLWhoJriYbIoVz4Te72i/l3lbXsHrK8cAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjCgQSSkVrpeEFxjbGjnUXbAen4kV8jT8QJRIVW6x2tpn3B1YxQEPBMKexsxilZb0fzLRYptDdPGXm6MokYSSvWatzS0qfF2wpaVhSlFBxWGuUnqJFk2DDnXiK2gs09SWF6TtxKK16wAsKPpmTCGmGMcD2PqhI+PP8FcDYJ6h2h/3cx/4LlC3whcAAAAA=[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/xpert-microservice-pipeline@2/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/kettaabii/MicroservicesProject.git # timeout=10
+Fetching upstream changes from https://github.com/kettaabii/MicroservicesProject.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+ > git fetch --tags --force --progress -- https://github.com/kettaabii/MicroservicesProject.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 92addb77bcb09deacc869abbc8efafa5cbb3c0a0 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 92addb77bcb09deacc869abbc8efafa5cbb3c0a0 # timeout=10
+Commit message: "changer le lien sonar"
+[8mha:////4KxTkVjBJRUntawFA2MK/EDCGjnbu0QxIt6FRnLWrm/bAAAAqR+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpGBBCqBNr1IUThCSEpNH/JUlpJ07E1bgDpZWY8GDZlqz3ekMZA9QUDHMaW4tRWtb53kyJDRTaq6eBObowSRjJa9booSGlT0ttKGlYlOVQcFhplJ6iRZNgzZ14iMoLNNU5hWk7csitusMTMj6RkwhpLmOAza1XkfDH+QuAsUtQbPe72Q/fb/kBjqGkcsQAAAA=[0m[Pipeline] withEnv
+[8mha:////4Ergy6HNDFW+qFRKXRL06MMcq1tSXOjmuZ5oDdd872TfAAAAqR+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApTIAQE2uUhROENIS00f8lSUknTsTVuAMtlZjwYNmWrPd6Qxk8HMkb1mhsLQZlWed6MyaWyLdXR4k1dGGKMJDTTOgkqNanuQqKGmZlORQcFhqVo2DRRFjyRj5k5SSa6hz9uB045La+wxMyPpKj9PFbBg+rW18Hwh/nLwCGLkKx2e4n362nb/kBLs3ppsQAAAA=[0m[Pipeline] {
+[8mha:////4N9heNvobczBy7yHygYlk+lJ35HL0jbL1xP1Q9LFKLUXAAAApR+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP+Ihm4lxYm26+AW11Fpo3sO2CJNf5K/5DxJInLzDzT13Oe8PbGKAMweLraHOUdQOez/YeeHIobt5HrHlK2qmyN6gNKPkxtQrSk4G1mQ5FAK2hrTn6Mgm2IlWPVXpFdnyksL8nQTkrnnACzIxm5MKaYEpwP4+NJHp5/krgKlPUFTHw9JV/wVVEDfIwAAAAA==[0m[Pipeline] tool
+[8mha:////4D1uPX7Wh7oNNIN+TDCu75fYQ3N66m3xDd4cv3qxhJATAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDVEgoFa2VhhcY2xg71l2wHZyKF/E1/kCUSFRssdrZZt4fWMUADQXDnMbOYpSW9X4w02KZQnfzlJmjK5OEkbxmrc4tKX1esKWkYUlRQsVhrVF6ihZNgg134ilqL9DUlxSm78ShtOoBLyj4ZE4ipBnGANv7oCLhz/NXAGOfoNofd3Mf+i+WQxrjwAAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4D0cuPnbdGbVWgyJ6pWNo1ddPlQej4Y4GnuPi3mL58HRAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApiAUJdWKNunCCkISQNPq/JCntxIm4GnegtBITHizbkvVebyhjgJqCYU5jazFKyzrfmymxgUJ79TQwRxcmCSN5zRo9NKT0aakNJQ2LshwKDiuN0lO0aBKsuRMPUXmBpjqnMG1HDrlVd3hCxidyEiHNZQywufUqEv44fwEwdgmK3WE7+/77LT8kUKSaxAAAAA==[0m[Pipeline] withEnv
+[8mha:////4BWE/2XtJy5BZ9NBX4kIffePPTp5eL/U7Klr969FbFNxAAAAqR+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpEAxIqBNr1IUThCSEpNH/JUlpJ07E1bgDpZWY8GDZlqz3ekMZA9QUDHMaW4tRWtb53kyJDRTaq6eBObowSRjJa9booSGlT0ttKGlYlOVQcFhplJ6iRZNgzZ14iMoLNNU5hWk7csitusMTMj6RkwhpLmOAza1XkfDH+QuAsUtQbA+72fffb/kBbLI/8MQAAAA=[0m[Pipeline] {
+[8mha:////4KGLge6h9bPt5cvf9sOQ8zix0EyOHI1RFHxQzhOCkvGQAAAAqR+LCAAAAAAAAP9tjUEKwjAURH9bunDr0kOkCAqCdOU2dOMJYhJj0vB/TVLblSfyat7B2oIrZzHMDAzv9YYyBqgpGOY0thajtKzzvZkSGyi0V08Dc3RhkjCS16zRQ0NKn5baUNKwKMuh4LDSKD1FiybBmjvxEJUXaKpzCtN25JBbdYcnZHwiJxHSXMYAm1uvIuGP8xcAY5eg2B52s++/3/IDRoj7T8QAAAA=[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/xpert-microservice-pipeline@2/eureka-server
+[8mha:////4Fpb21NI6UysRYuTf0wA1q0pcE9le5BW1iT+szqsFpUKAAAAqR+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpGEBIqBNr1IUThCSEpNH/JUlpJ07E1bgDpZWY8GDZlqz3ekMZA9QUDHMaW4tRWtb53kyJDRTaq6eBObowSRjJa9booSGlT0ttKGlYlOVQcFhplJ6iRZNgzZ14iMoLNNU5hWk7csitusMTMj6RkwhpLmOAza1XkfDH+QuAsUtQbA+72fffb/kBh7bKUsQAAAA=[0m[Pipeline] {
+[8mha:////4C1ZZmEM2RlvvxH2UUQWnW0U1ZTBhQ5CQR7jhZHkz6TSAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjGkBCqWitNLzA2MbYse6C7eBUvIiv8QeiRKJii9XONvP+wCoGaCgY5jR2FqO0rPeDmRbLFLqbp8wcXZkkjOQ1a3VuSenzgi0lDUuKEioOa43SU7RoEmy4E09Re4GmvqQwfScOpVUPeEHBJ3MSIc0wBtjeBxUJf56/Ahj7BNXuuJ/70H8BVL4CWMAAAAA=[0m[Pipeline] sh
++ mvn clean package
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com:eureka-server:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.springframework.boot:spring-boot-maven-plugin @ com:constructxpert-services:0.0.1-SNAPSHOT, /var/jenkins_home/workspace/xpert-microservice-pipeline@2/pom.xml, line 324, column 13
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -------------------------< com:eureka-server >--------------------------
+[INFO] Building eureka-server 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ eureka-server ---
+[INFO] Deleting /var/jenkins_home/workspace/xpert-microservice-pipeline@2/eureka-server/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ eureka-server ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ eureka-server ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /var/jenkins_home/workspace/xpert-microservice-pipeline@2/eureka-server/target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ eureka-server ---
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/xpert-microservice-pipeline@2/eureka-server/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ eureka-server ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ eureka-server ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ eureka-server ---
+[INFO] Building jar: /var/jenkins_home/workspace/xpert-microservice-pipeline@2/eureka-server/target/eureka-server-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:3.3.2:repackage (default) @ eureka-server ---
+[INFO] Layout: JAR
+[INFO] Replacing main artifact /var/jenkins_home/workspace/xpert-microservice-pipeline@2/eureka-server/target/eureka-server-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to /var/jenkins_home/workspace/xpert-microservice-pipeline@2/eureka-server/target/eureka-server-0.0.1-SNAPSHOT.jar.original
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.650 s
+[INFO] Finished at: 2024-09-25T22:52:43Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4Ce7TcZtdY1upWs8gjcEbNxhKkwWw8zWRHQ/5+P2xVQcAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6LExZAYJ9ami19QS62F5j18LcLkF/lr/oMEEifvcHPPXc77A5vIcCZ2orXYeYzGiz4Mbl5iJO5ugUbR0lUYwkjBCmVHRY2tV1SULKzJcigkbC2aQNGjS7CTrX7qMmh05SXx/J0k5L55wAsyOZuT5rTAxLC/D00k/Hn+CmDq+wTFoaqWPn4B4SdW6sAAAAA=[0m[Pipeline] }
+[8mha:////4EPpbp6wqWw281fv1BuhD05/KgKfIWGKZ0K5QFDNw5L2AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjCiQQSkVrpeEFxjbGjnUXbAen4kV8jT8QJRIVW6x2tpn3B1YxQEPBMKexsxilZb0fzLRYptDdPGXm6MokYSSvWatzS0qfF2wpaVhSlFBxWGuUnqJFk2DDnXiK2gs09SWF6TtxKK16wAsKPpmTCGmGMcD2PqhI+PP8FcDY9wmq3eE49/4L730o1cAAAAA=[0m[Pipeline] // dir
+[8mha:////4NUx1/jXs10EMhxlt9GdU+ZgXB+3ZmpLwIkGhhVPnwn6AAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDEgUIUdFabniBsY1xYt0F2yGpeBFf4w8YIlGxxWpnm3m+YBYDHChY1hhsHUblWOd7mxcbKLQXTwNr6MwUYSRvmDCDIG2OEwpKBqYUJVQc5gaVp+jQJljwRt5l7SXa+pRC/vYcSqdv8ICCZ3OSIX1hDLC89joS/jx/BTB2XYJqvVt9ert5AzQIHfvAAAAA[0m[Pipeline] }
+[8mha:////4BS77b4PTS3IoEuFhsiTnTsgZrlVNS4y8J/kOnhJUygQAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjiAaEqGgtN7zA2MY4se6C7eBUvIiv8QcCkajYYrWzzTxfsIgBDhQsaw12DqNyrPeDnRbLFLqLp8xaOjNFGMkbJkwWpM1xRkHJwJyihIrD0qDyFB3aBCveyrusvURbn1KYvj2H0ukbPKDgkznJkL4wBlhfBx0Jf56/Ahj7PkHV7JpPbzdvI5YOw8AAAAA=[0m[Pipeline] // withEnv
+[8mha:////4MMFChIjmvg6IAzbl1h7XS8uSsyYs0owl08NhMz1RRtGAAAAph+LCAAAAAAAAP9tjTESwiAURH+SsbC19BBErXQcK1uGxhMgIJIw/0cgJpUn8mreQTQzVm6xs2+b93zBLAY4ULCsMdg6jMqxzvc2LzZQaC+eBtbQmSnCSN4wYQZB2hwnFJQMTClKqDjMDSpP0aFNsOCNvMvaS7T1KYX87TmUTt/gAQXP5iRD+sIYYHntdST8ef4KYOy6BNV6t/n0dvUGBN3va8AAAAA=[0m[Pipeline] }
+[8mha:////4BlCJCFIImIrBoG2zRivsseLoB6lcD40UUENWJqpRCOsAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjRIEiREVrpeEFJjHGjnVn7AtJxYv4Gn8gEImKLVY728zzBYsU4UDRCKexs5gaK4LvzbTEQLG7eBqEo7NoCBN5LWo91NTq44w1sYY5WQ6FhKXGxlOyaBhW0qm7Kr1CU544Tt9eQm7bGzwgk5OZVeQvjBHW175NhD/PXwGMITAUm2r76V31Btty3DPAAAAA[0m[Pipeline] // withEnv
+[8mha:////4KD7uBeOPhuCpJ7lO8LBeWDet+WDt12eC1ieA4cjQrVcAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjJBBCiIrWcsMLjG2ME+su2A5JxYv4Gn/AEImKLVY728zzBbMY4EDBssZg6zAqxzrf27zYQKG9eBpYQ2emCCN5w4QZBGlznFBQMjClKKHiMDeoPEWHNsGCN/Iuay/R1qcU8rfnUDp9gwcUPJuTDOkLY4DltdeR8Of5K4Cx6xJUq93609vNG34Azf/AAAAA[0m[Pipeline] }
+[8mha:////4MabHMijesCZOaF10uVT9AYZCErMGfHKngzKdRpZotQ+AAAAph+LCAAAAAAAAP9tjbEOgjAURR8lDq6OfkSJgyTGMLk2LH5BLbUWmvewfQiTX+Sv+Q8SSZy80z1nOa83rFKEiqKTrcXOYzJe9mFw85Mjxe4aaJQtXaQhTBSsrO1YU2NPC9bEFpZlAnIFa4smUPLoGDaq1Q9dBI2uOHOc3VGB8M0dnpCpucw68hemCNvb0CTCX+dvAKa+Z8h3hz2DKMsPCWHYP78AAAA=[0m[Pipeline] // node
+[8mha:////4G85CKCB36PcnzUMmD5Y1LIbkyXYc86EUoKWyqM2ZbdwAAAAph+LCAAAAAAAAP9tjbEOgjAURR8lDq6OfkTRhcQYJteGxS+opdZC8x62D2Hyi/w1/0EiiZN3uucs5/WGVYpQUXSytdh5TMbLPgxufnKk2F0DjbKlizSEiYKVtR1rauxpwZrYwrJMQK5gbdEESh4dw0a1+qGLoNEVZ46zOyoQvrnDEzI1l1lH/sIUYXsbmkT46/wNwNT3DPn+UDKIcvcBkrYvUL8AAAA=[0m[Pipeline] }
+[8mha:////4KvbaewKg+vdMHOgVHjX/TSXDSdwQKjWGKhcjjyw9tLDAAAAph+LCAAAAAAAAP9tjbEOgjAURR8lDq6OfkSJgzHEMLk2LH5BLbUWmvewfQiTX+Sv+Q8SSZy80z1nOa83rFKEiqKTrcXOYzJe9mFw85Mjxe4aaJQtXaQhTBSsrO1YU2NPC9bEFpZlAnIFa4smUPLoGDaq1Q9dBI2uOHOc3VGB8M0dnpCpucw68hemCNvb0CTCX+dvAKa+Z8h35YFB7MsPUI6Cyb8AAAA=[0m[Pipeline] // stage
+[8mha:////4FIs4C0jpktfGWgaU4KCpt1KUwpIM/25ITqe6OLrmdHDAAAAph+LCAAAAAAAAP9tjbEOgjAURR8lDq6OfkSJiQPGMLk2LH5BLbUWmvewfQiTX+Sv+Q8SSZy80z1nOa83rFKEiqKTrcXOYzJe9mFw85Mjxe4aaJQtXaQhTBSsrO1YU2NPC9bEFpZlAnIFa4smUPLoGDaq1Q9dBI2uOHOc3VGB8M0dnpCpucw68hemCNvb0CTCX+dvAKa+Z8h3h5JB7MsPUj3IVr8AAAA=[0m[Pipeline] }
+[8mha:////4CrnrR5ZpBITBi4Z1ZXDUcdC+aZSo3DM/Kh8uJPhY59FAAAAph+LCAAAAAAAAP9tjbEOgjAURR8lDq6OfkSJcTDEMLk2LH5BLbUWmvewfQiTX+Sv+Q8SSZy80z1nOa83rFKEiqKTrcXOYzJe9mFw85Mjxe4aaJQtXaQhTBSsrO1YU2NPC9bEFpZlAnIFa4smUPLoGDaq1Q9dBI2uOHOc3VGB8M0dnpCpucw68hemCNvb0CTCX+dvAKa+Z8h3Zckg9ocPoWVqQr8AAAA=[0m[Pipeline] // parallel
+[8mha:////4D52/0XyQjFERWOcZOhmgNwq+XMjXZRHjNGULybdbeCnAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6IQTVwMk2vD4hfUUmuheQ/bhzD5Rf6a/2AjiZN3uucs5/WGVQxQU7CiM9g7jNqJwY82PTFR6K+eJtHRRWjCSN6IxkwNtea0YENsYFmWQyFhbVB7ig4tw0Z26qFKr9CWZw7JHSXkrr3DEzKZyqwCf2EOsL2NbST8df4GYB4GhmJXVQz5/vABz0Z1Cb8AAAA=[0m[Pipeline] }
+[8mha:////4Io7qVT1pBwtBVDqTGoTtFBeCrWT1ODb38FdbOmGELBIAAAAph+LCAAAAAAAAP9tjTsOwjAQBTeJKGgpOYTDR1QRFa2VhhOY2Bgn1m6wNyQVJ+Jq3AGLSFS86s0083rDIgY4UrCiNdg5jI0TvR9semKk0F09jaKli2gII3kjajPWpM1pxprYwLwsh0LC0mDjKTq0DCvZqocqvUJbnjkkV0nInb7DEzKZyqwCf2EKsL4NOhL+On8DMPU9Q7HbbBny/eED0MQgW78AAAA=[0m[Pipeline] // stage
+[8mha:////4BAFX/Nuaf57FBl0m3RrWZOP/F3NemtgR5ckjARf6AQcAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JUtBS8ggHhRJR0VppeIFxjHFi3QX7QlLxIr7GHzBEomKrnZVW83xBGQMcKFjRGewdRu3E4Eebmpgo9BdPk+joLDRhJG9EY6aGWnNcsCE2sCTLoZCwMqg9RYeWYS07dVeVV2irE4e07SXkrr3BAzKZzKwCf2EOsLmObST8ef4KYB4Y8nrHUNTb+nMt3xLq4sXDAAAA[0m[Pipeline] stage
+[8mha:////4O+ubb7u28ExkgPWPa+sV7lsBL5snPEFSjyXOcDugMtcAAAApx+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQxOBon1obFJ6il1kLz/9gWy+QT+Wq+gxUSJ2+43F1y+V5vKL2DEznNeoWDQS8NG+2kU2KR3HC1FFlPFyYJPVnFWhVb6lSz1paCglVZDgWHjUJpyRvUAba8Fw9RWYG6OgeXtiOH3HR3eELGEzkIF5YyO9jdps4T/jh/ATCPAYp6Xy9++H7LD4lxne3EAAAA[0m[Pipeline] { (SonarQube Analysis)
+[8mha:////4A5yp/4veub0yhYuZwkdunRZSZVjH+K7bahE0hWJNBh2AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApAjbUiTXqwglCEkLS6P+SpLQTJ+Jq3IHSSkx4sGxL1nu9oYwBagqGOY2txSgt63xvpsQGCu3V08AcXZgkjOQ1a/TQkNKnpTaUNCzKcig4rDRKT9GiSbDmTjxE5QWa6pzCtB055Fbd4QkZn8hJhDSXMcDm1qtI+OP8BcDYJSh22/3sh++3/ABeDT1rxAAAAA==[0m[Pipeline] node
+Running on [8mha:////4OJ3KcU0sPTkYzz7EFjtIevFY7K8Lm5MwMpaNbw4j65dAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/xpert-microservice-pipeline@2
+[8mha:////4MW4NoevzFKdkPzf/C3Sz1gWwf2QX2LFOciEXlcFxtZ1AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApQjChTqxRF04QkhCSRv+XJKWdOBFX4w6UVmLCg2Vbst7rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx2+5nP3y/5Qd0N/nUxAAAAA==[0m[Pipeline] {
+[8mha:////4J/yNj/D40ZXvdSCxa4K+j76iiVHddqvH/ObF0S1h4wvAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSDkKBBqWitNLzA2MbYse6C7eBUvIiv8QeiRKJii9XONvP+wCoGaCgY5jR2FqO0rPeDmRbLFLqbp8wcXZkkjOQ1a3VuSenzgi0lDUuKEioOa43SU7RoEmy4E09Re4GmvqQwfScOpVUPeEHBJ3MSIc0wBtjeBxUJf56/Ahj7BNV+d5j72H8Bu2/fg8AAAAA=[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/xpert-microservice-pipeline@2/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/kettaabii/MicroservicesProject.git # timeout=10
+Fetching upstream changes from https://github.com/kettaabii/MicroservicesProject.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+ > git fetch --tags --force --progress -- https://github.com/kettaabii/MicroservicesProject.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 92addb77bcb09deacc869abbc8efafa5cbb3c0a0 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 92addb77bcb09deacc869abbc8efafa5cbb3c0a0 # timeout=10
+Commit message: "changer le lien sonar"
+[8mha:////4EyRiTKfpHhT3FtQompXlzRoSya5OiDQcb7YHljml6GHAAAAqR+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApQkIMqBNr1IUThCSEpNH/JUlpJ07E1bgDpZWY8GDZlqz3ekMZA9QUDHMaW4tRWtb53kyJDRTaq6eBObowSRjJa9booSGlT0ttKGlYlOVQcFhplJ6iRZNgzZ14iMoLNNU5hWk7csitusMTMj6RkwhpLmOAza1XkfDH+QuAsUtQ7Lb72Q/fb/kBENqUAsQAAAA=[0m[Pipeline] withEnv
+[8mha:////4EmVfAwGLina/mmVcPNiZfQSzWGbctnN9K9dTLLIEvFeAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApYgEJdWKNunCCkISQNPq/JCntxIm4GnegtBITHizbkvVebyhjgJqCYU5jazFKyzrfmymxgUJ79TQwRxcmCSN5zRo9NKT0aakNJQ2LshwKDiuN0lO0aBKsuRMPUXmBpjqnMG1HDrlVd3hCxidyEiHNZQywufUqEv44fwEwdgmK3XY/++H7LT9a9vkfxAAAAA==[0m[Pipeline] {
+[8mha:////4K45dc3ETijI2smTycqIUwcn3FoXkZDhtDs9+3ikwo5GAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSDqEAoFa2VhhcY2xg71l2wHZyKF/E1/kCUSFRssdrZZt4fWMUADQXDnMbOYpSW9X4w02KZQnfzlJmjK5OEkbxmrc4tKX1esKWkYUlRQsVhrVF6ihZNgg134ilqL9DUlxSm78ShtOoBLyj4ZE4ipBnGANv7oCLhz/NXAGOfoNrvDnMf+y+lZkKfwAAAAA==[0m[Pipeline] tool
+[8mha:////4LPDcaeCW7dGFtYSnH5wwAM39+34gsWB9dwIDk3bvUvHAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQTqJAQFa3lhhcY2xgn1l2wHZyKF/E1/kAgEhVbrHa2mecLFjHAgYJlrcHOYVSO9X6w02KZQnfxlFlLZ6YII3nDhMmCtDnOKCgZmFOUUHFYGlSeokObYMVbeZe1l2jrUwrTt+dQOn2DBxR8MicZ0hfGAOvroCPhz/NXAGOfoNo2u09vmv4N27dCT8AAAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4BaqpCshuBKgkSB2yHWYUqk/fi19/5XuqBrUkXh/da4AAAAAqR+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApZUJCTKxRF04Q2hCSRv+XJCWdOBFX4w6kVGLCg2Vbst7rDaV3cCSnmJHYa/StZoMdVUoskuuvliIzdGEtoScrWSNjQ508LbWhIGFRlkPBYSWxteQ1qgBrbsRDVFagqs7Bpe3AIdfdHZ6Q8UQOwoVvmRxsbmPnCX+cvwCYhgDFbrufva7nb/kBVzMV7MQAAAA=[0m[Pipeline] withEnv
+[8mha:////4EE52NCa80Y3uVkAcG7xCesFPN4xqDu45oDMtvgJCMVJAAAApx+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQJrMbJteniE1Raa0vz/9AWYfKJfDXfQYTEyRsud5dcvtcbyhjgRMEwp7GzGFvLej+aJbGJQnfzNDFHV9YSRvKaCT0JUvq8VUFJw6Ysh4LDTmPrKVo0CfbcyYesvERTXVJYtiOH3KoBnpDxhZxkSGuZAxzuo4qEP85fAMx9gqKp69Wb77f8AO2ivirEAAAA[0m[Pipeline] {
+[8mha:////4EqaezliXyQx+jB1fHpKrIF6BXcj9GZYU4d6aOzkUpqJAAAApx+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkSJOBon1obFJ6il1kLz/9gWy+QT+Wq+gxUSJ2+43F1y+V5vKL2DEznNeoWDQS8NG+2kU2KR3HC1FFlPFyYJPVnFWhVb6lSz1paCglVZDgWHjUJpyRvUAba8Fw9RWYG6OgeXtiOH3HR3eELGEzkIF5YyO9jdps4T/jh/ATCPAYp6Xy9++H7LD7ijfJbEAAAA[0m[Pipeline] script
+[8mha:////4HkzEmQc4v21FFBMWvGkN/m4yeQ1dGFeQvNgsCY3FvseAAAAqB+LCAAAAAAAAP9tjT0OwjAUg19bdWBl5BCp+NlQJ9aoCycISQhJo/dKktJOnIircQdKKzHhwbItWd/rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx2+5nP3y/5Qdv39wQxAAAAA==[0m[Pipeline] {
+[8mha:////4LplzPxBgpyAgzWUazROeFP8+2KgnYjqw0jJUJ8BsGMvAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjEFQoFa2VhhcY2xg71l2wHZyKF/E1/kCUSFRssdrZZt4fWMUADQXDnMbOYpSW9X4w02KZQnfzlJmjK5OEkbxmrc4tKX1esKWkYUlRQsVhrVF6ihZNgg134ilqL9DUlxSm78ShtOoBLyj4ZE4ipBnGANv7oCLhz/NXAGOfoNrvDnMf+y+SQuFywAAAAA==[0m[Pipeline] tool
+[8mha:////4ECMBmBIpXC6bkvQXOz1Dg/UkfB4m6DZzEPkSlUQLuHNAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpQIgFdWKNunCCkISQNPq/JCntxIm4GnegtBITHizbkvVebyhjgJqCYU5jazFKyzrfmymxgUJ79TQwRxcmCSN5zRo9NKT0aakNJQ2LshwKDiuN0lO0aBKsuRMPUXmBpjqnMG1HDrlVd3hCxidyEiHNZQywufUqEv44fwEwdgmK3XY/++H7LT/rl4wpxAAAAA==[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/xpert-microservice-pipeline@2/user-service
+[8mha:////4M5a8rGXzTjbTOoM6yD4JlFcnuC+PIAoJfyNttplU7YrAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpYIABdWKNunCCkISQNPq/JCntxIm4GnegtBITHizbkvVebyhjgJqCYU5jazFKyzrfmymxgUJ79TQwRxcmCSN5zRo9NKT0aakNJQ2LshwKDiuN0lO0aBKsuRMPUXmBpjqnMG1HDrlVd3hCxidyEiHNZQywufUqEv44fwEwdgmK3XY/++H7LT/R2usOxAAAAA==[0m[Pipeline] {
+[8mha:////4IfKxuW320cis+aiIUMye6wN5LbhkeOabHbjegwZjwgdAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjaEBCqWitNLzA2MbYse6C7eBUvIiv8QeiRKJii9XONvP+wCoGaCgY5jR2FqO0rPeDmRbLFLqbp8wcXZkkjOQ1a3VuSenzgi0lDUuKEioOa43SU7RoEmy4E09Re4GmvqQwfScOpVUPeEHBJ3MSIc0wBtjeBxUJf56/Ahj7BNV+d5j72H8BPDvAScAAAAA=[0m[Pipeline] sh
++ /var/jenkins_home/tools/hudson.plugins.sonar.SonarRunnerInstallation/SonarQubeScanner/bin/sonar-scanner -Dsonar.url=http://sonarqube:9000 -Dsonar.projectKey=user-service -Dsonar.sources=. -Dsonar.login=squ_f0e0afefe50213563d2b534261e3bc2fc096c975 -Dsonar.java.binaries=target/classes
+INFO: Scanner configuration file: /var/jenkins_home/tools/hudson.plugins.sonar.SonarRunnerInstallation/SonarQubeScanner/conf/sonar-scanner.properties
+INFO: Project root configuration file: NONE
+INFO: SonarScanner 5.0.1.3006
+INFO: Java 17.0.12 Eclipse Adoptium (64-bit)
+INFO: Linux 5.15.153.1-microsoft-standard-WSL2 amd64
+INFO: User cache: /var/jenkins_home/.sonar/cache
+ERROR: SonarQube server [http://localhost:9000] can not be reached
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION FAILURE
+INFO: ------------------------------------------------------------------------
+INFO: Total time: 0.272s
+INFO: Final Memory: 3M/14M
+INFO: ------------------------------------------------------------------------
+ERROR: Error during SonarScanner execution
+org.sonarsource.scanner.api.internal.ScannerException: Unable to execute SonarScanner analysis
+	at org.sonarsource.scanner.api.internal.IsolatedLauncherFactory.lambda$createLauncher$0(IsolatedLauncherFactory.java:85)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at org.sonarsource.scanner.api.internal.IsolatedLauncherFactory.createLauncher(IsolatedLauncherFactory.java:74)
+	at org.sonarsource.scanner.api.internal.IsolatedLauncherFactory.createLauncher(IsolatedLauncherFactory.java:70)
+	at org.sonarsource.scanner.api.EmbeddedScanner.doStart(EmbeddedScanner.java:185)
+	at org.sonarsource.scanner.api.EmbeddedScanner.start(EmbeddedScanner.java:123)
+	at org.sonarsource.scanner.cli.Main.execute(Main.java:74)
+	at org.sonarsource.scanner.cli.Main.main(Main.java:62)
+Caused by: java.lang.IllegalStateException: Fail to get bootstrap index from server
+	at org.sonarsource.scanner.api.internal.BootstrapIndexDownloader.getIndex(BootstrapIndexDownloader.java:42)
+	at org.sonarsource.scanner.api.internal.JarDownloader.getScannerEngineFiles(JarDownloader.java:58)
+	at org.sonarsource.scanner.api.internal.JarDownloader.download(JarDownloader.java:53)
+	at org.sonarsource.scanner.api.internal.IsolatedLauncherFactory.lambda$createLauncher$0(IsolatedLauncherFactory.java:76)
+	... 7 more
+Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:9000
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.RealConnection.connectSocket(RealConnection.java:265)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.RealConnection.connect(RealConnection.java:183)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.java:224)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.java:108)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.ExchangeFinder.find(ExchangeFinder.java:88)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.Transmitter.newExchange(Transmitter.java:169)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:41)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:88)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.RealCall.getResponseWithInterceptorChain(RealCall.java:221)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.RealCall.execute(RealCall.java:81)
+	at org.sonarsource.scanner.api.internal.ServerConnection.callUrl(ServerConnection.java:115)
+	at org.sonarsource.scanner.api.internal.ServerConnection.downloadString(ServerConnection.java:99)
+	at org.sonarsource.scanner.api.internal.BootstrapIndexDownloader.getIndex(BootstrapIndexDownloader.java:39)
+	... 10 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Unknown Source)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(Unknown Source)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.platform.Platform.connectSocket(Platform.java:130)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.RealConnection.connectSocket(RealConnection.java:263)
+	... 31 more
+ERROR: 
+ERROR: Re-run SonarScanner using the -X switch to enable full debug logging.
+[8mha:////4O1bC0lmMdvrtnCTT0mfZKq+PczhkNK9wwYWeEMdrZq7AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjaBBCqWitNLzA2MbYse6C7eBUvIiv8QeiRKJii9XONvP+wCoGaCgY5jR2FqO0rPeDmRbLFLqbp8wcXZkkjOQ1a3VuSenzgi0lDUuKEioOa43SU7RoEmy4E09Re4GmvqQwfScOpVUPeEHBJ3MSIc0wBtjeBxUJf56/Ahj7PkG13x3nPnwBPT5gzsAAAAA=[0m[Pipeline] }
+[8mha:////4OF9g7tWUgGP98wdfwF0mgmsPAqOLjj4lsnLYGXkMLMtAAAAph+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGUwsaxss3QeIIIMSZkdmOyCJUn8mreQZQZK3/x57/fvOcLFinCgaIRTmNnMTVWBN+baYmBYnfxNAhHZ9EQJvJa1HqoqdXHGWtiDXOyHAoJS42Np2TRMKykU3dVeoWmPHGcvr2E3LY3eEAmJzOryF8YI6yvfZsIf56/AhhDYCiqavPp7e4Nm0xwosAAAAA=[0m[Pipeline] // dir
+[8mha:////4LixLpIg/OB/oUy+mOjlau1elfy1VofkqYm/clk+6WytAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjRHSIitZKwwtMbIwT6y7YF5KKF/E1/oAhEhVbrHa2mecLVjHAgYIVncHeYWydGPxo0xIThf7iaRIdnUVLGMkb0ZipIW2OCzbEBpZkORQS1gZbT9GhZdjITt1V6RXa8sQhfXsJudM3eEAmk5lV4C/MAbbXUUfCn+evAOZhYCjquvp0tXsDAyYJ6sAAAAA=[0m[Pipeline] }
+[8mha:////4I/TcgZ1GHI6eLSX4isuDwKm8vzem00KAt5aB9DQywbTAAAApR+LCAAAAAAAAP9tjTESwiAURH+SsbC19BBkxNKxSsuk8QQIiCTM/xGISeWJvJp3EM2MlVvs7NvmPV+wigGOFCzrDPYOo3Js8KPNi00U+ouniXV0ZoowkjesNVNL2jQLtpQMLClKqASsDSpP0aFNsBGdvMvaS7T1KYX8HQSUTt/gAYXI5iRD+sIcYHsddST8ef4KYB6GBBXn/NO7/Rs9qYVFwAAAAA==[0m[Pipeline] // script
+[8mha:////4CbslesamEkeVBUo9aSMT53/971mxefTfY7YWPFqYtisAAAApR+LCAAAAAAAAP9tjTESwiAURH+SsbC19BBkxNKxSsuk8QQIiCTM/xGISeWJvJp3EM2MlVvs7NvmPV+wigGOFCzrDPYOo3Js8KPNi00U+ouniXV0ZoowkjesNVNL2jQLtpQMLClKqASsDSpP0aFNsBGdvMvaS7T1KYX8HQSUTt/gAYXI5iRD+sIcYHsddST8ef4KYB6GBBXn+0/v+BsfkvWUwAAAAA==[0m[Pipeline] }
+[8mha:////4AH72W/sOBRVb3O5u0RtCd9Zqr29c0EDsRcN4OlzYwt/AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjRHSIitZKwwtMbIwT6y7YF5KKF/E1/oAhEhVbrHa2mecLVjHAgYIVncHeYWydGPxo0xIThf7iaRIdnUVLGMkb0ZipIW2OCzbEBpZkORQS1gZbT9GhZdjITt1V6RXa8sQhfXsJudM3eEAmk5lV4C/MAbbXUUfCn+evAOZhYCjqevfpqnoDK/1byMAAAAA=[0m[Pipeline] // withEnv
+[8mha:////4Miap1/EDcGrqduULIejTL7lCltzMJc+gNfEQBBOvKjTAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSDIiEhISpaKw0vMIkxdqw7Y19IKl7E1/gDgUhUbLHa2WaeL1ikCAeKRjiNncXUWBF8b6YlBordxdMgHJ1FQ5jIa1HroaZWH2esiTXMyXIoJCw1Np6SRcOwkk7dVekVmvLEcfr2EnLb3uABmZzMrCJ/YYywvvZtIvx5/gpgDIGhqKrtpze7N3p/6w7AAAAA[0m[Pipeline] }
+[8mha:////4LW1eG8cdJz9sGSTw704WxC4CAu4RipnJekMEzdBgVX2AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSDUkCBqGitNLzAJMbYse6MfSGpeBFf4w8EIlGxxWpnm3m+YJEiHCga4TR2FlNjRfC9mZYYKHYXT4NwdBYNYSKvRa2Hmlp9nLEm1jAny6GQsNTYeEoWDcNKOnVXpVdoyhPH6dtLyG17gwdkcjKzivyFMcL62reJ8Of5K4AxBIaiqraf3uzedni8r8AAAAA=[0m[Pipeline] // withEnv
+[8mha:////4C+oBmU1DrdS1zv6pC2Kkrh9OK1gQoOj/wa1P4NFB1QdAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSDIiEKREVrpeEFJjHGjnVn7AtJxYv4Gn8gEImKLVY728zzBYsU4UDRCKexs5gaK4LvzbTEQLG7eBqEo7NoCBN5LWo91NTq44w1sYY5WQ6FhKXGxlOyaBhW0qm7Kr1CU544Tt9eQm7bGzwgk5OZVeQvjBHW175NhD/PXwGMITAUVbX79Gb7Bu4SxefAAAAA[0m[Pipeline] }
+[8mha:////4CpL8opjtb0hg6GW3CECu7HPVGs5VLNc4RG63jYfN7DsAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSDIgokREVrpeEFJjHGjnVn7AtJxYv4Gn8gEImKLVY728zzBYsU4UDRCKexs5gaK4LvzbTEQLG7eBqEo7NoCBN5LWo91NTq44w1sYY5WQ6FhKXGxlOyaBhW0qm7Kr1CU544Tt9eQm7bGzwgk5OZVeQvjBHW175NhD/PXwGMITAUVbX79Gb7BpFSimbAAAAA[0m[Pipeline] // node
+[8mha:////4MOcRMdRdJUeFC7NPgfu5aOLWBBeoAcQYTTYfy4R/8OlAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSDQoUQFa2VhheYxBg71p2xLyQVL+Jr/IFAJCq2WO1sM88XLFKEA0UjnMbOYmqsCL430xIDxe7iaRCOzqIhTOS1qPVQU6uPM9bEGuZkORQSlhobT8miYVhJp+6q9ApNeeI4fXsJuW1v8IBMTmZWkb8wRlhf+zYR/jx/BTCGwFBU1e7Tm+0bhsyZXsAAAAA=[0m[Pipeline] }
+[8mha:////4FKJfZKu0wgk2RLA1o/V92xD+PXCYyDBePqpLrO7Bkf4AAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxEYLB0r2wyNJ4gkxkBmF5NFqDyRV/MORpmx8hd//vvNe75gFQMcKFjRGewdxtaJwY82LTFR6C+eJtHRWbSEkbwRjZka0ua4YENsYEmWQyFhbbD1FB1aho3s1F2VXqEtTxzSt5eQO32DB2QymVkF/sIcYHsddST8ef4KYB4GhqLeVZ+u6jdduaxwwAAAAA==[0m[Pipeline] // stage
+[8mha:////4C/rcE+Ksl4Z71ZITwpovN3od977NTTYrQF48g0rmoGPAAAApx+LCAAAAAAAAP9tjbEOgjAURR8QBldHP6JEGI0Ta8PiF9RSa6F5D9uHMPlF/pr/IEri5J3uucnNeb4gjwGOFKzoDPYOo3Zi8KNdmpgo9BdPk+joLDRhJG9EY6aGWlOv2BAbWJOkkEnYGNSeokPLsJWduqvCK7TFicOyHSSkrr3BAxK5mFkF/sIcYHcd20j48/wVwDwwpGXFkJXV/nPN3yGCnnLDAAAA[0m[Pipeline] stage
+[8mha:////4PxAxFi4ZaC6ycaS9dLNaQd/poVgBR0fjHCImqhpn5jcAAAApx+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkSJOBon1obFJ6il1kLz/9gWy+QT+Wq+gxUSJ2+43F1y+V5vKL2DEznNeoWDQS8NG+2kU2KR3HC1FFlPFyYJPVnFWhVb6lSz1paCglVZDgWHjUJpyRvUAba8Fw9RWYG6OgeXtiOH3HR3eELGEzkIF5YyO9jdps4T/jh/ATCPAYr6sF+8/n7LD48Gfd3EAAAA[0m[Pipeline] { (Build Docker Images & Push)
+Stage "Build Docker Images & Push" skipped due to earlier failure(s)
+[8mha:////4NC1kexr//CO3zMAf9bu9dlglVJnv/qy7M94o5RJOhGqAAAApB+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6IkMBon14bFL6il1kLzXmkfwuQX+Wv+gwQSJ+9wc89dzvsDuxThTNGKzmDvMGkngh/tssREsb97mkRHN6EJE3kjGjM11JrLhg2xgS1ZDoWEvUHtKTm0DAfZqacqvUJbXjku30lC7toBXpDJxcwq8gpzhONjbBPhz/NXAHNgKKq6WrsOX3sQps/AAAAA[0m[Pipeline] getContext
+[8mha:////4IEHiSSvLcR38JjsM2N96we023reWFiwhrnNeqckradJAAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkRJ0M04sTYsPkEttRaa/8e2WCafyFfzHayQOHnD5e6Sy/d6Q+kdnMhp1iscDHpp2GgnnRKL5Iarpch6ujBJ6Mkq1qrYUqeatbYUFKzKcig4bBRKS96gDrDlvXiIygrU1Tm4tB055Ka7wxMynshBuLCU2cHuNnWe8Mf5C4B5DFDU+3rxw/dbfgBiN7p8xAAAAA==[0m[Pipeline] parallel
+[8mha:////4A7taJlcABPueRqGl78kpmR9l9N2vrtSyFZSB7R+eJj9AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApgm6IiTXqwglCE0LS6P+SpLQTJ+Jq3IGUSkx4sGxL1nu9oQwejuQ1swo7g6E1rHeDTomN5Luro5FZurCWMJBTrFFjQ1KdltpQVLAoy6HgsFLYOgoGdYQ1t+IhKidQV+fo03bgkBt5hydkPJGj8PFbJg+b2yAD4Y/zFwBTH6HY7evZ6+38LT8a7rHNxAAAAA==[0m[Pipeline] { (Branch: Build Docker & Push for user-service)
+[8mha:////4I/C0JtPmPoz1Pw5qMtZZdQR+v5oGoztuaufTWzmHwyOAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpgG6IiTXqwglCE0LS6P+SpLQTJ+Jq3IGUSkx4sGxL1nu9oQwejuQ1swo7g6E1rHeDTomN5Luro5FZurCWMJBTrFFjQ1KdltpQVLAoy6HgsFLYOgoGdYQ1t+IhKidQV+fo03bgkBt5hydkPJGj8PFbJg+b2yAD4Y/zFwBTH6HY7evZ6+38LT+/Pe0GxAAAAA==[0m[Pipeline] { (Branch: Build Docker & Push for project-service)
+[8mha:////4ITTRGtRUxEoFyNtyyeWUpc4GY175Qd/SychcyWW3SmtAAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkRJkM04uTYsPkFtay00/49tsUw+ka/mOwiSOHnD5e6Sy/d6Qxk8HMkb1mnsLQZp2eBGMyeWyPdXR4l1dGGSMJDTrNWpJaVPa20paliV5VBw2GiUjoJFE2HLO/EQlRNoqnP083bgkFt1hydkfCZH4eO3TB52t1EFwh/nLwCmIUJR75vFm3r5lh8RT3mAxAAAAA==[0m[Pipeline] { (Branch: Build Docker & Push for task-service)
+[8mha:////4L3U9mtW4B8hc44uShBtm1g88yx7EUa6La7355525rYEAAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkRJhM04uTYsPkFtay00/49tsUw+ka/mOwiSOHnD5e6Sy/d6Qxk8HMkb1mnsLQZp2eBGMyeWyPdXR4l1dGGSMJDTrNWpJaVPa20paliV5VBw2GiUjoJFE2HLO/EQlRNoqnP083bgkFt1hydkfCZH4eO3TB52t1EFwh/nLwCmIUKxr5vFm3r5lh+0nCVLxAAAAA==[0m[Pipeline] { (Branch: Build Docker & Push for resource-service)
+[8mha:////4KrCPgzOQ3WKeKFs2oXCeU0L3SRBOBPmodiDhG0z1CexAAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkRJlM04sTYsPkEttRaa/8e2WCafyFfzHSySOHnD5e6Sy/d6Q+kdnMhp1iscDHpp2GgnnRKL5Iarpch6ujBJ6Mkq1qrYUqeatbYUFKzKcig4bBRKS96gDrDlvXiIygrU1Tm4tB055Ka7wxMynshBuPAts4Pdbeo84Y/zFwDzGKDYH+rF63r5lh8MrCBWxAAAAA==[0m[Pipeline] { (Branch: Build Docker & Push for api-gateway-service)
+[8mha:////4K37sekS+0Vb0LFa0nx4rV3m1NFf+XgfoId4RXzwpEPxAAAAqR+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpBGVCTKxRF04QmhCSRv+XJKWdOBFX4w6kVGLCg2Vbst7rDWXwcCSvmVXYGQytYb0bdEpsJN9dHY3M0oW1hIGcYo0aG5LqtNSGooJFWQ4Fh5XC1lEwqCOsuRUPUTmBujpHn7YDh9zIOzwh44kchY/fMnnY3AYZCH+cvwCY+gjFdlfPXu/nb/kBqX98ncQAAAA=[0m[Pipeline] { (Branch: Build Docker & Push for eureka-server)
+[8mha:////4JM7cEq3ophEwbCGE9QXQvS8xpW1sgFSzIrVAL3LGhlIAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApQogFdWKNunCCkISQNPq/JCntxIm4GnegtBITHizbkvVebyhjgJqCYU5jazFKyzrfmymxgUJ79TQwRxcmCSN5zRo9NKT0aakNJQ2LshwKDiuN0lO0aBKsuRMPUXmBpjqnMG1HDrlVd3hCxidyEiHNZQywufUqEv44fwEwdgmK3X47++H7LT8gMJ1lxAAAAA==[0m[Pipeline] stage
+[8mha:////4LwPqsLtEYE6aXLccp9rRzcVcDkP9L/LrfEViGVbv3UXAAAAqR+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCphBAMqBNr1IUThCSEpNH/JUlpJ07E1bgDpZWY8GDZlqz3ekMZA9QUDHMaW4tRWtb53kyJDRTaq6eBObowSRjJa9booSGlT0ttKGlYlOVQcFhplJ6iRZNgzZ14iMoLNNU5hWk7csitusMTMj6RkwhpLmOAza1XkfDH+QuAsUtQbHf72Q/fb/kBZUb8QcQAAAA=[0m[Pipeline] { (Build Docker & Push for user-service)
+[8mha:////4JavB391rgos7+9op9qNXjGoFnd/i0l1iZUeGMkQI6l4AAAAqR+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpQAxIqBNr1IUThCSEpNH/JUlpJ07E1bgDpZWY8GDZlqz3ekMZA9QUDHMaW4tRWtb53kyJDRTaq6eBObowSRjJa9booSGlT0ttKGlYlOVQcFhplJ6iRZNgzZ14iMoLNNU5hWk7csitusMTMj6RkwhpLmOAza1XkfDH+QuAsUtQ7Pbb2Q/fb/kBPx0yxMQAAAA=[0m[Pipeline] stage
+[8mha:////4A8htwtkci9M3XlfFs1PB93ci1Nzeczd1xc7PDZX044tAAAAqR+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCphBhAqBNr1IUThCSEpNH/JUlpJ07E1bgDpZWY8GDZlqz3ekMZA9QUDHMaW4tRWtb53kyJDRTaq6eBObowSRjJa9booSGlT0ttKGlYlOVQcFhplJ6iRZNgzZ14iMoLNNU5hWk7csitusMTMj6RkwhpLmOAza1XkfDH+QuAsUtQbHf72Q/fb/kBC/THksQAAAA=[0m[Pipeline] { (Build Docker & Push for project-service)
+[8mha:////4HdOAUzZ6GZBjgVGunGoBWOhCYwZ8FGW6uiBjNLQt4DQAAAAqR+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApqmBCTKxRF04Q2hCSRv+XJCWdOBFX4w6kVGLCg2Vbst7rDaV3cCSnmJHYa/StZoMdVUoskuuvliIzdGEtoScrWSNjQ508LbWhIGFRlkPBYSWxteQ1qgBrbsRDVFagqs7Bpe3AIdfdHZ6Q8UQOwoVvmRxsbmPnCX+cvwCYhgBFvatn32/nb/kBFkaI+cQAAAA=[0m[Pipeline] stage
+[8mha:////4OAODPd4ApqfDry12/pB2S8isgeQ6W9+SebXVGIEXSUIAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApIDGhTqxRF04QkhCSRv+XJKWdOBFX4w6UVmLCg2Vbst7rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGxP2xn332/5Qep0nkDxAAAAA==[0m[Pipeline] { (Build Docker & Push for task-service)
+[8mha:////4ImqqRRBdYB4LM74zS4v3bO5ki7FLfVfmJSZ2q9VI7o/AAAAqR+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpVGBCTKxRF04QmhDSRv+XJCWdOBFX4w6kVGLCg2Vbst7rDaV3cCSnWaewN+hbwwY76pRYJNdfLUXW0YW1hJ6sYo2KDUl1WmpDQcGiLIeCw0pha8kb1AHWvBMPUVmBujoHl7YDh9zIOzwh44kchAvfMjnY3EbpCX+cvwCYhgBFvdvOvq/nb/kBcqvlL8QAAAA=[0m[Pipeline] stage
+[8mha:////4MVvgqW6bFbsfdHvuL7Ruv7zwVv/8tQdhgBPJ+4TyAYPAAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkRJME7GibVh8QlqqbXQ/D+2xTL5RL6a72CFxMkbLneXXL7XG0rv4EROs17hYNBLw0Y76ZRYJDdcLUXW04VJQk9WsVbFljrVrLWloGBVlkPBYaNQWvIGdYAt78VDVFagrs7Bpe3IITfdHZ6Q8UQOwoWlzA52t6nzhD/OXwDMY4CiPtSL77/f8gM97YqixAAAAA==[0m[Pipeline] { (Build Docker & Push for resource-service)
+[8mha:////4InsAU9C18BrBb4/UQdM+vWUKecrXyZ3yB6CieelsojcAAAAqR+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkRJTJ2ME2vD4hPUUmuh+X9sizD5RL6a72CRxMkbLneXXL7XG8rg4UTesE5jbzEoywY3mpTYRL6/OppYRxemCAM5zRo9NdTqeq0NRQ2rshwKARuNylGwaCJsRScfsnISTXWOPm1HAblt7/CETCRylD5+y+xhdxvbQPjj/AXAPEQo9pwvfuDLt/wA4KEkjcQAAAA=[0m[Pipeline] stage
+[8mha:////4C+Vuhg2SIlxOlQhf+C4Lpm0QalWyMVyjJtrOw4X+YcIAAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkRJjEzGibVh8QlqqbXQ/D+2xTL5RL6a72CFxMkbLneXXL7XG0rv4EROs17hYNBLw0Y76ZRYJDdcLUXW04VJQk9WsVbFljrVrLWloGBVlkPBYaNQWvIGdYAt78VDVFagrs7Bpe3IITfdHZ6Q8UQOwoWlzA52t6nzhD/OXwDMY4BiXx8Wr7/f8gPAq+6bxAAAAA==[0m[Pipeline] { (Build Docker & Push for api-gateway-service)
+[8mha:////4A+S/N15lLTFXUTLhzBARHqoR59PElaCmCPMFlvwZ2N7AAAAqR+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCphCgLYmKNunCC0ISQNPq/JCntxIm4GncgpRITHizbkvVebyiDhyN5zazCzmBoDevdoFNiI/nu6mhkli6sJQzkFGvU2JBUp6U2FBUsynIoOKwUto6CQR1hza14iMoJ1NU5+rQdOORG3uEJGU/kKHz8lsnD5jbIQPjj/AXA1Ecotrt69no/f8sPhExJW8QAAAA=[0m[Pipeline] stage
+[8mha:////4NA8mJSjA61+t8WjQyXcaAdHcHtx7sZmqgdhlkNZ5obFAAAAqR+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCphAQMqBNr1IUThCSEpNH/JUlpJ07E1bgDpZWY8GDZlqz3ekMZA9QUDHMaW4tRWtb53kyJDRTaq6eBObowSRjJa9booSGlT0ttKGlYlOVQcFhplJ6iRZNgzZ14iMoLNNU5hWk7csitusMTMj6RkwhpLmOAza1XkfDH+QuAsUtQbHf72Q/fb/kBVJQdOsQAAAA=[0m[Pipeline] { (Build Docker & Push for eureka-server)
+Stage "Build Docker & Push for user-service" skipped due to earlier failure(s)
+[8mha:////4LeQhvU71xFKmt4Tid6ekEgd5StkHo67DxaKIdr5d5syAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjIRBIiIrWcsMLjG2ME+su2A5JxYv4Gn/AEImKLVY728zzBbMY4EDBssZg6zAqxzrf27zYQKG9eBpYQ2emCCN5w4QZBGlznFBQMjClKKHiMDeoPEWHNsGCN/Iuay/R1qcU8rfnUDp9gwcUPJuTDOkLY4DltdeR8Of5K4CxS1Ct1ttPb3bdG6/WXgTAAAAA[0m[Pipeline] getContext
+[8mha:////4LYKl3Wh0D6Ki2iULCCnZAJ2ygT1WHX9RCS7DDYEEUwcAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjIRBCiIrWcsMLjG2ME+su2A5JxYv4Gn/AEImKLVY728zzBbMY4EDBssZg6zAqxzrf27zYQKG9eBpYQ2emCCN5w4QZBGlznFBQMjClKKHiMDeoPEWHNsGCN/Iuay/R1qcU8rfnUDp9gwcUPJuTDOkLY4DltdeR8Of5K4Cx6xJUq83u0+vtG4LEXTfAAAAA[0m[Pipeline] }
+Stage "Build Docker & Push for project-service" skipped due to earlier failure(s)
+[8mha:////4GhLsba5wr+hTbGuinb3eGrHoNwNIjoBjLth+ZLnjAxiAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSDEEJCiIrWcsMLjG2ME+su2A5JxYv4Gn/AEImKLVY728zzBbMY4EDBssZg6zAqxzrf27zYQKG9eBpYQ2emCCN5w4QZBGlznFBQMjClKKHiMDeoPEWHNsGCN/Iuay/R1qcU8rfnUDp9gwcUPJuTDOkLY4DltdeR8Of5K4CxS1CtN7tPb1fdG8zwS9vAAAAA[0m[Pipeline] getContext
+[8mha:////4LUPBPaMjWJzpYz5x/sxBMn+WV8TNrWMPo/4gNUqyllgAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjEEJCiIrWcsMLjG2ME+su2A5JxYv4Gn/AEImKLVY728zzBbMY4EDBssZg6zAqxzrf27zYQKG9eBpYQ2emCCN5w4QZBGlznFBQMjClKKHiMDeoPEWHNsGCN/Iuay/R1qcU8rfnUDp9gwcUPJuTDOkLY4DltdeR8Of5K4Cx6xJU6+3q05vdGwGghW3AAAAA[0m[Pipeline] }
+Stage "Build Docker & Push for task-service" skipped due to earlier failure(s)
+[8mha:////4FYS00m7bHCM/3kNwlsUW3IM2z+QnHqfzQJqL9Ak46kbAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjIkGDqGitNLzAJMbYse6MfSGpeBFf4w8EIlGxxWpnm3m+YJEiHCga4TR2FlNjRfC9mZYYKHYXT4NwdBYNYSKvRa2Hmlp9nLEm1jAny6GQsNTYeEoWDcNKOnVXpVdoyhPH6dtLyG17gwdkcjKzivyFMcL62reJ8Of5K4AxMBTVdvPpXRXeuJ3jLcAAAAA=[0m[Pipeline] getContext
+[8mha:////4LrQs8pFa1w1217x5s+kr7D+ndD9FwxShvCebkF5B0OCAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjQNAgKlrLDS8wtjFOrLtgOyQVL+Jr/AFDJCq2WO1sM88XzGKAAwXLGoOtw6gc63xv82IDhfbiaWANnZkijOQNE2YQpM1xQkHJwJSihIrD3KDyFB3aBAveyLusvURbn1LI355D6fQNHlDwbE4ypC+MAZbXXkfCn+evAMauS1Ctd5tPb1dvWwja7cAAAAA=[0m[Pipeline] }
+Stage "Build Docker & Push for resource-service" skipped due to earlier failure(s)
+[8mha:////4Bstuz2hZlKbN/a+u/XVPmwT0IKe4OTd6BkGbur4tTk6AAAAph+LCAAAAAAAAP9tjTsOwjAQRDeJKGgpOYQj8WsQFa3lhhMY2xgn1m6wHZKKE3E17oAhEhVTjOZN854vmMUABwqWNQZbh1E51vne5sUGCu3F08AaOjNFGMkbJswgSJvjhIKSgSlFCRWHuUHlKTq0CRa8kXdZe4m2PqWQvz2H0ukbPKDg2ZxkSF8YAyyvvY6EP89fAYxdgmq1XX96t+neQz2cOcAAAAA=[0m[Pipeline] getContext
+[8mha:////4JMR1kPqW9dfP9a/VTBJofQ9i9a5pevRCuREh7AtWSAhAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjgUKDqGitNLzAJMbYse6MfSGpeBFf4w8EIlGxxWpnm3m+YJEiHCga4TR2FlNjRfC9mZYYKHYXT4NwdBYNYSKvRa2Hmlp9nLEm1jAny6GQsNTYeEoWDcNKOnVXpVdoyhPH6dtLyG17gwdkcjKzivyFMcL62reJ8Of5K4AxBIZis6s+XW3fTVwEYMAAAAA=[0m[Pipeline] }
+Stage "Build Docker & Push for api-gateway-service" skipped due to earlier failure(s)
+[8mha:////4B/FZoV571X7+9SN0A2Hp3sjlZVUZBUhE/gec9coFpn3AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjISUNoqK13PAC4xjjxLoztoNT8SK+xh8IRKJii9XONvN8wSoGOFAwrNc4WIzKMu9GMy+WKQwXR5n1dGaKMJLTTOgsqNPHBQUlDUuKEioOa43KUbRoEmx4L++ydhJNfUph/vYcStvd4AEFn81JhvSFKcD2OnaR8Of5K4DJJ6h2TfPptvVvRlbFzcAAAAA=[0m[Pipeline] getContext
+[8mha:////4NHZOKEmn9rRt1CGZLnK3tlRHJLFFfGWNRexdrs6lwLUAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjIQUKREVrpeEFJjHGjnVn7AtJxYv4Gn8gEImKLVY728zzBYsU4UDRCKexs5gaK4LvzbTEQLG7eBqEo7NoCBN5LWo91NTq44w1sYY5WQ6FhKXGxlOyaBhW0qm7Kr1CU544Tt9eQm7bGzwgk5OZVeQvjBHW175NhD/PXwGMITAUm+3u01X1BlHo+B7AAAAA[0m[Pipeline] }
+Stage "Build Docker & Push for eureka-server" skipped due to earlier failure(s)
+[8mha:////4Hmh9lfcJX3ioO45lJI6GRNEmH/Xhp8vP4W7WyhIXvcrAAAApx+LCAAAAAAAAP9tjTsOwjAQRDeJKGgpOYQjIfGREBWt5YYTGNsYJ9ZusB2SihNxNe6AIRIVU4zmTfOeL5jFAAcKljUGW4dROdb53ubFBgrtxdPAGjozRRjJGybMIEib44SCkoEpRQkVh7lB5Sk6tAkWvJF3WXuJtj6lkL89h9LpGzyg4NmcZEhfGAMsr72OhD/PXwGMXYJqtd5+erPr3rV8YxHAAAAA[0m[Pipeline] getContext
+[8mha:////4PykoeXe/MKBOZlMiYrRG2Bepuf1M3+DcmY6N+8Fx1w7AAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjIQFCiIrWcsMLjG2ME+su2A5JxYv4Gn/AEImKLVY728zzBbMY4EDBssZg6zAqxzrf27zYQKG9eBpYQ2emCCN5w4QZBGlznFBQMjClKKHiMDeoPEWHNsGCN/Iuay/R1qcU8rfnUDp9gwcUPJuTDOkLY4DltdeR8Of5K4Cx6xJUq83u0+vtGyDyyaDAAAAA[0m[Pipeline] }
+[8mha:////4AC5Y+QOTmzMO3kYk4DMlFny66BThoLqTdDj6wtSKMYwAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSDEIICUdFabniBsY1xYt0F2yGpeBFf4w8YIlGxxWpnm3m+YBYDHChY1hhsHUblWOd7mxcbKLQXTwNr6MwUYSRvmDCDIG2OEwpKBqYUJVQc5gaVp+jQJljwRt5l7SXa+pRC/vYcSqdv8ICCZ3OSIX1hDLC89joS/jx/BTB2XYJqvVt9erN9A7q255fAAAAA[0m[Pipeline] // stage
+[8mha:////4J9kE/sXXbnR2QPOn6yOa5c3piZCPqLSC6OsKG6ny6EiAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjEBJIiIrWcsMLjG2ME+su2A5JxYv4Gn/AEImKLVY728zzBbMY4EDBssZg6zAqxzrf27zYQKG9eBpYQ2emCCN5w4QZBGlznFBQMjClKKHiMDeoPEWHNsGCN/Iuay/R1qcU8rfnUDp9gwcUPJuTDOkLY4DltdeR8Of5K4Cx6xJU6+3q05vdGwmQKNbAAAAA[0m[Pipeline] // stage
+[8mha:////4FN4dszRgKm9bkYzyJ6w/S9YrlpywTb5EGTbINl5Ov7tAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSDIiEKREVrpeEFJjHGjnVn7AtJxYv4Gn8gEImKLVY728zzBYsU4UDRCKexs5gaK4LvzbTEQLG7eBqEo7NoCBN5LWo91NTq44w1sYY5WQ6FhKXGxlOyaBhW0qm7Kr1CU544Tt9eQm7bGzwgk5OZVeQvjBHW175NhD/PXwGMITAU1a769HbzBuczAPDAAAAA[0m[Pipeline] // stage
+[8mha:////4N/RsZ0bA2SlryLT+K/Jr0YRY8qgJKScsBkI34+Yr7tpAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjBSEKREVrueEFxjbGiXUXbAen4kV8jT8QiETFFqudbeb5gkUMcKBgWWuwcxiVY70f7LRYptBdPGXW0pkpwkjeMGGyIG2OMwpKBuYUJVQclgaVp+jQJljxVt5l7SXa+pTC9O05lE7f4AEFn8xJhvSFMcD6OuhI+PP8FcDY9wmqZrf59LZ5A39ZebjAAAAA[0m[Pipeline] // stage
+[8mha:////4I+t3gQNIQ9hubpSJlnJFAXUJGkjrgFIQoNpwqxcziwyAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjoSAKREVrpeEFJjHGjnVn7AtJxYv4Gn8gEImKLVY728zzBYsU4UDRCKexs5gaK4LvzbTEQLG7eBqEo7NoCBN5LWo91NTq44w1sYY5WQ6FhKXGxlOyaBhW0qm7Kr1CU544Tt9eQm7bGzwgk5OZVeQvjBHW175NhD/PXwGMITAUm1316W31BsTCvZTAAAAA[0m[Pipeline] // stage
+[8mha:////4L6UPq2aLCqNlmluq3vzE56UC4C/R5S3alUKkGP2fUMEAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjIQUKREVrpeEFJjHGjnVn7AtJxYv4Gn8gEImKLVY728zzBYsU4UDRCKexs5gaK4LvzbTEQLG7eBqEo7NoCBN5LWo91NTq44w1sYY5WQ6FhKXGxlOyaBhW0qm7Kr1CU544Tt9eQm7bGzwgk5OZVeQvjBHW175NhD/PXwGMITAUm1316Wr7BlyoxNzAAAAA[0m[Pipeline] // stage
+[8mha:////4EkCPRQuGeCUD8JCzrpyUbyYcqzC7u+MKqJdnj8F5QorAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSDEIICUdFabniBsY1xYt0F2yGpeBFf4w8YIlGxxWpnm3m+YBYDHChY1hhsHUblWOd7mxcbKLQXTwNr6MwUYSRvmDCDIG2OEwpKBqYUJVQc5gaVp+jQJljwRt5l7SXa+pRC/vYcSqdv8ICCZ3OSIX1hDLC89joS/jx/BTB2XYJqvdt+erN6A7UmVB3AAAAA[0m[Pipeline] }
+Failed in branch Build Docker & Push for user-service
+[8mha:////4JKVX1rUUk90HGN1uvYPOx6aYta8Ald4kFCEQ4wXDhWRAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjEFIKREVrpeEFJjHGjnVn7AtJxYv4Gn8gEImKLVY728zzBYsU4UDRCKexs5gaK4LvzbTEQLG7eBqEo7NoCBN5LWo91NTq44w1sYY5WQ6FhKXGxlOyaBhW0qm7Kr1CU544Tt9eQm7bGzwgk5OZVeQvjBHW175NhD/PXwGMITAU26r69G7zBpcdJMzAAAAA[0m[Pipeline] }
+Failed in branch Build Docker & Push for project-service
+[8mha:////4F60pbNWeiKyoNlKnNPPchOw1+h4QSKxAa4sqvwDxZGxAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjRUggISpayw0vMLYxTqy7YDs4FS/ia/yBQCQqtljtbDPPFyxigAMFy1qDncOoHOv9YKfFMoXu4imzls5MEUbyhgmTBWlznFFQMjCnKKHisDSoPEWHNsGKt/Iuay/R1qcUpm/PoXT6Bg8o+GROMqQvjAHW10FHwp/nrwDGvk9QNdvdpzfNG8Q8ZaPAAAAA[0m[Pipeline] }
+Failed in branch Build Docker & Push for task-service
+[8mha:////4BE3gkDbsyEe3OfcAIEOACG9z43XQ7Zv1BaS852gYOvrAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjARJCiIrWcsMLjG2ME+su2A5JxYv4Gn/AEImKLVY728zzBbMY4EDBssZg6zAqxzrf27zYQKG9eBpYQ2emCCN5w4QZBGlznFBQMjClKKHiMDeoPEWHNsGCN/Iuay/R1qcU8rfnUDp9gwcUPJuTDOkLY4DltdeR8Of5K4Cx6xJUq+3u05v1G+YHFXLAAAAA[0m[Pipeline] }
+Failed in branch Build Docker & Push for resource-service
+[8mha:////4DIEwt76jYL5P5kOiB3+HesfMTKD8gp5VXCMLXUpw6ybAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSDUAokREVrpeEFJjHGjnVn7AtJxYv4Gn8gEImKLVY728zzBYsU4UDRCKexs5gaK4LvzbTEQLG7eBqEo7NoCBN5LWo91NTq44w1sYY5WQ6FhKXGxlOyaBhW0qm7Kr1CU544Tt9eQm7bGzwgk5OZVeQvjBHW175NhD/PXwGMITAU293m01X1BjrFyaDAAAAA[0m[Pipeline] }
+Failed in branch Build Docker & Push for api-gateway-service
+[8mha:////4F1GXX8+DxmU5Yw4tO+kcyaR1KZVUwHg4yOBwR3u7mrRAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjEEhIiIrWcsMLjG2ME+su2A5JxYv4Gn/AEImKLVY728zzBbMY4EDBssZg6zAqxzrf27zYQKG9eBpYQ2emCCN5w4QZBGlznFBQMjClKKHiMDeoPEWHNsGCN/Iuay/R1qcU8rfnUDp9gwcUPJuTDOkLY4DltdeR8Of5K4Cx6xJU693q05vtGxj+uXHAAAAA[0m[Pipeline] }
+Failed in branch Build Docker & Push for eureka-server
+[8mha:////4PSv2TkWSZHAP3tcEIEkuPB1ACCOgwpk4aTcnhUHeV6EAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjBQokREVrueEFxjbGiXUXbAen4kV8jT8QiETFFqudbeb5gkUMcKBgWWuwcxiVY70f7LRYptBdPGXW0pkpwkjeMGGyIG2OMwpKBuYUJVQclgaVp+jQJljxVt5l7SXa+pTC9O05lE7f4AEFn8xJhvSFMcD6OuhI+PP8FcDY9wmqZtd8erN9A9RCF3jAAAAA[0m[Pipeline] // parallel
+[8mha:////4H62vOdR3MebyN5vNfm0KJ3wWeoojPBkr3vkctBLukpPAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjJQ0SoqK10vACExvjxLoL9oWk4kV8jT9giETFFqudbeb5glUMcKBgRWewdxhbJwY/2rTERKG/eJpER2fREkbyRjRmakib44INsYElWQ6FhLXB1lN0aBk2slN3VXqFtjxxSN9eQu70DR6QyWRmFfgLc4DtddSR8Of5K4B5GBiKald/uq7eVewDN8AAAAA=[0m[Pipeline] }
+[8mha:////4LoZB0LyWciLyc1rDQw6D7FDoLS2MGDEhS83FQaz9VjZAAAApx+LCAAAAAAAAP9tjTsOwjAQRDeJKGgpOYQjPgUSoqK13HACYxvjxNoNtkNScSKuxh0wRKJiitG8ad7zBbMY4EDBssZg6zAqxzrf27zYQKG9eBpYQ2emCCN5w4QZBGlznFBQMjClKKHiMDeoPEWHNsGCN/Iuay/R1qcU8rfnUDp9gwcUPJuTDOkLY4DltdeR8Of5K4Cx6xJU693205vVG2GDrWvAAAAA[0m[Pipeline] // stage
+[8mha:////4MBi39/FiwNuaMMCn7wVDS7cZIRlE9CZ9c5/G39ZQDlNAAAAqR+LCAAAAAAAAP9tjUEOgjAQRQcIC7cuPURJMCYmhpXbphtPUKHWQjOD7SCsPJFX8w6iJK78q/9+8vOeL8hjgIqCFa3BzmGsnej9YOcmRgrdxdMoWjqLmjCSN0KZUVFjjgsqYgNLkhQyCSuDtafo0DKsZavvuvAabXHiMG8HCalrbvCARM5m1oG/MAXYXIcmEv48fwUw9QxpuWXIyv3uc83fzZQI68MAAAA=[0m[Pipeline] stage
+[8mha:////4BmDMobD7yGFRFKHTRnO5a91E/Rd6jhT8C5Y33K1xVrWAAAAqR+LCAAAAAAAAP9tjUEKwjAURH9bunDr0kOkICiCdOU2dOMJYhJj0vB/TVLblSfyat7B2oIrZzHMDAzv9YYyBqgpGOY0thajtKzzvZkSGyi0V08Dc3RhkjCS16zRQ0NKn5baUNKwKMuh4LDSKD1FiybBmjvxEJUXaKpzCtN25JBbdYcnZHwiJxHSXMYAm1uvIuGP8xcAY5eg2B52s++/3/IDv5QkoMQAAAA=[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4OPQDJ//CcACcGZ07GAhhqQgAGZ9Eb/D4wluJyH57xOjAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjUQASSkVrpeEFxjbGjnUXbAen4kV8jT8QJRIVW6x2tpn3B1YxQEPBMKexsxilZb0fzLRYptDdPGXm6MokYSSvWatzS0qfF2wpaVhSlFBxWGuUnqJFk2DDnXiK2gs09SWF6TtxKK16wAsKPpmTCGmGMcD2PqhI+PP8FcDYJ6h2x/3ch/4LuaqAocAAAAA=[0m[Pipeline] cleanWs
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] done
+[8mha:////4HPvvVyn/Eg9kvffq81osKmpKNMHVuzz6ktpccNyQYhZAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6IkDobEOLE2XfyCWmotNO/haxEmv8hf8x8kkDh5h5t77nLeH9hEhjOxE63FzmM0XvRhcPMSI3F3CzSKlq7CEEYKVig7KmpsvaKiZGFNlkMhYWvRBIoeXYKdbPVTl0GjKy+J5+8kIffNA16QydmcNKcFJob9fWgi4c/zVwBT3ycoDlW19PELfaWd0cAAAAA=[0m[Pipeline] }
+[8mha:////4HxH3oWQtupJc7RuIxMbhCEYJyXeg/aDHSckLpiZiprSAAAAph+LCAAAAAAAAP9tjbEKwjAURV9bHFwd/YgUBEGRTq6hi18QkxiThvdqkppOfpG/5j9YWnDyDpd77nLeH1jFAA0Fw5zGzmKUlvV+MNNimUJ385SZoyuThJG8Zq3OLSl9XrClpGFJUULFYa1ReooWTYINd+Ipai/Q1JcUpu/EobTqAS8o+GROIqQZxgDb+6Ai4c/zVwBj3yeodofj3Psvc//j7sAAAAA=[0m[Pipeline] // stage
+[8mha:////4ErQXzFQHFuKHDGWGAT647x0oto5+iVzbKErVf+VnkvxAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxEcrByHyjZD4wkiiTGQ2cVkESpP5NW8gxmZsfJX/73mvd6wigFqClZ0BnuHsXVi8KNNT0wU+qunSXR0ES1hJG9EY6aGtDkt2BAbWJblUEhYG2w9RYeWYSM79VClV2jLM4fkjhJyp+/whEymMqvAX5gDbG+jjoS/zt8AzMPAUFSHHUNe7T/Sxpz1vwAAAA==[0m[Pipeline] }
+[8mha:////4PzeCep2/d/QgugjA0GJHmqAA/Y/idDyfBKIu31ZiCerAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQj0iFERWul4QUmNsaJdWfsC07Fi/gafyAiEhVb7UwzrzesUoQjRSt6g4PD1DkR/GjnJzLF4eopi54uoiNM5I1oTW5Jm9OCLbGBZUUJlYS1wc5TcmgZNrJXD1V7hbY+c5zdQULp9B2eUMi5zCryF6YI29uoE+Gv8zcAUwgMVbPfMZRN8wHhJcdJvwAAAA==[0m[Pipeline] // withEnv
+[8mha:////4LovSWwEcZgwK/nHd08SpNqrCcHp/+hQvCrOXYPjPV6PAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6JEEgdjmFwbFr+g0loLzXvYPoTJL/LX/AcbSZy80z1nOa83rGKAmoIVncHeYWydGPxo0xMThf7qaRIdXURLGMkb0ZipIW1OCzbEBpZlORQS1gZbT9GhZdjITj1U6RXa8swhuaOE3Ok7PCGTqcwq8BfmANvbqCPhr/M3APMwMBTVoWLId/sPL5Eaer8AAAA=[0m[Pipeline] }
+[8mha:////4Cpsw5gnfCCfQSQfR6Q4RPlPqnZuUjPWqxpsSTGb++TPAAAAph+LCAAAAAAAAP9tjTsOwjAQBTeJKGgpOYQjPg2KqGitNJzAxMY4sXaDvSGpOBFX4w5YRKLiVW+mmdcbFjHAkYIVrcHOYWyc6P1g0xMjhe7qaRQtXURDGMkbUZuxJm1OM9bEBuZlORQSlgYbT9GhZVjJVj1U6RXa8swhuUpC7vQdnpDJVGYV+AtTgPVt0JHw1/kbgKnvGYrtYceQb/YfHHJBxr8AAAA=[0m[Pipeline] // withEnv
+[8mha:////4Ab6nOGcLZ7NyaOoHhIdW2WGk/T9ly6xtPZaJwPgfUYbAAAAph+LCAAAAAAAAP9tjTsOwjAQBTeJKGgpOYQjPg2KqGitNJzAxMY4sXaDvSGpOBFX4w5YRKLiVW+mmdcbFjHAkYIVrcHOYWyc6P1g0xMjhe7qaRQtXURDGMkbUZuxJm1OM9bEBuZlORQSlgYbT9GhZVjJVj1U6RXa8swhuUpC7vQdnpDJVGYV+AtTgPVt0JHw1/kbgKnvGYrtYc+Qb3YfB9cgRb8AAAA=[0m[Pipeline] }
+[8mha:////4GNs1FMNLc4HNeIBjZgJHKayOR2swOnEZttRiWcXrlzpAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6JEEgdjmFwbFr+g0loLzXvYPoTJL/LX/AcbSZy80z1nOa83rGKAmoIVncHeYWydGPxo0xMThf7qaRIdXURLGMkb0ZipIW1OCzbEBpZlORQS1gZbT9GhZdjITj1U6RXa8swhuaOE3Ok7PCGTqcwq8BfmANvbqCPhr/M3APMwMBTVYc+Q76oPNDR7+b8AAAA=[0m[Pipeline] // withCredentials
+[8mha:////4NS4oNK7g3P3CPku9V1uE1jpFlQ66LrJDGI0bPyv721VAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6IEBxNjmFwbFr+glloLzXvYPoTJL/LX/AcbSZy80z1nOa83rGKAmoIVncHeYdRODH606YmJQn/1NImOLkITRvJGNGZqqDWnBRtiA8uyHAoJa4PaU3RoGTayUw9VeoW2PHNI7ighd+0dnpDJVGYV+AtzgO1tbCPhr/M3APMwMBS7w54hr6oPIBfm5r8AAAA=[0m[Pipeline] }
+[8mha:////4HEKoZQrjWWUGfZKqBuhus75YuiO0wAaxCXJLd0Q0OXCAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDNAhFVLRWGl5gYmOcWHfBvpBUvIiv8QcsIlGx1c4083rDIgY4UrCiNdg5jI0TvR9semKk0F09jaKli2gII3kjajPWpM1pxprYwLwsh0LC0mDjKTq0DCvZqocqvUJbnjkkV0nInb7DEzKZyqwCf2EKsL4NOhL+On8DMPU9Q7E77Bny7eYDE/S9Wr8AAAA=[0m[Pipeline] // withEnv
+[8mha:////4D7q8h+owEJ3N5wFRf9dvG4zu5+JWgcS2gEGm3SZV3LHAAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQjIQoQoqK10vAC4xjjxLoL9gWn4kV8jT8QEYmKrXammdcbFinCkaKTrcXOYzJe9mFw05OZYncNlGVLF2kIEwUra5trauxpxprYwjxRQKlgadEESh4dw0q1+qGroNFVZ46TOygofHOHJwg1lVlH/sIYYX0bmkT46/wNwNj3DOVmv2MQ2w91SFZuvgAAAA==[0m[Pipeline] }
+[8mha:////4EibTIV9nsrb5v350rwNXDq9USOsR0OfCqVffjd4Dv68AAAApB+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjQRUhKlorDS8wsTFOrDtjX3AqXsTX+AMRkajYameaeb1hlSIcKVrRGxwcps6J4Ec7P5EpDldPWfR0ER1hIm9Ea3JL2pwWbIkNLCtKqCSsDXaekkPLsJG9eqjaK7T1mePsDhJKp+/whELOZVaRvzBF2N5GnQh/nb8BmEJgqHZNw1DsP2b0Us2+AAAA[0m[Pipeline] // node
+[8mha:////4FQKCEHBGkCVyHTYBfYU9E+wPfL6jTVClbPIpnDV4CNQAAAApB+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQTQYmoaK00vMDExjix7oJ9wal4EV/jD0REomKrnWnm9YZVinCk6GRnsfeYWi+HMLr5yUyxvwbKsqOLbAkTBSsbmxsy9rRgQ2xhmSigVLC22AZKHh3DRnX6oaug0VVnjrM7KCi8ucMThJrLrCN/YYqwvY0mEf46fwMwDQNDua9rBrH7AP38PTa+AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

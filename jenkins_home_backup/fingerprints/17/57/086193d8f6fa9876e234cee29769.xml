@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-09-24 17:20:35.605 UTC</timestamp>
+  <md5sum>1757086193d8f6fa9876e234cee29769</md5sum>
+  <fileName>Credential id=sonar-qube name=sonar-qube</fileName>
+  <usages>
+    <entry>
+      <string>xpert-microservice-pipeline</string>
+      <ranges>4-8,12-20</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
