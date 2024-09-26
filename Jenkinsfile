@@ -16,8 +16,7 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/kettaabii/MicroservicesProject.git'
             }
         }
-        //this is
-        //this 
+
 
         stage('Build & Test Microservices') {
             parallel {
