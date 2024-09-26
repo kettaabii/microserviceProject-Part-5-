@@ -7,7 +7,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = credentials('docker-hub')
-        SONARQUBE_CREDENTIALS = 'squ_f0e0afefe50213563d2b534261e3bc2fc096c975'
+        SONARQUBE_CREDENTIALS = 'sonar-qube'
     }
 
     stages {
@@ -16,6 +16,7 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/kettaabii/MicroservicesProject.git'
             }
         }
+        //this is
 
         stage('Build & Test Microservices') {
             parallel {
